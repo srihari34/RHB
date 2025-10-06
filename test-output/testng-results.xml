@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case Started : Login_Data]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : Add_Group]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : view_Group]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : edit_Group]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : delete_Group]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : Add_Role]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : view_Role]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : edit_Role]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : delete_Role]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : Add_User]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : view_User]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : edit_User]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : delete_User]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-06T16:50:46 IST" name="Suite" finished-at="2025-10-06T16:56:38 IST" duration-ms="351956">
+    <groups>
+    </groups>
+    <test started-at="2025-10-06T16:50:46 IST" name="Test" finished-at="2025-10-06T16:56:38 IST" duration-ms="351956">
+      <class name="test_case.Login">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:test_case.Login@1f9d6c7b]" started-at="2025-10-06T16:50:46 IST" name="Launch_Browser" finished-at="2025-10-06T16:50:50 IST" duration-ms="4769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method signature="Login_Data(java.lang.String,java.lang.String)[pri:0, instance:test_case.Login@1f9d6c7b]" started-at="2025-10-06T16:50:51 IST" name="Login_Data" data-provider="LoginCredentials" finished-at="2025-10-06T16:50:53 IST" duration-ms="1176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : Login_Data]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_Data -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:test_case.Login@1f9d6c7b]" started-at="2025-10-06T16:56:36 IST" name="CloseBrowser" finished-at="2025-10-06T16:56:38 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- test_case.Login -->
+      <class name="test_case.Access_permissions">
+        <test-method is-config="true" signature="Access_Permissions_Setup()[pri:0, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:50:53 IST" name="Access_Permissions_Setup" finished-at="2025-10-06T16:50:53 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Access_Permissions_Setup -->
+        <test-method signature="Add_Group()[pri:1, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:50:53 IST" name="Add_Group" finished-at="2025-10-06T16:51:35 IST" duration-ms="42232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : Add_Group]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add_Group -->
+        <test-method signature="view_Group()[pri:2, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:51:35 IST" name="view_Group" finished-at="2025-10-06T16:51:56 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="21206" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : view_Group]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- view_Group -->
+        <test-method signature="edit_Group()[pri:3, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:51:56 IST" name="edit_Group" finished-at="2025-10-06T16:52:18 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="21315" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : edit_Group]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edit_Group -->
+        <test-method signature="delete_Group()[pri:4, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:52:18 IST" name="delete_Group" finished-at="2025-10-06T16:52:39 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="21151" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : delete_Group]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- delete_Group -->
+        <test-method signature="Add_Role()[pri:5, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:52:39 IST" name="Add_Role" finished-at="2025-10-06T16:53:53 IST" duration-ms="73342" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : Add_Role]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add_Role -->
+        <test-method signature="view_Role()[pri:6, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:53:53 IST" name="view_Role" finished-at="2025-10-06T16:54:14 IST" depends-on-methods="test_case.Access_permissions.Add_Role" duration-ms="21034" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : view_Role]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- view_Role -->
+        <test-method signature="edit_Role()[pri:7, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:54:14 IST" name="edit_Role" finished-at="2025-10-06T16:54:36 IST" depends-on-methods="test_case.Access_permissions.view_Role" duration-ms="21664" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : edit_Role]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edit_Role -->
+        <test-method signature="delete_Role()[pri:8, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:54:36 IST" name="delete_Role" finished-at="2025-10-06T16:54:57 IST" depends-on-methods="test_case.Access_permissions.edit_Role" duration-ms="21043" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : delete_Role]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- delete_Role -->
+        <test-method signature="Add_User()[pri:9, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:54:57 IST" name="Add_User" finished-at="2025-10-06T16:55:32 IST" duration-ms="34704" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : Add_User]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add_User -->
+        <test-method signature="view_User()[pri:10, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:55:32 IST" name="view_User" finished-at="2025-10-06T16:55:53 IST" depends-on-methods="test_case.Access_permissions.Add_User" duration-ms="21012" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : view_User]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- view_User -->
+        <test-method signature="edit_User()[pri:11, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:55:53 IST" name="edit_User" finished-at="2025-10-06T16:56:15 IST" depends-on-methods="test_case.Access_permissions.view_User" duration-ms="21353" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : edit_User]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edit_User -->
+        <test-method signature="delete_User()[pri:12, instance:test_case.Access_permissions@78d50a3c]" started-at="2025-10-06T16:56:15 IST" name="delete_User" finished-at="2025-10-06T16:56:36 IST" depends-on-methods="test_case.Access_permissions.edit_User" duration-ms="21150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : delete_User]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- delete_User -->
+      </class> <!-- test_case.Access_permissions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

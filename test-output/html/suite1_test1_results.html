@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">test_case.Login<br>test_case.Access_permissions<br>test_case.Logout<br></th>
+	    <th id="testClassNameId" hidden="true">Login<br>Access_permissions<br>Logout<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">D:\Backup\Projects\rhb.com\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:05:51</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>13</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																
+				
+				
+												<tr>
+			<td class="time">1759749759735</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8762ff14-0d90-4cbf-8c3e-86eefcf9be32','block');changeSingleIcon('span-8762ff14-0d90-4cbf-8c3e-86eefcf9be32');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8762ff14-0d90-4cbf-8c3e-86eefcf9be32' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749759735</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Add_Role</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>5</font></span><br>
+						<span class="duration"><b>Duration: </b>73.342s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8762ff14-0d90-4cbf-8c3e-86eefcf9be32" style="display: block;">
+												Test Case Started : Add_Role<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749975355</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8d894e22-568e-4937-ae80-829b12a3da10','block');changeSingleIcon('span-8d894e22-568e-4937-ae80-829b12a3da10');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8d894e22-568e-4937-ae80-829b12a3da10' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749975355</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>delete_User</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>12</font></span><br>
+						<span class="duration"><b>Duration: </b>21.150s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8d894e22-568e-4937-ae80-829b12a3da10" style="display: block;">
+												Test Case Started : delete_User<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749854674</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a0d10c3b-c956-4d60-ba48-1c66d770acdc','block');changeSingleIcon('span-a0d10c3b-c956-4d60-ba48-1c66d770acdc');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a0d10c3b-c956-4d60-ba48-1c66d770acdc' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749854674</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>edit_Role</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>7</font></span><br>
+						<span class="duration"><b>Duration: </b>21.664s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a0d10c3b-c956-4d60-ba48-1c66d770acdc" style="display: block;">
+												Test Case Started : edit_Role<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749716935</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('29ff3ad1-0cb3-4dec-a6e9-d371e72bb616','block');changeSingleIcon('span-29ff3ad1-0cb3-4dec-a6e9-d371e72bb616');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-29ff3ad1-0cb3-4dec-a6e9-d371e72bb616' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749716935</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>edit_Group</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
+						<span class="duration"><b>Duration: </b>21.315s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="29ff3ad1-0cb3-4dec-a6e9-d371e72bb616" style="display: block;">
+												Test Case Started : edit_Group<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749932670</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('aa6f7f7c-0ecc-4f4c-a968-2d78c94c1fc0','block');changeSingleIcon('span-aa6f7f7c-0ecc-4f4c-a968-2d78c94c1fc0');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-aa6f7f7c-0ecc-4f4c-a968-2d78c94c1fc0' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749932670</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>view_User</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>10</font></span><br>
+						<span class="duration"><b>Duration: </b>21.012s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="aa6f7f7c-0ecc-4f4c-a968-2d78c94c1fc0" style="display: block;">
+												Test Case Started : view_User<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749876594</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('ab5f7d14-2fbd-4d38-9957-68f3ff412cdb','block');changeSingleIcon('span-ab5f7d14-2fbd-4d38-9957-68f3ff412cdb');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-ab5f7d14-2fbd-4d38-9957-68f3ff412cdb' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749876594</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>delete_Role</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>8</font></span><br>
+						<span class="duration"><b>Duration: </b>21.043s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="ab5f7d14-2fbd-4d38-9957-68f3ff412cdb" style="display: block;">
+												Test Case Started : delete_Role<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749833408</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5a71421c-684d-471a-99aa-edcf47ffd743','block');changeSingleIcon('span-5a71421c-684d-471a-99aa-edcf47ffd743');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5a71421c-684d-471a-99aa-edcf47ffd743' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749833408</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>view_Role</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
+						<span class="duration"><b>Duration: </b>21.034s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5a71421c-684d-471a-99aa-edcf47ffd743" style="display: block;">
+												Test Case Started : view_Role<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749695563</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('35559854-69a3-41df-8fa6-ce305aca9214','block');changeSingleIcon('span-35559854-69a3-41df-8fa6-ce305aca9214');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-35559854-69a3-41df-8fa6-ce305aca9214' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749695563</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>view_Group</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
+						<span class="duration"><b>Duration: </b>21.206s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="35559854-69a3-41df-8fa6-ce305aca9214" style="display: block;">
+												Test Case Started : view_Group<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749897809</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('53056584-6db5-4b0e-9216-89e616cdb6a5','block');changeSingleIcon('span-53056584-6db5-4b0e-9216-89e616cdb6a5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-53056584-6db5-4b0e-9216-89e616cdb6a5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749897809</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Add_User</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>9</font></span><br>
+						<span class="duration"><b>Duration: </b>34.704s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="53056584-6db5-4b0e-9216-89e616cdb6a5" style="display: block;">
+												Test Case Started : Add_User<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749953854</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('ca1d69c6-b32a-4bad-b6b4-bb9f1b4c5384','block');changeSingleIcon('span-ca1d69c6-b32a-4bad-b6b4-bb9f1b4c5384');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-ca1d69c6-b32a-4bad-b6b4-bb9f1b4c5384' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749953854</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>edit_User</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>11</font></span><br>
+						<span class="duration"><b>Duration: </b>21.353s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="ca1d69c6-b32a-4bad-b6b4-bb9f1b4c5384" style="display: block;">
+												Test Case Started : edit_User<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749738393</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('393ddcde-471d-441d-bed1-108b2f9670f6','block');changeSingleIcon('span-393ddcde-471d-441d-bed1-108b2f9670f6');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-393ddcde-471d-441d-bed1-108b2f9670f6' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749738393</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>delete_Group</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
+						<span class="duration"><b>Duration: </b>21.151s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="393ddcde-471d-441d-bed1-108b2f9670f6" style="display: block;">
+												Test Case Started : delete_Group<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1759749653171</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('968cb1d0-d196-47c5-a2a1-7e0582f9a2af','block');changeSingleIcon('span-968cb1d0-d196-47c5-a2a1-7e0582f9a2af');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-968cb1d0-d196-47c5-a2a1-7e0582f9a2af' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749653171</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Add_Group</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>1</font></span><br>
+						<span class="duration"><b>Duration: </b>42.232s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="968cb1d0-d196-47c5-a2a1-7e0582f9a2af" style="display: block;">
+												Test Case Started : Add_Group<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1759749651891</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9bbdebc8-788a-4dba-9552-61859eb8ad07','block');changeSingleIcon('span-9bbdebc8-788a-4dba-9552-61859eb8ad07');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login</div>
+			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials"] &nbsp;&nbsp;<span id='span-9bbdebc8-788a-4dba-9552-61859eb8ad07' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1759749651891</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Login_Data</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>1.176s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"Approver", "User@123"</span><br>
+				<div class="stackTrace" id="9bbdebc8-788a-4dba-9552-61859eb8ad07" style="display: block;">
+												Test Case Started : Login_Data<br>
+												Test Case Success : 1<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 06 16:50:46 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>351 seconds (351956 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_case.Access_permissions.Add_Group()'><b>Add_Group</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-994084545" onClick='toggleBox("Output-994084545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-994084545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-994084545">
+Test Case Started : Add_Group<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.delete_Group()'><b>delete_Group</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-1200187371" onClick='toggleBox("Output-1200187371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1200187371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1200187371">
+Test Case Started : delete_Group<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.edit_User()'><b>edit_User</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-1094732450" onClick='toggleBox("Output-1094732450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1094732450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1094732450">
+Test Case Started : edit_User<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Login.Login_Data()'><b>Login_Data</b><br>Test class: test_case.Login<br>Parameters: Approver, User@123<br/>
+<a href="#Output-1537805706" onClick='toggleBox("Output-1537805706", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1537805706" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1537805706">
+Test Case Started : Login_Data<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test_case.Login@1f9d6c7b</td></tr>
+<tr>
+<td title='test_case.Access_permissions.Add_User()'><b>Add_User</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-889406176" onClick='toggleBox("Output-889406176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-889406176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-889406176">
+Test Case Started : Add_User<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.view_Group()'><b>view_Group</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-362140338" onClick='toggleBox("Output-362140338", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-362140338" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-362140338">
+Test Case Started : view_Group<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.view_Role()'><b>view_Role</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-820959908" onClick='toggleBox("Output-820959908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-820959908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-820959908">
+Test Case Started : view_Role<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.delete_Role()'><b>delete_Role</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-653745564" onClick='toggleBox("Output-653745564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-653745564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-653745564">
+Test Case Started : delete_Role<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.view_User()'><b>view_User</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-1247338729" onClick='toggleBox("Output-1247338729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1247338729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1247338729">
+Test Case Started : view_User<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.edit_Group()'><b>edit_Group</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-106350019" onClick='toggleBox("Output-106350019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-106350019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-106350019">
+Test Case Started : edit_Group<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.edit_Role()'><b>edit_Role</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-90250170" onClick='toggleBox("Output-90250170", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-90250170" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-90250170">
+Test Case Started : edit_Role<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.delete_User()'><b>delete_User</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-1644631132" onClick='toggleBox("Output-1644631132", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1644631132" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1644631132">
+Test Case Started : delete_User<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+<tr>
+<td title='test_case.Access_permissions.Add_Role()'><b>Add_Role</b><br>Test class: test_case.Access_permissions<br/>
+<a href="#Output-10044740" onClick='toggleBox("Output-10044740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10044740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10044740">
+Test Case Started : Add_Role<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>test_case.Access_permissions@78d50a3c</td></tr>
+</table><p>
+</body>
+</html>

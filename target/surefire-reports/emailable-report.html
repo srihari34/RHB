@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">11,661</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">test_case.Access_permissions</td><td><a href="#m0">Add_Group</a></td><td rowspan="1">1758538188367</td><td rowspan="1">1506</td></tr><tr class="failedeven"><td><a href="#m1">Add_Role</a></td><td rowspan="1">1758538189966</td><td rowspan="1">843</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test_case.Access_permissions</td><td><a href="#m2">Add_User</a></td><td rowspan="1">1758538190872</td><td rowspan="1">3565</td></tr><tr class="passedodd"><td rowspan="1">test_case.Login</td><td><a href="#m3">Login_Data</a></td><td rowspan="1">1758538187294</td><td rowspan="1">989</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">test_case.Access_permissions#Add_Group</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test Case Started : Add_Group<br/>Test Case Failure : 2</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Submit is clicked : Not Clicked
+	at utilities.Helper_Class.safeClick(Helper_Class.java:35)
+	at Page_Objects.Access_Permissions_page.addgroup(Access_Permissions_page.java:164)
+	at test_case.Access_permissions.Add_Group(Access_permissions.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test_case.Access_permissions#Add_Role</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test Case Started : Add_Role<br/>Test Case Failure : 2</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Add New Role : Not Clicked
+	at utilities.Helper_Class.safeClick(Helper_Class.java:35)
+	at Page_Objects.Access_Permissions_page.addrole(Access_Permissions_page.java:175)
+	at test_case.Access_permissions.Add_Role(Access_permissions.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test_case.Access_permissions#Add_User</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test Case Started : Add_User<br/>Test Case Success : 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test_case.Login#Login_Data</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Approver</td><td>User@123</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Test Case Started : Login_Data<br/>Test Case Success : 1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
