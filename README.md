@@ -12,4 +12,8 @@ THe Project is devloped for testing the ADMIN module of the RHB Project.
 - Maven for Build Management
 - IDE(Eclispe)
 ## Technology Used
-- 
+- Core Java, Selenium, TestNG, Maven, POM(Page Object Model) and Repoter for reports.
+### Clone the Repository
+--bash
+git clone https://github.com/srihari34/RHB.git
+
