@@ -5,6 +5,9 @@
 	<groupId>rhb.com</groupId>
 	<artifactId>rhb.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<!-- The below line is for created a jar file once the test run is success-->
+	 <packaging>jar</packaging>
+	 
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
