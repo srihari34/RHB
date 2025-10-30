@@ -5,9 +5,10 @@
 	<groupId>rhb.com</groupId>
 	<artifactId>rhb.com</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- The below line is for created a jar file once the test run is success-->
-	 <packaging>jar</packaging>
-	 
+	<!-- The below line is for created a jar file once the test run is
+	success-->
+	<packaging>jar</packaging>
+
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -83,6 +84,20 @@
 						Point to your testng.xml file -->
 					</suiteXmlFiles>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+					<execution>
+						<id>default-jar</id>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
