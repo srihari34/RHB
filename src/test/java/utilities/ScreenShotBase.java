@@ -12,13 +12,15 @@ import org.testng.annotations.Test;
 import base.Base_Class;
 
 public class ScreenShotBase  extends Base_Class{
-	@Test
+	
 	public void getScreenShot(String packageName, String className, String methodName) throws IOException
 	{
 		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS").format(new Date());
 	    String fileName = packageName + "_" + className + "_" + methodName + "_" + timestamp + ".jpeg";
+	    String workspace = System.getProperty("user.dir");
+        File screenshotDir = new File(workspace + "/screenshot");
 		File screenshotfile = ((TakesScreenshot) obj).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshotfile, new File(".//screenshot//"+ fileName));
+		FileUtils.copyFile(screenshotfile, new File(screenshotDir+ fileName));
 	}
 
 }
