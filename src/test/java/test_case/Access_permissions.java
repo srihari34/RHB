@@ -26,21 +26,21 @@ public class Access_permissions extends Base_Class {
 		accessobj = new Access_Permissions_page(obj);
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,enabled=true)
 	public void Add_Group() throws InterruptedException {
 		log.info("This is Add Group Method");
 
 		boolean isGroupAdded = accessobj.addgroup();
 		Assert.assertTrue(isGroupAdded, "Group was not added successfully!");
 	}
-	@Test(priority = 2, dependsOnMethods= {"Add_Group"})
+	@Test(priority = 2,enabled=true, dependsOnMethods= {"Add_Group"})
 	public void view_Group() throws InterruptedException {
 		log.info("This is View Group Method");
 
 		boolean isGroupviewed = accessobj.viewgroup();
 		Assert.assertTrue(isGroupviewed, "Group was not Viewed successfully!");
 	}
-	@Test(priority = 3, dependsOnMethods= {"Add_Group"})
+	@Test(priority = 3,enabled=true, dependsOnMethods= {"Add_Group"})
 	public void edit_Group() throws InterruptedException {
 		log.info("This is Edit Group Method");
 
@@ -48,7 +48,7 @@ public class Access_permissions extends Base_Class {
 		Assert.assertTrue(isGroupedited, "Group was not edited successfully!");
 	}
 	
-	@Test(priority = 4, dependsOnMethods= {"Add_Group"})
+	@Test(priority = 4,enabled=true, dependsOnMethods= {"Add_Group"})
 	public void delete_Group() throws InterruptedException {
 		log.info("This is Delete Group Method");
 
@@ -56,21 +56,21 @@ public class Access_permissions extends Base_Class {
 		Assert.assertTrue(isGroupdeleted, "Group was not Deleted successfully!");
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 5,enabled=true)
 	public void Add_Role() throws InterruptedException {
 		log.info("This is Add Role Method");
 
 		boolean isRoleAdded = accessobj.addrole();
 		Assert.assertTrue(isRoleAdded, "Role was not added successfully!");
 	}
-	@Test(priority = 6, dependsOnMethods= {"Add_Role"})
+	@Test(priority = 6,enabled=true, dependsOnMethods= {"Add_Role"})
 	public void view_Role() throws InterruptedException {
 		log.info("This is View Role Method");
 
 		boolean isRoleviewed = accessobj.viewrole();
 		Assert.assertTrue(isRoleviewed, "Role was not Viewed successfully!");
 	}
-	@Test(priority = 7, dependsOnMethods= {"view_Role"})
+	@Test(priority = 7,enabled=true, dependsOnMethods= {"view_Role"})
 	public void edit_Role() throws InterruptedException {
 		log.info("This is Edit Role Method");
 
@@ -78,7 +78,7 @@ public class Access_permissions extends Base_Class {
 		Assert.assertTrue(isRoleedited, "Role was not Edited successfully!");
 	}
 	
-	@Test(priority = 8, dependsOnMethods= {"edit_Role"})
+	@Test(priority = 8, enabled=true,dependsOnMethods= {"edit_Role"})
 	public void delete_Role() throws InterruptedException {
 		log.info("This is Delete Role Method");
 

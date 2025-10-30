@@ -3,6 +3,7 @@ package Page_Objects;
 import java.time.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utilities.Helper_Class;
+import utilities.ReadExcelData;
 
 public class Access_Permissions_page extends Helper_Class {
 
@@ -199,15 +201,21 @@ public class Access_Permissions_page extends Helper_Class {
 
 
 	public boolean addgroup() throws InterruptedException {
+		
+		
 		try {
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String egroupname = red.getCellData(2, 0);
+		String egroupdescription = red.getCellData(2, 1);
 		JavascriptExecutor js = (JavascriptExecutor) obj;
 		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
 		//wait.until(ExpectedConditions.invisibilityOf(spinner));
 		if(!safeClick(AccessPermissions, "Access Permissions Module")) return false;
 		if(!safeClick(Groups, "Sub Module Group is clicked")) return false;
 		if(!safeClick(add_new_group, "New Group Button is clicked")) return false;
-		wait.until(ExpectedConditions.visibilityOf(name)).sendKeys("Groupsss");
-		wait.until(ExpectedConditions.visibilityOf(description)).sendKeys("Description for Group Creation");
+		wait.until(ExpectedConditions.visibilityOf(name)).sendKeys(egroupname);
+		wait.until(ExpectedConditions.visibilityOf(description)).sendKeys(egroupdescription);
 		if(!safeClick(AllModules, "All Modules is clicked")) return false;
 		js.executeScript("arguments[0].scrollIntoView(true);", submit);
 		WebElement SaveGroup = wait.until(ExpectedConditions.elementToBeClickable(submit));
@@ -226,8 +234,14 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("View Group method entered");
 		try {
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String egroupname = red.getCellData(2, 0);
 		JavascriptExecutor js = (JavascriptExecutor) obj;
-		if(!safeClick(view_group, "View Group")) return false;
+		String dynamicXPath = String.format("//tr[td[@title='%s']]//i[@title='View']", egroupname);
+		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement viewGroupIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));
+		if(!safeClick(viewGroupIcon, "View Group")) return false;
 		js.executeScript("arguments[0].scrollIntoView(true);", closeView);
 		if(!safeClick(closeView, "Close Group")) return false;
 		log.info("View Group Successfull");
@@ -244,11 +258,16 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("Edit Group method entered");
 		try {
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String egroupname = red.getCellData(2, 0);
 		JavascriptExecutor js = (JavascriptExecutor) obj;
-		if(!safeClick(edit_group, "Edit Group")) return false;
+		String dynamicXPath = String.format("//tr[td[@title='%s']]//i[@title='Edit']", egroupname);
 		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement editGroupIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));
+		if(!safeClick(editGroupIcon, "Edit Group")) return false;
 		wait.until(ExpectedConditions.visibilityOf(name)).clear();
-		wait.until(ExpectedConditions.visibilityOf(name)).sendKeys("Groupsss");
+		wait.until(ExpectedConditions.visibilityOf(name)).sendKeys(egroupname);
 		js.executeScript("arguments[0].scrollIntoView(true);", saveIconGroupRoleUser);
 		if(!safeClick(saveIconGroupRoleUser, "Save Group")) return false;
 		log.info("Edit Group Successfull");
@@ -266,7 +285,14 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("Delete Group method entered");
 		try {
-		if(!safeClick(delete_group, "Delete Group")) return false;
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String egroupname = red.getCellData(2, 0);
+		JavascriptExecutor js = (JavascriptExecutor) obj;
+		String dynamicXPath = String.format("//tr[td[@title='%s']]//i[@title='Delete']", egroupname);
+		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement deleteGroupIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));	
+		if(!safeClick(deleteGroupIcon, "Delete Group")) return false;
 		if(!safeClick(yestodelete,"Delete Yes")) return false;
 		log.info("Delete Group Successfull");
 		return true;
@@ -281,6 +307,11 @@ public class Access_Permissions_page extends Helper_Class {
 
 	public boolean addrole() throws InterruptedException {
 		try {
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String erolename = red.getCellData(6, 0);
+		String egroupname = red.getCellData(6, 1);
+		String eroledescription = red.getCellData(6, 2);
 		JavascriptExecutor js = (JavascriptExecutor) obj;
 		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
 	//	wait.until(ExpectedConditions.invisibilityOf(spinner));
@@ -288,10 +319,15 @@ public class Access_Permissions_page extends Helper_Class {
 		if(!safeClick(add_new_role, "Add New Role")) return false;
 		js.executeScript("arguments[0].scrollIntoView({block: 'center'});", name);
 		wait.until(ExpectedConditions.visibilityOf(name));
-		wait.until(ExpectedConditions.elementToBeClickable(name)).sendKeys("Rolesss");
+		wait.until(ExpectedConditions.elementToBeClickable(name)).sendKeys(erolename);
 		if(!safeClick(selectgroupdropdown, "Group Down Selected ")) return false;
-		safeClick(selectgroupname, "Group Name  Selected ");
-		wait.until(ExpectedConditions.visibilityOf(description)).sendKeys("Description for Role Creation");
+	//	safeClick(selectgroupname, "Group Name  Selected ");
+		String dynamicXPath = String.format("//mat-option//span[normalize-space(text())='%s']", egroupname);
+		WebElement dynamicOption = wait.until(
+			    ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));
+		if(!safeClick(dynamicOption, "Select Group Name")) return false;
+			    
+		wait.until(ExpectedConditions.visibilityOf(description)).sendKeys(eroledescription);
 		if(!safeClick(Access_Permission_DropDown, "Select Permissions Access Permissions")) return false;
 		js.executeScript("arguments[0].scrollIntoView(true);", GroupAddPermission);
 		if(!safeClick(GroupAddPermission, "Group Add Permissions in Access Permissions for Role")) return false;
@@ -310,7 +346,13 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("View Role method entered");
 		try {
-		if(!safeClick(view_role, "View Role")) return false;
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String erolename = red.getCellData(6, 0);
+		String dynamicXPath = String.format("//tr[td[@title='%s']]//i[@title='View']", erolename);
+		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement viewRoleIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));	
+		if(!safeClick(viewRoleIcon, "View Role")) return false;
 		if(!safeClick(closeIconRole, "Close Role")) return false;
 		log.info("View Role Successfull");
 		return true;
@@ -327,12 +369,17 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("Edit Role method entered");
 		try {
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String erolename = red.getCellData(6, 0);
 		JavascriptExecutor js = (JavascriptExecutor) obj;
-		if(!safeClick(edit_role, "Edit Role")) return false;
+		String dynamicXPath = String.format("//tr[td[@title='%s']]//i[@title='Edit']", erolename);
 		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement editRoleIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));	
+		if(!safeClick(editRoleIcon, "Edit Role")) return false;
 		wait.until(ExpectedConditions.visibilityOf(name));
 		wait.until(ExpectedConditions.elementToBeClickable(name)).clear();
-		wait.until(ExpectedConditions.elementToBeClickable(name)).sendKeys("Rolesss");
+		wait.until(ExpectedConditions.elementToBeClickable(name)).sendKeys(erolename);
 		js.executeScript("arguments[0].scrollIntoView(true);", saveIconGroupRoleUser);
 		if(!safeClick(saveIconGroupRoleUser, "Save Role")) return false;
 		log.info("Edit Role Successfull");
@@ -350,7 +397,13 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("Delete Role method entered");
 		try {
-		if(!safeClick(delete_role, "Delete Role Icon ")) return false;
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String erolename = red.getCellData(6, 0);
+		String dynamicXPath = String.format("//tr[td[@title='%s']]//i[@title='Delete']", erolename);
+		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement deleteRoleIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));	
+		if(!safeClick(deleteRoleIcon, "Delete Role Icon ")) return false;
 		if(!safeClick(roleDeleteYes, "Delete Yes")) return false;
 		log.info("Delete Role Successfull");
 		return true;
@@ -365,6 +418,14 @@ public class Access_Permissions_page extends Helper_Class {
 	
 	public boolean adduser() throws InterruptedException {
 		try {
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String eloginid = red.getCellData(10, 0);
+		String efirstname = red.getCellData(10, 1);
+		String elastname = red.getCellData(10, 2);
+		String eemailid = red.getCellData(10, 3);
+		String edepartment = red.getCellData(10, 4);
+		String ephone = red.getCellData(10, 5);
 		JavascriptExecutor js = (JavascriptExecutor) obj;
 		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
 		js.executeScript("arguments[0].click();", UserSubModule);
@@ -372,15 +433,21 @@ public class Access_Permissions_page extends Helper_Class {
 		WebElement NewUserClicks = wait.until(ExpectedConditions.elementToBeClickable(NewUserClick));
 		js.executeScript("arguments[0].click();", NewUserClicks);
 	//	wait.until(ExpectedConditions.invisibilityOf(spinner));
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.name("loginId"))); // ensures element exists
+		// Now wait until it's visible and interactable
+		WebElement loginField = wait.until(ExpectedConditions.visibilityOf(LoginId));
+		wait.until(ExpectedConditions.elementToBeClickable(loginField));
+		// Optional: handle Angular animation delay (if still unstable)
+		wait.until(driver -> loginField.isDisplayed() && loginField.isEnabled());
 		js.executeScript("arguments[0].scrollIntoView({block: 'center'});", LoginId);
-		wait.until(ExpectedConditions.elementToBeClickable(LoginId)).sendKeys("Usersss");
-		wait.until(ExpectedConditions.visibilityOf(FirstName)).sendKeys("firstname");
-		wait.until(ExpectedConditions.visibilityOf(LastName)).sendKeys("lastname");
-		wait.until(ExpectedConditions.visibilityOf(EmailId)).sendKeys("Name1@gmail.com");
-		wait.until(ExpectedConditions.visibilityOf(Department)).sendKeys("Testing");
+		wait.until(ExpectedConditions.elementToBeClickable(LoginId)).sendKeys(eloginid);
+		wait.until(ExpectedConditions.visibilityOf(FirstName)).sendKeys(efirstname);
+		wait.until(ExpectedConditions.visibilityOf(LastName)).sendKeys(elastname);
+		wait.until(ExpectedConditions.visibilityOf(EmailId)).sendKeys(eemailid);
+		wait.until(ExpectedConditions.visibilityOf(Department)).sendKeys(edepartment);
 		js.executeScript("arguments[0].scrollIntoView(true);", PhoneNuumber);
-		wait.until(ExpectedConditions.visibilityOf(PhoneNuumber)).sendKeys("8881212888");
+		wait.until(ExpectedConditions.visibilityOf(PhoneNuumber)).sendKeys(ephone);
 		safeClick(SelectRoleUser, "Select Role User  Radio Button ");
 		safeClick(SelectGroupUser, "Selected Role User  Radio Button ");
 		js.executeScript("arguments[0].scrollIntoView(true);", Activeateuser);
@@ -399,7 +466,13 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("View User method entered");
 		try {
-		if(!safeClick(view_user, "View User")) return false;
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String eusername = red.getCellData(10, 0);
+		String dynamicXPath = String.format("//tr[td[normalize-space(text())='%s']]//i[@title='View']", eusername);
+	    WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement viewUserIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));
+		if(!safeClick(viewUserIcon, "View User")) return false;
 		if(!safeClick(closeIconUser, "Close User")) return false;
 		log.info("View User Successfull");
 		return true;
@@ -415,12 +488,17 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("Edit User method entered");
 		try {
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String eusername = red.getCellData(10, 0);
 		JavascriptExecutor js = (JavascriptExecutor) obj;
-		if(!safeClick(edit_user, "Edit User")) return false;
-		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(5));
+		String dynamicXPath = String.format("//tr[td[normalize-space(text())='%s']]//i[@title='Edit']", eusername);
+		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement editUserIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));
+		if(!safeClick(editUserIcon, "Edit User")) return false;	
 		js.executeScript("arguments[0].scrollIntoView({block: 'center'});", LoginId);
 		wait.until(ExpectedConditions.elementToBeClickable(LoginId)).clear();
-		wait.until(ExpectedConditions.elementToBeClickable(LoginId)).sendKeys("Usersss");
+		wait.until(ExpectedConditions.elementToBeClickable(LoginId)).sendKeys(eusername);
 		js.executeScript("arguments[0].scrollIntoView(true);", saveIconGroupRoleUser);
 		if(!safeClick(saveIconGroupRoleUser, "Save User")) return false;
 		log.info("Edit User Successfull");
@@ -437,7 +515,13 @@ public class Access_Permissions_page extends Helper_Class {
 	{
 		log.info("Delete User method entered");
 		try {
-		if(!safeClick(delete_user, "Delete User")) return false;
+		String userpath = System.getProperty("user.dir");
+		ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\Utilites\\Logindata.xlsx","Access_Permission");
+		String eusername = red.getCellData(10, 0);
+		String dynamicXPath = String.format("//tr[td[normalize-space(text())='%s']]//i[@title='Delete']", eusername);
+		WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+		WebElement deleteUserIcon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(dynamicXPath)));
+		if(!safeClick(deleteUserIcon, "Delete User")) return false;
 		if(!safeClick(UserDeleteYes,"Delete Yes")) return false;
 		log.info("Delete User Successfull");
 		return true;

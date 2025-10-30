@@ -44,10 +44,7 @@ private static  Logger log = LogManager.getLogger(Login_Test_Data.class);
     @Test(priority=2, enabled=true, dataProvider = "LoginCredentials", dataProviderClass = Login_Test_Data.class)
     public void Login_Test(String username, String password, String errormessage) throws InterruptedException, IOException
 	{
-    	log.info("Login Test Started");
-    	//loginobj = new Login_page(obj); 
-    	
-    	
+    	log.info("Login Test Started"); 
     	try
     	{
             loginobj = new Login_page(obj); 
@@ -250,7 +247,7 @@ private static  Logger log = LogManager.getLogger(Login_Test_Data.class);
         return value;
     }
     
-    @Test(priority='4',dataProvider = "LoginCredentials1", dataProviderClass = Login_Test_Data.class)
+    @Test(priority=4,dataProvider = "LoginCredentials1", dataProviderClass = Login_Test_Data.class)
     public void MainUserLogin(String username,String password)
     {
     	log.info("This is extra method for main user start");

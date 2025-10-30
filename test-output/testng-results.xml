@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Test Case Started : Login_Data]]>
@@ -151,17 +151,35 @@
     <line>
       <![CDATA[Test Case Success : 1]]>
     </line>
+    <line>
+      <![CDATA[Test Case Started : logoutUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-10-06T17:48:47 IST" name="Suite" finished-at="2025-10-06T17:56:19 IST" duration-ms="452298">
+  <suite started-at="2025-10-29T19:05:57 IST" name="Suite" finished-at="2025-10-29T19:13:23 IST" duration-ms="445942">
     <groups>
     </groups>
-    <test started-at="2025-10-06T17:48:47 IST" name="Test" finished-at="2025-10-06T17:56:19 IST" duration-ms="452298">
+    <test started-at="2025-10-29T19:05:57 IST" name="Test" finished-at="2025-10-29T19:13:23 IST" duration-ms="445942">
+      <class name="test_case.Logout">
+        <test-method signature="logoutUser()[pri:0, instance:test_case.Logout@2fd1731c]" started-at="2025-10-29T19:13:22 IST" name="logoutUser" finished-at="2025-10-29T19:13:23 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : logoutUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- test_case.Logout -->
       <class name="test_case.Login">
-        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:test_case.Login@32057e6]" started-at="2025-10-06T17:48:47 IST" name="Launch_Browser" finished-at="2025-10-06T17:48:52 IST" duration-ms="5515" status="PASS">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:test_case.Login@32057e6]" started-at="2025-10-29T19:05:57 IST" name="Launch_Browser" finished-at="2025-10-29T19:06:01 IST" duration-ms="3743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch_Browser -->
-        <test-method signature="Login_Data(java.lang.String,java.lang.String)[pri:0, instance:test_case.Login@32057e6]" started-at="2025-10-06T17:48:53 IST" name="Login_Data" data-provider="LoginCredentials" finished-at="2025-10-06T17:48:55 IST" duration-ms="1311" status="PASS">
+        <test-method signature="Login_Data(java.lang.String,java.lang.String)[pri:0, instance:test_case.Login@32057e6]" started-at="2025-10-29T19:06:02 IST" name="Login_Data" data-provider="LoginCredentials" finished-at="2025-10-29T19:06:03 IST" duration-ms="1058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,13 +201,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login_Data -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:test_case.Login@32057e6]" started-at="2025-10-06T17:56:18 IST" name="CloseBrowser" finished-at="2025-10-06T17:56:19 IST" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:test_case.Login@32057e6]" started-at="2025-10-29T19:13:23 IST" name="CloseBrowser" finished-at="2025-10-29T19:13:23 IST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- test_case.Login -->
       <class name="test_case.Login_Test_Data">
-        <test-method signature="logoutMainUser()[pri:1, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:48:55 IST" name="logoutMainUser" finished-at="2025-10-06T17:48:55 IST" duration-ms="414" status="PASS">
+        <test-method signature="logoutMainUser()[pri:1, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:06:03 IST" name="logoutMainUser" finished-at="2025-10-29T19:06:04 IST" duration-ms="424" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : logoutMainUser]]>
@@ -199,7 +217,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logoutMainUser -->
-        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:48:55 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-06T17:49:06 IST" duration-ms="10248" status="PASS">
+        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:06:04 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-29T19:06:14 IST" duration-ms="10211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,7 +244,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:49:06 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-06T17:49:16 IST" duration-ms="10293" status="PASS">
+        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:06:14 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-29T19:06:25 IST" duration-ms="10272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,7 +271,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:49:16 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-06T17:49:26 IST" duration-ms="10244" status="PASS">
+        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:06:25 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-29T19:06:35 IST" duration-ms="10259" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -280,7 +298,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:49:26 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-06T17:49:40 IST" duration-ms="13287" status="PASS">
+        <test-method signature="Login_Test(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:06:35 IST" name="Login_Test" data-provider="LoginCredentials" finished-at="2025-10-29T19:06:48 IST" duration-ms="13526" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -307,7 +325,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login_Test -->
-        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:49:40 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-06T17:49:50 IST" duration-ms="10293" status="PASS">
+        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:06:49 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-29T19:06:59 IST" duration-ms="10243" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -334,7 +352,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Block_User -->
-        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:49:50 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-06T17:50:01 IST" duration-ms="10607" status="PASS">
+        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:06:59 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-29T19:07:09 IST" duration-ms="10253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,7 +379,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Block_User -->
-        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:50:01 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-06T17:50:03 IST" duration-ms="1834" status="PASS">
+        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:07:09 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-29T19:07:11 IST" duration-ms="1695" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -388,7 +406,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Block_User -->
-        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:50:03 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-06T17:50:13 IST" duration-ms="10264" status="PASS">
+        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:07:11 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-29T19:07:21 IST" duration-ms="10247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -415,7 +433,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Block_User -->
-        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:50:13 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-06T17:50:23 IST" duration-ms="10322" status="PASS">
+        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:07:21 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-29T19:07:32 IST" duration-ms="10248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -442,7 +460,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Block_User -->
-        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:50:24 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-06T17:50:34 IST" duration-ms="10294" status="PASS">
+        <test-method signature="Block_User(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:07:32 IST" name="Block_User" data-provider="BlockLoginCredentials" finished-at="2025-10-29T19:07:42 IST" duration-ms="10254" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,7 +487,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Block_User -->
-        <test-method signature="MainUserLogin(java.lang.String,java.lang.String)[pri:52, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-06T17:50:34 IST" name="MainUserLogin" data-provider="LoginCredentials1" finished-at="2025-10-06T17:50:35 IST" duration-ms="974" status="PASS">
+        <test-method signature="MainUserLogin(java.lang.String,java.lang.String)[pri:4, instance:test_case.Login_Test_Data@782a4fff]" started-at="2025-10-29T19:07:42 IST" name="MainUserLogin" data-provider="LoginCredentials1" finished-at="2025-10-29T19:07:43 IST" duration-ms="1316" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -493,11 +511,11 @@
         </test-method> <!-- MainUserLogin -->
       </class> <!-- test_case.Login_Test_Data -->
       <class name="test_case.Access_permissions">
-        <test-method is-config="true" signature="Access_Permissions_Setup()[pri:0, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:50:35 IST" name="Access_Permissions_Setup" finished-at="2025-10-06T17:50:35 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="Access_Permissions_Setup()[pri:0, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:07:44 IST" name="Access_Permissions_Setup" finished-at="2025-10-29T19:07:44 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Access_Permissions_Setup -->
-        <test-method signature="Add_Group()[pri:1, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:50:35 IST" name="Add_Group" finished-at="2025-10-06T17:51:17 IST" duration-ms="41592" status="PASS">
+        <test-method signature="Add_Group()[pri:1, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:07:44 IST" name="Add_Group" finished-at="2025-10-29T19:08:25 IST" duration-ms="41476" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : Add_Group]]>
@@ -507,7 +525,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Add_Group -->
-        <test-method signature="view_Group()[pri:2, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:51:17 IST" name="view_Group" finished-at="2025-10-06T17:51:38 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="21138" status="PASS">
+        <test-method signature="view_Group()[pri:2, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:08:25 IST" name="view_Group" finished-at="2025-10-29T19:08:46 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="20681" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : view_Group]]>
@@ -517,7 +535,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- view_Group -->
-        <test-method signature="edit_Group()[pri:3, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:51:38 IST" name="edit_Group" finished-at="2025-10-06T17:51:59 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="21203" status="PASS">
+        <test-method signature="edit_Group()[pri:3, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:08:46 IST" name="edit_Group" finished-at="2025-10-29T19:09:07 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="20634" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : edit_Group]]>
@@ -527,7 +545,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- edit_Group -->
-        <test-method signature="delete_Group()[pri:4, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:51:59 IST" name="delete_Group" finished-at="2025-10-06T17:52:20 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="21034" status="PASS">
+        <test-method signature="delete_Group()[pri:4, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:09:07 IST" name="delete_Group" finished-at="2025-10-29T19:09:27 IST" depends-on-methods="test_case.Access_permissions.Add_Group" duration-ms="20656" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : delete_Group]]>
@@ -537,7 +555,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- delete_Group -->
-        <test-method signature="Add_Role()[pri:5, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:52:21 IST" name="Add_Role" finished-at="2025-10-06T17:53:34 IST" duration-ms="73767" status="PASS">
+        <test-method signature="Add_Role()[pri:5, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:09:27 IST" name="Add_Role" finished-at="2025-10-29T19:10:40 IST" duration-ms="72382" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : Add_Role]]>
@@ -547,7 +565,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Add_Role -->
-        <test-method signature="view_Role()[pri:6, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:53:35 IST" name="view_Role" finished-at="2025-10-06T17:53:56 IST" depends-on-methods="test_case.Access_permissions.Add_Role" duration-ms="21283" status="PASS">
+        <test-method signature="view_Role()[pri:6, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:10:40 IST" name="view_Role" finished-at="2025-10-29T19:11:01 IST" depends-on-methods="test_case.Access_permissions.Add_Role" duration-ms="20609" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : view_Role]]>
@@ -557,7 +575,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- view_Role -->
-        <test-method signature="edit_Role()[pri:7, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:53:56 IST" name="edit_Role" finished-at="2025-10-06T17:54:18 IST" depends-on-methods="test_case.Access_permissions.view_Role" duration-ms="21777" status="PASS">
+        <test-method signature="edit_Role()[pri:7, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:11:01 IST" name="edit_Role" finished-at="2025-10-29T19:11:21 IST" depends-on-methods="test_case.Access_permissions.view_Role" duration-ms="20722" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : edit_Role]]>
@@ -567,7 +585,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- edit_Role -->
-        <test-method signature="delete_Role()[pri:8, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:54:18 IST" name="delete_Role" finished-at="2025-10-06T17:54:39 IST" depends-on-methods="test_case.Access_permissions.edit_Role" duration-ms="21060" status="PASS">
+        <test-method signature="delete_Role()[pri:8, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:11:21 IST" name="delete_Role" finished-at="2025-10-29T19:11:42 IST" depends-on-methods="test_case.Access_permissions.edit_Role" duration-ms="20577" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : delete_Role]]>
@@ -577,7 +595,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- delete_Role -->
-        <test-method signature="Add_User()[pri:9, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:54:39 IST" name="Add_User" finished-at="2025-10-06T17:55:14 IST" duration-ms="34638" status="PASS">
+        <test-method signature="Add_User()[pri:9, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:11:42 IST" name="Add_User" finished-at="2025-10-29T19:12:14 IST" duration-ms="31455" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : Add_User]]>
@@ -587,7 +605,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Add_User -->
-        <test-method signature="view_User()[pri:10, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:55:14 IST" name="view_User" finished-at="2025-10-06T17:55:35 IST" depends-on-methods="test_case.Access_permissions.Add_User" duration-ms="20999" status="PASS">
+        <test-method signature="view_User()[pri:10, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:12:14 IST" name="view_User" finished-at="2025-10-29T19:12:40 IST" depends-on-methods="test_case.Access_permissions.Add_User" duration-ms="26841" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : view_User]]>
@@ -597,7 +615,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- view_User -->
-        <test-method signature="edit_User()[pri:11, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:55:35 IST" name="edit_User" finished-at="2025-10-06T17:55:56 IST" depends-on-methods="test_case.Access_permissions.view_User" duration-ms="21148" status="PASS">
+        <test-method signature="edit_User()[pri:11, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:12:41 IST" name="edit_User" finished-at="2025-10-29T19:13:01 IST" depends-on-methods="test_case.Access_permissions.view_User" duration-ms="20688" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : edit_User]]>
@@ -607,7 +625,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- edit_User -->
-        <test-method signature="delete_User()[pri:12, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-06T17:55:57 IST" name="delete_User" finished-at="2025-10-06T17:56:18 IST" depends-on-methods="test_case.Access_permissions.edit_User" duration-ms="21003" status="PASS">
+        <test-method signature="delete_User()[pri:12, instance:test_case.Access_permissions@5ae81e1]" started-at="2025-10-29T19:13:01 IST" name="delete_User" finished-at="2025-10-29T19:13:22 IST" depends-on-methods="test_case.Access_permissions.edit_User" duration-ms="20623" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : delete_User]]>
