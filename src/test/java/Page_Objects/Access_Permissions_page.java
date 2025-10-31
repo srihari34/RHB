@@ -219,13 +219,13 @@ public class Access_Permissions_page extends Helper_Class {
 		if(!safeClick(AllModules, "All Modules is clicked")) return false;
 		js.executeScript("arguments[0].scrollIntoView(true);", submit);
 		WebElement SaveGroup = wait.until(ExpectedConditions.elementToBeClickable(submit));
-	
-			js.executeScript("arguments[0].click();", SaveGroup);
-			log.info("Group Created Successfully");
-			return true;
-		} catch (Exception e) {
-			log.error("JS click failed: " + e.getMessage());
-			return false;
+		js.executeScript("arguments[0].click();", SaveGroup);
+		log.info("Group Created Successfully");
+		return true;
+		}
+		catch (Exception e) {
+		log.error("JS click failed: " + e.getMessage());
+		return false;
 		}
 
 	}

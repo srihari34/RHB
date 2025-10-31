@@ -9,22 +9,15 @@
     <classes>
       <class name="test_case.Access_permissions">
         <methods>
+          <include name="Add_User"/>
           <include name="edit_User"/>
           <include name="view_User"/>
-          <include name="Add_User"/>
-          <include name="delete_User"/>
           <include name="CloseBrowser"/>
+          <include name="delete_User"/>
           <include name="Access_Permissions_Setup"/>
           <include name="Launch_Browser"/>
         </methods>
       </class> <!-- test_case.Access_permissions -->
-      <class name="test_case.Logout">
-        <methods>
-          <include name="logoutUser"/>
-          <include name="CloseBrowser"/>
-          <include name="Launch_Browser"/>
-        </methods>
-      </class> <!-- test_case.Logout -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

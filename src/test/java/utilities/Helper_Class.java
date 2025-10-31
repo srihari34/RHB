@@ -51,5 +51,18 @@ public class Helper_Class {
 	        return false;
 	    }
 	}
+	
+	public boolean isElementVisible(WebElement element, String elementName, int timeout) {
+	    try {
+	        WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(timeout));
+	        wait.until(ExpectedConditions.visibilityOf(element));
+	        log.info(elementName + " is visible");
+	        return true;
+	    } catch (Exception e) {
+//	        log.warn(elementName + " is NOT visible", e);
+	        return false;
+	    }
+	}
+
 
 }

@@ -8,9 +8,9 @@
   <test name="Test">
 	  <classes>
 	      <class name="test_case.Login"/>
-		  <class name="test_case.Login_Test_Data"/> 
-		  <class name="test_case.Access_permissions"/>
-		  <class name="test_case.Logout"/>
+	      <class name="test_case.Login_Test_Data"/> 
+	      <class name="test_case.Access_permissions"/>
+		  <class name="test_case.Logout"/>  -->
 	  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->	

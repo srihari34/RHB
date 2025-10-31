@@ -12,13 +12,16 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Login_page {
+import utilities.Helper_Class;
+
+public class Login_page extends Helper_Class{
 	private static  Logger log = LogManager.getLogger(Login_page.class);
 	
 	WebDriver driv;
 	
 	public Login_page(WebDriver obj) throws IOException
 	{
+		super(obj);
 		this.driv=obj;
 		PageFactory.initElements(driv, this);
 		
@@ -60,27 +63,15 @@ public class Login_page {
 		log.info("Entered UserName is :" + username);
 		Pass.sendKeys(password);
 		log.info("Password Entered");
-		//log.info("This is xpath for submission  "+ Submitbutton);
-		Submitbutton.click();
+		if(!safeClick(Submitbutton, "Login Submit Button")) return false;
 		log.info("Submit Button Clicked");
-		if(Home_Title.isDisplayed())
-		{
-			log.info("Login SuccessFull");
-			return true;
-		}
-		else
-		{
-			log.info("Login Failed");
-			return false;
-		}
+		return isElementVisible(Home_Title, "Home Title", 1);
 		}
 		catch(Exception e)
 		{
-			log.info("Login Failed");
-			
-		}
-		return false;
-		
+			log.error("Login Failed");
+			return false;
+		}	
 	}
 		public boolean login_Tests(String username, String password)
 		{
@@ -91,34 +82,20 @@ public class Login_page {
 			log.info("Entered UserName is :" + username);
 			Pass.sendKeys(password);
 			log.info("Password Entered");
-			//log.info("This is xpath for submission  "+ Submitbutton);
-			Submitbutton.click();
-			log.info("Submit Button Clicked");
-			if(Home_Title.isDisplayed())
-			{
-				log.info("Login SuccessFull");
-				return true;
-			}
-			else
-			{
-				log.info("Login Failed");
-				return false;
-			}
-			//log.info("Login SuccessFull");
+			if(!safeClick(Submitbutton, "Login Submit Button")) return false;
+			return isElementVisible(Home_Title, "Home Title", 1);
 			}
 			catch(Exception e)
 			{
-				log.info("Login Failed");
+				log.error("Login Failed");
+				return false;
 			}
-			return false;
-			
-	}
+	    }
 	
 		public String failed_Test()
 		{
 			log.info("This is failed test text");
 			String message = Wrong_Username.getText();
-			log.info("This is failed test text 2");
 			log.info(message);
 			return message;
 		}
@@ -130,20 +107,17 @@ public class Login_page {
 			wait.until(ExpectedConditions.visibilityOf(ProfileDropdown));
 			log.info("Is ProfileDropdown displayed? " + ProfileDropdown.isDisplayed());
 			log.info("Is ProfileDropdown enabled? " + ProfileDropdown.isEnabled());
-		    log.info(ProfileDropdown.getText());
-			//ProfileDropdown.click();
+		    log.info(ProfileDropdown.getText() + "Main User");
 			((JavascriptExecutor) driv).executeScript("arguments[0].click();", ProfileDropdown);
-			Sign_Out.click();
-			Yes_Button.click();
+			if(!safeClick(Sign_Out, "Sign out Button")) return false;
+			if(!safeClick(Yes_Button, "Confirm Yes Button")) return false;
 			log.info("Logout Success");
 			return true;
-			
 			}
 			catch(Exception e)
 			{
 				log.info("Logout Fail");
-				return false;
-						
+				return false;	
 			}
 			
 			

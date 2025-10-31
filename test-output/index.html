@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">26 methods,   26 passed</span>
+                    <span class="method-stats">26 methods, 1 failed,  2 skipped,  23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="view_User">view_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="delete_User">delete_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="edit_User">edit_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -123,17 +156,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)">Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="Block_User(Check, User@123, )">Block_User(Check, User@123, )</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="Block_User(Check, User123, Invalid user name or password.)">Block_User(Check, User123, Invalid user name or password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)">Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,12 +176,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_case.Login" class="method navigator-link" hash-for-method="Login_Data(Approver, User@123)">Login_Data(Approver, User@123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="Block_User(Check, User@123, )">Block_User(Check, User@123, )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="Login_Test(Approver, User@1234, Invalid user name or password.)">Login_Test(Approver, User@1234, Invalid user name or password.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test_case.Login" class="method navigator-link" hash-for-method="Login_Data(Approver, User@123)">Login_Data(Approver, User@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -173,6 +201,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="Login_Test(Approver, User@1234, Invalid user name or password.)">Login_Test(Approver, User@1234, Invalid user name or password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="test_case.Login_Test_Data" class="method navigator-link" hash-for-method="MainUserLogin(Approver, User@123)">MainUserLogin(Approver, User@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -188,22 +221,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="delete_User">delete_User</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="edit_Group">edit_Group</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="edit_Role">edit_Role</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="edit_User">edit_User</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -226,11 +249,6 @@
                         <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="view_Role">view_Role</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_case.Access_permissions" class="method navigator-link" hash-for-method="view_User">view_User</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -243,6 +261,58 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test_case.Access_permissions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="view_User">
+                  </a> <!-- view_User -->
+                  <span class="method-name">view_User</span>
+                  <div class="stack-trace">java.lang.AssertionError: User was not Viewed successfully! expected [true] but found [false]
+	at test_case.Access_permissions.view_User(Access_permissions.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test_case.Access_permissions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete_User">
+                  </a> <!-- delete_User -->
+                  <span class="method-name">delete_User</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_case.Access_permissions.delete_User() on instance test_case.Access_permissions@759fad4 depends on not successfully finished methods 
+[test_case.Access_permissions.edit_User() on instance test_case.Access_permissions@759fad4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edit_User">
+                  </a> <!-- edit_User -->
+                  <span class="method-name">edit_User</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_case.Access_permissions.edit_User() on instance test_case.Access_permissions@759fad4 depends on not successfully finished methods 
+[test_case.Access_permissions.view_User() on instance test_case.Access_permissions@759fad4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -274,26 +344,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)">
-                  </a> <!-- Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...) -->
-                  <span class="method-name">Block_User</span>
-                  <span class="parameters">(Check,User12345,Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Block_User(Check, User@123, )">
-                  </a> <!-- Block_User(Check, User@123, ) -->
-                  <span class="method-name">Block_User</span>
-                  <span class="parameters">(Check,User@123,)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Block_User(Check, User123, Invalid user name or password.)">
                   </a> <!-- Block_User(Check, User123, Invalid user name or password.) -->
                   <span class="method-name">Block_User</span>
                   <span class="parameters">(Check,User123,Invalid user name or password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)">
+                  </a> <!-- Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...) -->
+                  <span class="method-name">Block_User</span>
+                  <span class="parameters">(Check,User12345,Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -314,10 +376,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Login_Test(Approver, User@1234, Invalid user name or password.)">
-                  </a> <!-- Login_Test(Approver, User@1234, Invalid user name or password.) -->
-                  <span class="method-name">Login_Test</span>
-                  <span class="parameters">(Approver,User@1234,Invalid user name or password.)</span>
+                  <a name="Block_User(Check, User@123, )">
+                  </a> <!-- Block_User(Check, User@123, ) -->
+                  <span class="method-name">Block_User</span>
+                  <span class="parameters">(Check,User@123,)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -342,6 +404,14 @@
                   </a> <!-- Login_Test(Approver1, User@123, Invalid user name or password or Deactivated.) -->
                   <span class="method-name">Login_Test</span>
                   <span class="parameters">(Approver1,User@123,Invalid user name or password or Deactivated.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Test(Approver, User@1234, Invalid user name or password.)">
+                  </a> <!-- Login_Test(Approver, User@1234, Invalid user name or password.) -->
+                  <span class="method-name">Login_Test</span>
+                  <span class="parameters">(Approver,User@1234,Invalid user name or password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -420,13 +490,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="delete_User">
-                  </a> <!-- delete_User -->
-                  <span class="method-name">delete_User</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="edit_Group">
                   </a> <!-- edit_Group -->
                   <span class="method-name">edit_Group</span>
@@ -441,13 +504,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="edit_User">
-                  </a> <!-- edit_User -->
-                  <span class="method-name">edit_User</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="view_Group">
                   </a> <!-- view_Group -->
                   <span class="method-name">view_Group</span>
@@ -458,13 +514,6 @@
                   <a name="view_Role">
                   </a> <!-- view_Role -->
                   <span class="method-name">view_Role</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="view_User">
-                  </a> <!-- view_User -->
-                  <span class="method-name">view_User</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -532,112 +581,112 @@ data.addRows(26);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Add_Role')
 data.setCell(0, 2, 'test_case.Access_permissions')
-data.setCell(0, 3, 72382);
+data.setCell(0, 3, 23673);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Add_Group')
+data.setCell(1, 1, 'Add_User')
 data.setCell(1, 2, 'test_case.Access_permissions')
-data.setCell(1, 3, 41476);
+data.setCell(1, 3, 12663);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Add_User')
-data.setCell(2, 2, 'test_case.Access_permissions')
-data.setCell(2, 3, 31455);
+data.setCell(2, 1, 'Login_Test')
+data.setCell(2, 2, 'test_case.Login_Test_Data')
+data.setCell(2, 3, 10399);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'view_User')
-data.setCell(3, 2, 'test_case.Access_permissions')
-data.setCell(3, 3, 26841);
+data.setCell(3, 1, 'Block_User')
+data.setCell(3, 2, 'test_case.Login_Test_Data')
+data.setCell(3, 3, 10335);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'edit_Role')
+data.setCell(4, 1, 'Add_Group')
 data.setCell(4, 2, 'test_case.Access_permissions')
-data.setCell(4, 3, 20722);
+data.setCell(4, 3, 10187);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'edit_User')
+data.setCell(5, 1, 'view_User')
 data.setCell(5, 2, 'test_case.Access_permissions')
-data.setCell(5, 3, 20688);
+data.setCell(5, 3, 10153);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'view_Group')
-data.setCell(6, 2, 'test_case.Access_permissions')
-data.setCell(6, 3, 20681);
+data.setCell(6, 1, 'Block_User')
+data.setCell(6, 2, 'test_case.Login_Test_Data')
+data.setCell(6, 3, 9476);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'delete_Group')
-data.setCell(7, 2, 'test_case.Access_permissions')
-data.setCell(7, 3, 20656);
+data.setCell(7, 1, 'Login_Test')
+data.setCell(7, 2, 'test_case.Login_Test_Data')
+data.setCell(7, 3, 9371);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'edit_Group')
-data.setCell(8, 2, 'test_case.Access_permissions')
-data.setCell(8, 3, 20634);
+data.setCell(8, 1, 'Block_User')
+data.setCell(8, 2, 'test_case.Login_Test_Data')
+data.setCell(8, 3, 9365);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'delete_User')
-data.setCell(9, 2, 'test_case.Access_permissions')
-data.setCell(9, 3, 20623);
+data.setCell(9, 1, 'Block_User')
+data.setCell(9, 2, 'test_case.Login_Test_Data')
+data.setCell(9, 3, 9362);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'view_Role')
-data.setCell(10, 2, 'test_case.Access_permissions')
-data.setCell(10, 3, 20609);
+data.setCell(10, 1, 'Login_Test')
+data.setCell(10, 2, 'test_case.Login_Test_Data')
+data.setCell(10, 3, 9350);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'delete_Role')
-data.setCell(11, 2, 'test_case.Access_permissions')
-data.setCell(11, 3, 20577);
+data.setCell(11, 1, 'Login_Test')
+data.setCell(11, 2, 'test_case.Login_Test_Data')
+data.setCell(11, 3, 9326);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Login_Test')
+data.setCell(12, 1, 'Block_User')
 data.setCell(12, 2, 'test_case.Login_Test_Data')
-data.setCell(12, 3, 13526);
+data.setCell(12, 3, 9319);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Login_Test')
+data.setCell(13, 1, 'Block_User')
 data.setCell(13, 2, 'test_case.Login_Test_Data')
-data.setCell(13, 3, 10272);
+data.setCell(13, 3, 9292);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'Login_Test')
-data.setCell(14, 2, 'test_case.Login_Test_Data')
-data.setCell(14, 3, 10259);
+data.setCell(14, 1, 'edit_Role')
+data.setCell(14, 2, 'test_case.Access_permissions')
+data.setCell(14, 3, 6949);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'Block_User')
-data.setCell(15, 2, 'test_case.Login_Test_Data')
-data.setCell(15, 3, 10254);
+data.setCell(15, 1, 'logoutUser')
+data.setCell(15, 2, 'test_case.Logout')
+data.setCell(15, 3, 6858);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'Block_User')
-data.setCell(16, 2, 'test_case.Login_Test_Data')
-data.setCell(16, 3, 10253);
+data.setCell(16, 1, 'edit_Group')
+data.setCell(16, 2, 'test_case.Access_permissions')
+data.setCell(16, 3, 6644);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'Block_User')
+data.setCell(17, 1, 'logoutMainUser')
 data.setCell(17, 2, 'test_case.Login_Test_Data')
-data.setCell(17, 3, 10248);
+data.setCell(17, 3, 6633);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'Block_User')
-data.setCell(18, 2, 'test_case.Login_Test_Data')
-data.setCell(18, 3, 10247);
+data.setCell(18, 1, 'delete_Role')
+data.setCell(18, 2, 'test_case.Access_permissions')
+data.setCell(18, 3, 6550);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'Block_User')
-data.setCell(19, 2, 'test_case.Login_Test_Data')
-data.setCell(19, 3, 10243);
+data.setCell(19, 1, 'view_Role')
+data.setCell(19, 2, 'test_case.Access_permissions')
+data.setCell(19, 3, 6536);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'Login_Test')
-data.setCell(20, 2, 'test_case.Login_Test_Data')
-data.setCell(20, 3, 10211);
+data.setCell(20, 1, 'delete_Group')
+data.setCell(20, 2, 'test_case.Access_permissions')
+data.setCell(20, 3, 6509);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'Block_User')
-data.setCell(21, 2, 'test_case.Login_Test_Data')
-data.setCell(21, 3, 1695);
+data.setCell(21, 1, 'view_Group')
+data.setCell(21, 2, 'test_case.Access_permissions')
+data.setCell(21, 3, 6492);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'MainUserLogin')
-data.setCell(22, 2, 'test_case.Login_Test_Data')
-data.setCell(22, 3, 1316);
+data.setCell(22, 1, 'Login_Data')
+data.setCell(22, 2, 'test_case.Login')
+data.setCell(22, 3, 4522);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'Login_Data')
-data.setCell(23, 2, 'test_case.Login')
-data.setCell(23, 3, 1058);
+data.setCell(23, 1, 'MainUserLogin')
+data.setCell(23, 2, 'test_case.Login_Test_Data')
+data.setCell(23, 3, 3843);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'logoutMainUser')
-data.setCell(24, 2, 'test_case.Login_Test_Data')
-data.setCell(24, 3, 424);
+data.setCell(24, 1, 'edit_User')
+data.setCell(24, 2, 'test_case.Access_permissions')
+data.setCell(24, 3, 0);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'logoutUser')
-data.setCell(25, 2, 'test_case.Logout')
-data.setCell(25, 3, 347);
+data.setCell(25, 1, 'delete_User')
+data.setCell(25, 2, 'test_case.Access_permissions')
+data.setCell(25, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -649,23 +698,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">view_Group</span>
+              <span class="reporter-method-name">Block_User(Check, User1234, Invalid user name or password.)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : view_Group</span>
+                <span class="reporter-method-output">Test Case Started : Block_User</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">logoutUser</span>
+              <span class="reporter-method-name">Block_User(Check, User123, Invalid user name or password.)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : logoutUser</span>
+                <span class="reporter-method-output">Test Case Started : Block_User</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Login_Data(Approver, User@123)</span>
+              <span class="reporter-method-name">logoutMainUser</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Login_Data</span>
+                <span class="reporter-method-output">Test Case Started : logoutMainUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_Test(Approver1, User@1234, Invalid user name or password or Deactivated.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : Login_Test</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -677,9 +733,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Add_User</span>
+              <span class="reporter-method-name">Login_Test(Approver, User@123, )</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Add_User</span>
+                <span class="reporter-method-output">Test Case Started : Login_Test</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -691,13 +747,6 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Block_User(Check, User1234, Invalid user name or password.)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Block_User</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test Case Started : Block_User</span>
@@ -705,7 +754,42 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Login_Test(Approver, User@1234, Invalid user name or password.)</span>
+              <span class="reporter-method-name">Add_Group</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : Add_Group</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Block_User(Check, User123, Invalid user name or password.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : Block_User</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add_User</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : Add_User</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Block_User(Check, User1234, Invalid user name or password.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : Block_User</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logoutUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : logoutUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_Test(Approver1, User@123, Invalid user name or password or Deactivated.)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test Case Started : Login_Test</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
@@ -719,44 +803,23 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Block_User(Check, User123, Invalid user name or password.)</span>
+              <span class="reporter-method-name">Login_Test(Approver, User@1234, Invalid user name or password.)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Block_User</span>
+                <span class="reporter-method-output">Test Case Started : Login_Test</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">edit_User</span>
+              <span class="reporter-method-name">Login_Data(Approver, User@123)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : edit_User</span>
+                <span class="reporter-method-output">Test Case Started : Login_Data</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Block_User(Check, User123, Invalid user name or password.)</span>
+              <span class="reporter-method-name">view_Group</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Block_User</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Block_User(Check, User1234, Invalid user name or password.)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Block_User</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Add_Role</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Add_Role</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">logoutMainUser</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : logoutMainUser</span>
+                <span class="reporter-method-output">Test Case Started : view_Group</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -768,30 +831,23 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">delete_User</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : delete_User</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Login_Test(Approver1, User@1234, Invalid user name or password or Deactivated.)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Login_Test</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Login_Test(Approver, User@123, )</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Login_Test</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">delete_Group</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test Case Started : delete_Group</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add_Role</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : Add_Role</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">view_Role</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : view_Role</span>
                 <span class="reporter-method-output">Test Case Success : 1</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -803,31 +859,16 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Add_Group</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Add_Group</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Login_Test(Approver1, User@123, Invalid user name or password or Deactivated.)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : Login_Test</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">view_User</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test Case Started : view_User</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
+                <span class="reporter-method-output">Test Case Failure : 2</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">view_Role</span>
+              <span class="reporter-method-name">edit_User</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Case Started : view_Role</span>
-                <span class="reporter-method-output">Test Case Success : 1</span>
+                <span class="reporter-method-output">Test Case Started : delete_User</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -879,127 +920,121 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Login_Data(Approver, User@123)</span>
-                <span class="method-start">4847 ms</span>
+                <span class="method-start">9043 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test_case.Login_Test_Data</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">logoutMainUser</span>
-                <span class="method-start">6025 ms</span>
+                <span class="method-start">13676 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Login_Test(Approver1, User@1234, Invalid user name or password or Deactivated.)</span>
-                <span class="method-start">6609 ms</span>
+                <span class="method-start">20520 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Login_Test(Approver, User@1234, Invalid user name or password.)</span>
-                <span class="method-start">16898 ms</span>
+                <span class="method-start">29905 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Login_Test(Approver1, User@123, Invalid user name or password or Deactivated.)</span>
-                <span class="method-start">27261 ms</span>
+                <span class="method-start">39310 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Login_Test(Approver, User@123, )</span>
-                <span class="method-start">37610 ms</span>
+                <span class="method-start">48744 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Block_User(Check, User123, Invalid user name or password.)</span>
-                <span class="method-start">51228 ms</span>
+                <span class="method-start">59303 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Block_User(Check, User1234, Invalid user name or password.)</span>
-                <span class="method-start">61547 ms</span>
+                <span class="method-start">68847 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Block_User(Check, User@123, )</span>
-                <span class="method-start">71856 ms</span>
+                <span class="method-start">78203 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Block_User(Check, User123, Invalid user name or password.)</span>
-                <span class="method-start">73659 ms</span>
+                <span class="method-start">88601 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Block_User(Check, User1234, Invalid user name or password.)</span>
-                <span class="method-start">84004 ms</span>
+                <span class="method-start">97979 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Block_User(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)</span>
-                <span class="method-start">94341 ms</span>
+                <span class="method-start">107405 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">MainUserLogin(Approver, User@123)</span>
-                <span class="method-start">104770 ms</span>
+                <span class="method-start">116910 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test_case.Access_permissions</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Access_Permissions_Setup</span>
-                <span class="method-start">106181 ms</span>
+                <span class="method-start">120803 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Add_Group</span>
-                <span class="method-start">106202 ms</span>
+                <span class="method-start">120822 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">view_Group</span>
-                <span class="method-start">147830 ms</span>
+                <span class="method-start">131121 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">edit_Group</span>
-                <span class="method-start">168628 ms</span>
+                <span class="method-start">137688 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_Group</span>
-                <span class="method-start">189383 ms</span>
+                <span class="method-start">144444 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Add_Role</span>
-                <span class="method-start">210117 ms</span>
+                <span class="method-start">151084 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">view_Role</span>
-                <span class="method-start">282594 ms</span>
+                <span class="method-start">174983 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">edit_Role</span>
-                <span class="method-start">303289 ms</span>
+                <span class="method-start">181600 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_Role</span>
-                <span class="method-start">324091 ms</span>
+                <span class="method-start">188693 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Add_User</span>
-                <span class="method-start">344743 ms</span>
+                <span class="method-start">195355 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">view_User</span>
-                <span class="method-start">376249 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">edit_User</span>
-                <span class="method-start">403366 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">delete_User</span>
-                <span class="method-start">424145 ms</span>
+                <span class="method-start">208108 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test_case.Logout</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">logoutUser</span>
-                <span class="method-start">444863 ms</span>
+                <span class="method-start">218347 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test_case.Login</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">445279 ms</span>
+                <span class="method-start">225273 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

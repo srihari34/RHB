@@ -19,7 +19,7 @@ public class Logout  extends Base_Class{
 	@Test
 	public  void logoutUser() throws IOException {
 	
-		log.info("Logout Test Case");
+		log.info("Logout for the User");
 		loginobj = new Login_page(obj); 
     	boolean logoutmethod = loginobj.logout();
     	Assert.assertTrue(logoutmethod, "User was not Logout successfully!");

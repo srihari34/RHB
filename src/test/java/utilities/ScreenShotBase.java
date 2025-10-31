@@ -18,9 +18,13 @@ public class ScreenShotBase  extends Base_Class{
 		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS").format(new Date());
 	    String fileName = packageName + "_" + className + "_" + methodName + "_" + timestamp + ".jpeg";
 	    String workspace = System.getProperty("user.dir");
-        File screenshotDir = new File(workspace + "/screenshot");
+	    File screenshotDir = new File(workspace, "screenshot"); 
+	    if (!screenshotDir.exists()) {
+	        screenshotDir.mkdirs(); 
+	    }
 		File screenshotfile = ((TakesScreenshot) obj).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshotfile, new File(screenshotDir+ fileName));
+		File destFile = new File(screenshotDir, fileName); // correct!
+		FileUtils.copyFile(screenshotfile, destFile);
 	}
 
 }
