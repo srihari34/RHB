@@ -3,21 +3,27 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="base.Listeners"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test_case.Access_permissions">
+      <class name="tests.DocSegments">
         <methods>
-          <include name="Add_User"/>
-          <include name="edit_User"/>
-          <include name="view_User"/>
-          <include name="CloseBrowser"/>
-          <include name="delete_User"/>
-          <include name="Access_Permissions_Setup"/>
-          <include name="Launch_Browser"/>
+          <include name="verifyDocSegmentssetup"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyDeleteDogSeg"/>
+          <include name="verifyAddDocSeg"/>
         </methods>
-      </class> <!-- test_case.Access_permissions -->
+      </class> <!-- tests.DocSegments -->
+      <class name="tests.AccessPermissions">
+        <methods>
+          <include name="verifyAccessPermissionsSetup"/>
+          <include name="verifyDeleteUser"/>
+          <include name="verifyAddUser"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.AccessPermissions -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

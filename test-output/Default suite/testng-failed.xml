@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_case.Logout">
+      <class name="test_case.Doc_Segments">
         <methods>
-          <include name="logoutUser"/>
+          <include name="CloseBrowser"/>
+          <include name="Doc_Segments_setup"/>
+          <include name="add_docseg"/>
+          <include name="Launch_Browser"/>
         </methods>
-      </class> <!-- test_case.Logout -->
+      </class> <!-- test_case.Doc_Segments -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

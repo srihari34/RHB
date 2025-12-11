@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.679 s <<< FAILURE! - in TestSuite
-test_case.Access_permissions.Add_Group  Time elapsed: 1.599 s  <<< FAILURE!
-java.lang.RuntimeException: Submit is clicked : Not Clicked
-	at test_case.Access_permissions.Add_Group(Access_permissions.java:29)
-
-test_case.Access_permissions.Add_Role  Time elapsed: 0.906 s  <<< FAILURE!
-java.lang.RuntimeException: Add New Role : Not Clicked
-	at test_case.Access_permissions.Add_Role(Access_permissions.java:36)
-
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.78 s -- in TestSuite

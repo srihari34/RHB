@@ -43,8 +43,8 @@
 	    		<span class="tooltiptextCustom">Copy Class name</span>
 			</div>
 	    </th> 
-	    <th id="testClassId">test_case.Login<br>test_case.Login_Test_Data<br>test_case.Access_permissions<br>test_case.Logout<br></th>
-	    <th id="testClassNameId" hidden="true">Login<br>Login_Test_Data<br>Access_permissions<br>Logout<br></th>
+	    <th id="testClassId">test_case.Login<br>test_case.Doc_Segments<br></th>
+	    <th id="testClassNameId" hidden="true">Login<br>Doc_Segments<br></th>
 	  </tr>
 	  <tr>
 	    <th>Suite Name : </th>
@@ -74,12 +74,12 @@
 	  	  <tr>
 	    <th>Total Time : </th>
 	    <th></th>
-	    <th>00:03:46</th> 
+	    <th>00:01:41</th> 
 	  </tr>
 	  <tr>
 	    <th>Total Steps : </th>
 	   	<th></th>
-	    <th>18</th> 
+	    <th>5</th> 
 	  </tr>
 	  <tr>
 	    <th>Status : </th>
@@ -110,30 +110,87 @@
 				
 																
 											<tr>
-	<td class="time">1761903816981</td>
-	<td class="header failed" colspan="4" onClick="toggleElement('d69015ac-31dd-48e6-9ddd-4804d1d63b40','block');changeSingleIcon('span-d69015ac-31dd-48e6-9ddd-4804d1d63b40');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d69015ac-31dd-48e6-9ddd-4804d1d63b40' class="glyphicon glyphicon-menu-down"></span></div>
+	<td class="time">1764337117457</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('d017b26c-1cff-480c-9274-bc7edde996fb','block');changeSingleIcon('span-d017b26c-1cff-480c-9274-bc7edde996fb');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Doc_Segments</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d017b26c-1cff-480c-9274-bc7edde996fb' class="glyphicon glyphicon-menu-down"></span></div>
 	</td>
 	</tr>
 <tr>
-	<td class="time">1761903816981</td>
+	<td class="time">1764337117457</td>
 	<td class="methodTest">
-		<span class="description"><b>Method: </b>view_User</span><br>
+		<span class="description"><b>Method: </b>delete_dogseg</span><br>
 			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>10</font></span><br>
-						<span class="duration"><b>Duration: </b>10.153s</span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
+						<span class="duration"><b>Duration: </b>5.204s</span><br>
 	</td>
 	<td class="result">
-						<div class="noCollapse" id="d69015ac-31dd-48e6-9ddd-4804d1d63b40" style="display: block;">
-												Test Case Started : view_User<br>
+						<div class="noCollapse" id="d017b26c-1cff-480c-9274-bc7edde996fb" style="display: block;">
+												Test Case Started : delete_dogseg<br>
 												Test Case Failure : 2<br>
-									<a href="javascript:toggleElement('exception-d69015ac-31dd-48e6-9ddd-4804d1d63b40','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: User was not Viewed successfully! expected [true] but found [false]</b></a><br/>
-		<div class="stackTrace" id="exception-d69015ac-31dd-48e6-9ddd-4804d1d63b40">
+									<a href="javascript:toggleElement('exception-d017b26c-1cff-480c-9274-bc7edde996fb','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Doc Segement Was Not Deleted Successfully expected [true] but found [false]</b></a><br/>
+		<div class="stackTrace" id="exception-d017b26c-1cff-480c-9274-bc7edde996fb">
 					org.testng.Assert.fail(Assert.java:111)<br/>
 					org.testng.Assert.failNotEquals(Assert.java:1578)<br/>
 					org.testng.Assert.assertTrue(Assert.java:57)<br/>
-					test_case.Access_permissions.view_User(Access_permissions.java:102)<br/>
+					test_case.Doc_Segments.delete_dogseg(Doc_Segments.java:56)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					<tr>
+	<td class="time">1764337084183</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('032b1493-5a49-4919-a9cb-61d95ec8ac7e','block');changeSingleIcon('span-032b1493-5a49-4919-a9cb-61d95ec8ac7e');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Doc_Segments</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-032b1493-5a49-4919-a9cb-61d95ec8ac7e' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1764337084183</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>view_dogseg</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
+						<span class="duration"><b>Duration: </b>9.074s</span><br>
+	</td>
+	<td class="result">
+						<div class="noCollapse" id="032b1493-5a49-4919-a9cb-61d95ec8ac7e" style="display: block;">
+												Test Case Started : view_dogseg<br>
+												Test Case Failure : 2<br>
+									<a href="javascript:toggleElement('exception-032b1493-5a49-4919-a9cb-61d95ec8ac7e','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Doc Segement Was Not viewed Successfully expected [true] but found [false]</b></a><br/>
+		<div class="stackTrace" id="exception-032b1493-5a49-4919-a9cb-61d95ec8ac7e">
+					org.testng.Assert.fail(Assert.java:111)<br/>
+					org.testng.Assert.failNotEquals(Assert.java:1578)<br/>
+					org.testng.Assert.assertTrue(Assert.java:57)<br/>
+					test_case.Doc_Segments.view_dogseg(Doc_Segments.java:42)<br/>
 					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
 					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
 					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
@@ -167,610 +224,69 @@
 	</div>
 </tr>
 						
-											<tr>
-	<td class="time">1761903827209</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('c7e4af1e-da09-40e9-b042-ad2a67d82252','block');changeSingleIcon('span-c7e4af1e-da09-40e9-b042-ad2a67d82252');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-c7e4af1e-da09-40e9-b042-ad2a67d82252' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1761903827209</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>delete_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>12</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 							<i>Depends on method(s): </i>
-			<span class="dependency">test_case.Access_permissions.edit_User</span>
-							<div class="stackTrace" id="c7e4af1e-da09-40e9-b042-ad2a67d82252" style="display: block;">
-						<a href="javascript:toggleElement('exception-c7e4af1e-da09-40e9-b042-ad2a67d82252','block')" title="Click to expand/collapse"><b>java.lang.Throwable: Method test_case.Access_permissions.delete_User() on instance test_case.Access_permissions@759fad4 depends on not successfully finished methods <br/>
-[test_case.Access_permissions.edit_User() on instance test_case.Access_permissions@759fad4]</b></a><br/>
-		<div class="stackTrace" id="exception-c7e4af1e-da09-40e9-b042-ad2a67d82252">
-					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)<br/>
-					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
-					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
-					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
-					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
-					org.testng.TestRunner.run(TestRunner.java:614)<br/>
-					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
-					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
-					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
-					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
-					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
-					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
-					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
-					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
-					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
-					org.testng.TestNG.run(TestNG.java:1079)<br/>
-					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
-					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
-					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
-						</div>
-		</td>
-	</div>
-</tr>
-					<tr>
-	<td class="time">1761903827209</td>
-	<td class="header skipped" colspan="4" onClick="toggleElement('afcded61-d76f-4b6a-b1b2-b235ef77acfe','block');changeSingleIcon('span-afcded61-d76f-4b6a-b1b2-b235ef77acfe');" title="Click to expand/collapse" style="cursor: pointer;">
-	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-afcded61-d76f-4b6a-b1b2-b235ef77acfe' class="glyphicon glyphicon-menu-down"></span></div>
-	</td>
-	</tr>
-<tr>
-	<td class="time">1761903827209</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>edit_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>11</font></span><br>
-						<span class="duration"><b>Duration: </b>0.000s</span><br>
-	</td>
-	<td class="result">
-		 							<i>Depends on method(s): </i>
-			<span class="dependency">test_case.Access_permissions.view_User</span>
-							<div class="stackTrace" id="afcded61-d76f-4b6a-b1b2-b235ef77acfe" style="display: block;">
-												Test Case Started : delete_User<br>
-									<a href="javascript:toggleElement('exception-afcded61-d76f-4b6a-b1b2-b235ef77acfe','block')" title="Click to expand/collapse"><b>java.lang.Throwable: Method test_case.Access_permissions.edit_User() on instance test_case.Access_permissions@759fad4 depends on not successfully finished methods <br/>
-[test_case.Access_permissions.view_User() on instance test_case.Access_permissions@759fad4]</b></a><br/>
-		<div class="stackTrace" id="exception-afcded61-d76f-4b6a-b1b2-b235ef77acfe">
-					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)<br/>
-					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
-					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
-					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
-					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
-					org.testng.TestRunner.run(TestRunner.java:614)<br/>
-					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
-					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
-					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
-					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
-					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
-					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
-					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
-					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
-					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
-					org.testng.TestNG.run(TestNG.java:1079)<br/>
-					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
-					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
-					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
-						</div>
-		</td>
-	</div>
-</tr>
-						
+				
 												<tr>
-			<td class="time">1761903797566</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('57a43663-b152-42c7-a4cd-6c5cb32a85bd','block');changeSingleIcon('span-57a43663-b152-42c7-a4cd-6c5cb32a85bd');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-57a43663-b152-42c7-a4cd-6c5cb32a85bd' class="glyphicon glyphicon-menu-down"></span></div>
+			<td class="time">1764337093386</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8c3650cf-002c-4957-9901-64045ac7c6b7','block');changeSingleIcon('span-8c3650cf-002c-4957-9901-64045ac7c6b7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Doc_Segments</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8c3650cf-002c-4957-9901-64045ac7c6b7' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1761903797566</td>
+	<td class="time">1764337093386</td>
 	<td class="methodTest">
-		<span class="description"><b>Method: </b>delete_Role</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>8</font></span><br>
-						<span class="duration"><b>Duration: </b>6.550s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="57a43663-b152-42c7-a4cd-6c5cb32a85bd" style="display: block;">
-												Test Case Started : delete_Role<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903783856</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('20daf2bb-4b65-446b-9b81-2dcbb4ef62df','block');changeSingleIcon('span-20daf2bb-4b65-446b-9b81-2dcbb4ef62df');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-20daf2bb-4b65-446b-9b81-2dcbb4ef62df' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903783856</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>view_Role</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
-						<span class="duration"><b>Duration: </b>6.536s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="20daf2bb-4b65-446b-9b81-2dcbb4ef62df" style="display: block;">
-												Test Case Started : view_Role<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903759957</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('f8f09335-c5ef-40a8-ab07-a29072bd87ec','block');changeSingleIcon('span-f8f09335-c5ef-40a8-ab07-a29072bd87ec');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f8f09335-c5ef-40a8-ab07-a29072bd87ec' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903759957</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Add_Role</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>5</font></span><br>
-						<span class="duration"><b>Duration: </b>23.673s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="f8f09335-c5ef-40a8-ab07-a29072bd87ec" style="display: block;">
-												Test Case Started : Add_Role<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903753317</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('8b911128-e294-4126-b21e-10ced7dd973e','block');changeSingleIcon('span-8b911128-e294-4126-b21e-10ced7dd973e');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8b911128-e294-4126-b21e-10ced7dd973e' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903753317</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>delete_Group</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
-						<span class="duration"><b>Duration: </b>6.509s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="8b911128-e294-4126-b21e-10ced7dd973e" style="display: block;">
-												Test Case Started : delete_Group<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903746561</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('1a41d0fe-0fe7-4002-8f83-47403ce1fa95','block');changeSingleIcon('span-1a41d0fe-0fe7-4002-8f83-47403ce1fa95');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1a41d0fe-0fe7-4002-8f83-47403ce1fa95' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903746561</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>edit_Group</span><br>
+		<span class="description"><b>Method: </b>edit_dogseg</span><br>
 			<span class="description"><b>Description: </b></span><br>
 				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>6.644s</span><br>
+						<span class="duration"><b>Duration: </b>23.993s</span><br>
 	</td>
 	<td class="result">
-						<div class="stackTrace" id="1a41d0fe-0fe7-4002-8f83-47403ce1fa95" style="display: block;">
-												Test Case Started : edit_Group<br>
+						<div class="stackTrace" id="8c3650cf-002c-4957-9901-64045ac7c6b7" style="display: block;">
+												Test Case Started : edit_dogseg<br>
 												Test Case Success : 1<br>
 								</td>
 	</div>
 </tr>
 						<tr>
-			<td class="time">1761903739994</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('a4ea5cd1-54b7-483a-bef8-63ba2a2d80b1','block');changeSingleIcon('span-a4ea5cd1-54b7-483a-bef8-63ba2a2d80b1');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a4ea5cd1-54b7-483a-bef8-63ba2a2d80b1' class="glyphicon glyphicon-menu-down"></span></div>
+			<td class="time">1764337033449</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6df2b151-bde5-45a1-9c07-ba729e62b4dd','block');changeSingleIcon('span-6df2b151-bde5-45a1-9c07-ba729e62b4dd');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Doc_Segments</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-6df2b151-bde5-45a1-9c07-ba729e62b4dd' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1761903739994</td>
+	<td class="time">1764337033449</td>
 	<td class="methodTest">
-		<span class="description"><b>Method: </b>view_Group</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
-						<span class="duration"><b>Duration: </b>6.492s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="a4ea5cd1-54b7-483a-bef8-63ba2a2d80b1" style="display: block;">
-												Test Case Started : view_Group<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903804228</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('e9d6e424-faaa-4bd6-8d45-9730c0ca0b1c','block');changeSingleIcon('span-e9d6e424-faaa-4bd6-8d45-9730c0ca0b1c');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-e9d6e424-faaa-4bd6-8d45-9730c0ca0b1c' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903804228</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Add_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>9</font></span><br>
-						<span class="duration"><b>Duration: </b>12.663s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="e9d6e424-faaa-4bd6-8d45-9730c0ca0b1c" style="display: block;">
-												Test Case Started : Add_User<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903729695</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('ca778688-5708-450e-bff6-48b4e065f852','block');changeSingleIcon('span-ca778688-5708-450e-bff6-48b4e065f852');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-ca778688-5708-450e-bff6-48b4e065f852' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903729695</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Add_Group</span><br>
+		<span class="description"><b>Method: </b>add_docseg</span><br>
 			<span class="description"><b>Description: </b></span><br>
 				<span class="description"><b>Priority: </b><font color='blue'>1</font></span><br>
-						<span class="duration"><b>Duration: </b>10.187s</span><br>
+						<span class="duration"><b>Duration: </b>50.604s</span><br>
 	</td>
 	<td class="result">
-						<div class="stackTrace" id="ca778688-5708-450e-bff6-48b4e065f852" style="display: block;">
-												Test Case Started : Add_Group<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903790473</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('99a9e3bf-f942-4c68-b3fb-5e7c72497760','block');changeSingleIcon('span-99a9e3bf-f942-4c68-b3fb-5e7c72497760');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Access_permissions</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-99a9e3bf-f942-4c68-b3fb-5e7c72497760' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903790473</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>edit_Role</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>7</font></span><br>
-						<span class="duration"><b>Duration: </b>6.949s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="99a9e3bf-f942-4c68-b3fb-5e7c72497760" style="display: block;">
-												Test Case Started : edit_Role<br>
+						<div class="stackTrace" id="6df2b151-bde5-45a1-9c07-ba729e62b4dd" style="display: block;">
+												Test Case Started : add_docseg<br>
 												Test Case Success : 1<br>
 								</td>
 	</div>
 </tr>
 										<tr>
-			<td class="time">1761903617916</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('2d57f635-a821-4f14-b6e5-2e7150faaddd','block');changeSingleIcon('span-2d57f635-a821-4f14-b6e5-2e7150faaddd');" title="Click to expand/collapse" style="cursor: pointer;">
+			<td class="time">1764337026925</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6008edaa-9758-4bdb-ae8d-eddef94eb2a5','block');changeSingleIcon('span-6008edaa-9758-4bdb-ae8d-eddef94eb2a5');" title="Click to expand/collapse" style="cursor: pointer;">
 			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login</div>
-			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials"] &nbsp;&nbsp;<span id='span-2d57f635-a821-4f14-b6e5-2e7150faaddd' class="glyphicon glyphicon-menu-down"></span></div>
+			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials"] &nbsp;&nbsp;<span id='span-6008edaa-9758-4bdb-ae8d-eddef94eb2a5' class="glyphicon glyphicon-menu-down"></span></div>
 			</td>
 			</tr>
 			<tr>
-	<td class="time">1761903617916</td>
+	<td class="time">1764337026925</td>
 	<td class="methodTest">
 		<span class="description"><b>Method: </b>Login_Data</span><br>
 			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>4.522s</span><br>
+							<span class="duration"><b>Duration: </b>6.394s</span><br>
 	</td>
 	<td class="result">
 					<i>Method arguments: </i><span class="arguments">"Approver", "User@123"</span><br>
-				<div class="stackTrace" id="2d57f635-a821-4f14-b6e5-2e7150faaddd" style="display: block;">
+				<div class="stackTrace" id="6008edaa-9758-4bdb-ae8d-eddef94eb2a5" style="display: block;">
 												Test Case Started : Login_Data<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-										<tr>
-			<td class="time">1761903638778</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('2ba16382-0d10-4790-8c0d-f01f0495f058','block');changeSingleIcon('span-2ba16382-0d10-4790-8c0d-f01f0495f058');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials"] &nbsp;&nbsp;<span id='span-2ba16382-0d10-4790-8c0d-f01f0495f058' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903638778</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Login_Test</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
-						<span class="duration"><b>Duration: </b>9.350s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Approver", "User@1234", "Invalid user name or password."</span><br>
-				<div class="stackTrace" id="2ba16382-0d10-4790-8c0d-f01f0495f058" style="display: block;">
-												Test Case Started : Login_Test<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903687076</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('85660e4a-3337-4795-827b-0d32af6f4be8','block');changeSingleIcon('span-85660e4a-3337-4795-827b-0d32af6f4be8');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["BlockLoginCredentials"] &nbsp;&nbsp;<span id='span-85660e4a-3337-4795-827b-0d32af6f4be8' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903687076</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Block_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>10.335s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Check", "User@123", ""</span><br>
-				<div class="stackTrace" id="85660e4a-3337-4795-827b-0d32af6f4be8" style="display: block;">
-												Test Case Started : Block_User<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903648183</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('2de2642e-4934-4f18-a3e8-e1c1c48b46ce','block');changeSingleIcon('span-2de2642e-4934-4f18-a3e8-e1c1c48b46ce');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials"] &nbsp;&nbsp;<span id='span-2de2642e-4934-4f18-a3e8-e1c1c48b46ce' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903648183</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Login_Test</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
-						<span class="duration"><b>Duration: </b>9.371s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Approver1", "User@123", "Invalid user name or password or Deactivated."</span><br>
-				<div class="stackTrace" id="2de2642e-4934-4f18-a3e8-e1c1c48b46ce" style="display: block;">
-												Test Case Started : Login_Test<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903706852</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('0f441ae2-ec37-4630-be6a-134d0d7188b0','block');changeSingleIcon('span-0f441ae2-ec37-4630-be6a-134d0d7188b0');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["BlockLoginCredentials"] &nbsp;&nbsp;<span id='span-0f441ae2-ec37-4630-be6a-134d0d7188b0' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903706852</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Block_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>9.362s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Check", "User1234", "Invalid user name or password."</span><br>
-				<div class="stackTrace" id="0f441ae2-ec37-4630-be6a-134d0d7188b0" style="display: block;">
-												Test Case Started : Block_User<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903697474</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('dcf35dcc-6370-40a0-ab8e-d272a9550640','block');changeSingleIcon('span-dcf35dcc-6370-40a0-ab8e-d272a9550640');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["BlockLoginCredentials"] &nbsp;&nbsp;<span id='span-dcf35dcc-6370-40a0-ab8e-d272a9550640' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903697474</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Block_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>9.319s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Check", "User123", "Invalid user name or password."</span><br>
-				<div class="stackTrace" id="dcf35dcc-6370-40a0-ab8e-d272a9550640" style="display: block;">
-												Test Case Started : Block_User<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903716278</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('ef23fde5-f577-4b64-b1ce-e32a94b67a9f','block');changeSingleIcon('span-ef23fde5-f577-4b64-b1ce-e32a94b67a9f');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["BlockLoginCredentials"] &nbsp;&nbsp;<span id='span-ef23fde5-f577-4b64-b1ce-e32a94b67a9f' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903716278</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Block_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>9.365s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Check", "User12345", "Your account has been disabled due to maximum failed login attempts. Please contact System Administrator."</span><br>
-				<div class="stackTrace" id="ef23fde5-f577-4b64-b1ce-e32a94b67a9f" style="display: block;">
-												Test Case Started : Block_User<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903725783</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('04083d8a-6a45-42d3-8d8e-2769fd1be822','block');changeSingleIcon('span-04083d8a-6a45-42d3-8d8e-2769fd1be822');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials1"] &nbsp;&nbsp;<span id='span-04083d8a-6a45-42d3-8d8e-2769fd1be822' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903725783</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>MainUserLogin</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
-						<span class="duration"><b>Duration: </b>3.843s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Approver", "User@123"</span><br>
-				<div class="stackTrace" id="04083d8a-6a45-42d3-8d8e-2769fd1be822" style="display: block;">
-												Test Case Started : MainUserLogin<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903657617</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('0f729f6a-fcdd-4a78-92da-ee5ae910194c','block');changeSingleIcon('span-0f729f6a-fcdd-4a78-92da-ee5ae910194c');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials"] &nbsp;&nbsp;<span id='span-0f729f6a-fcdd-4a78-92da-ee5ae910194c' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903657617</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Login_Test</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
-						<span class="duration"><b>Duration: </b>10.399s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Approver", "User@123", ""</span><br>
-				<div class="stackTrace" id="0f729f6a-fcdd-4a78-92da-ee5ae910194c" style="display: block;">
-												Test Case Started : Login_Test<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903629393</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('7e33d1b0-cab9-40b9-848f-ccfc2a5a5e0e','block');changeSingleIcon('span-7e33d1b0-cab9-40b9-848f-ccfc2a5a5e0e');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["LoginCredentials"] &nbsp;&nbsp;<span id='span-7e33d1b0-cab9-40b9-848f-ccfc2a5a5e0e' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903629393</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Login_Test</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
-						<span class="duration"><b>Duration: </b>9.326s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Approver1", "User@1234", "Invalid user name or password or Deactivated."</span><br>
-				<div class="stackTrace" id="7e33d1b0-cab9-40b9-848f-ccfc2a5a5e0e" style="display: block;">
-												Test Case Started : Login_Test<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903622549</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('9e5958df-aeb0-49ef-b769-586a6d542924','block');changeSingleIcon('span-9e5958df-aeb0-49ef-b769-586a6d542924');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9e5958df-aeb0-49ef-b769-586a6d542924' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903622549</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>logoutMainUser</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>1</font></span><br>
-						<span class="duration"><b>Duration: </b>6.633s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="9e5958df-aeb0-49ef-b769-586a6d542924" style="display: block;">
-												Test Case Started : logoutMainUser<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903668176</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('12b61a45-deda-463e-ae30-449bf30252c6','block');changeSingleIcon('span-12b61a45-deda-463e-ae30-449bf30252c6');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["BlockLoginCredentials"] &nbsp;&nbsp;<span id='span-12b61a45-deda-463e-ae30-449bf30252c6' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903668176</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Block_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>9.476s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Check", "User123", "Invalid user name or password."</span><br>
-				<div class="stackTrace" id="12b61a45-deda-463e-ae30-449bf30252c6" style="display: block;">
-												Test Case Started : Block_User<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-						<tr>
-			<td class="time">1761903677720</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('8523feef-d706-481b-8639-444e3b1b5bdf','block');changeSingleIcon('span-8523feef-d706-481b-8639-444e3b1b5bdf');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Login_Test_Data</div>
-			<div style="float:right;">@Test @ with DataProvider : ["BlockLoginCredentials"] &nbsp;&nbsp;<span id='span-8523feef-d706-481b-8639-444e3b1b5bdf' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903677720</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>Block_User</span><br>
-			<span class="description"><b>Description: </b></span><br>
-				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
-						<span class="duration"><b>Duration: </b>9.292s</span><br>
-	</td>
-	<td class="result">
-					<i>Method arguments: </i><span class="arguments">"Check", "User1234", "Invalid user name or password."</span><br>
-				<div class="stackTrace" id="8523feef-d706-481b-8639-444e3b1b5bdf" style="display: block;">
-												Test Case Started : Block_User<br>
-												Test Case Success : 1<br>
-								</td>
-	</div>
-</tr>
-										<tr>
-			<td class="time">1761903827220</td>
-			<td class="header passed" colspan="4" onClick="toggleElement('f578c8aa-1793-4c3e-b894-986aa4be1bbc','block');changeSingleIcon('span-f578c8aa-1793-4c3e-b894-986aa4be1bbc');" title="Click to expand/collapse" style="cursor: pointer;">
-			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>test_case.Logout</div>
-			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f578c8aa-1793-4c3e-b894-986aa4be1bbc' class="glyphicon glyphicon-menu-down"></span></div>
-			</td>
-			</tr>
-			<tr>
-	<td class="time">1761903827220</td>
-	<td class="methodTest">
-		<span class="description"><b>Method: </b>logoutUser</span><br>
-			<span class="description"><b>Description: </b></span><br>
-							<span class="duration"><b>Duration: </b>6.858s</span><br>
-	</td>
-	<td class="result">
-						<div class="stackTrace" id="f578c8aa-1793-4c3e-b894-986aa4be1bbc" style="display: block;">
-												Test Case Started : logoutUser<br>
 												Test Case Success : 1<br>
 								</td>
 	</div>

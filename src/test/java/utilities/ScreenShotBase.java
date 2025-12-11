@@ -7,11 +7,9 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.annotations.Test;
+import base.BaseClass;
 
-import base.Base_Class;
-
-public class ScreenShotBase  extends Base_Class{
+public class ScreenShotBase  extends BaseClass{
 	
 	public void getScreenShot(String packageName, String className, String methodName) throws IOException
 	{

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.679" tests="4" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="47.78" tests="30" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="testng.Skipped" value="0"/>
-    <property name="java.class.path" value="D:\Backup\Projects\rhb.com\target\test-classes;D:\Backup\Projects\rhb.com\target\classes;C:\Users\srihari.gowli\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\srihari.gowli\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\srihari.gowli\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\srihari.gowli\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\srihari.gowli\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\srihari.gowli\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\srihari.gowli\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\com\github\sdrss\reportng\2.7.0\reportng-2.7.0.jar;C:\Users\srihari.gowli\.m2\repository\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\srihari.gowli\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\srihari.gowli\.m2\repository\commons-lang\commons-lang\2.1\commons-lang-2.1.jar;C:\Users\srihari.gowli\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.7.1\jackson-databind-2.12.7.1.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\srihari.gowli\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\srihari.gowli\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\srihari.gowli\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\srihari.gowli\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\srihari.gowli\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\srihari.gowli\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\srihari.gowli\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\srihari.gowli\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="java.class.path" value="D:\Backup\Projects\RHB_Project\rhb.com\target\test-classes;D:\Backup\Projects\RHB_Project\rhb.com\target\classes;C:\Users\srihari.gowli\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\srihari.gowli\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\srihari.gowli\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\srihari.gowli\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\srihari.gowli\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\srihari.gowli\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\srihari.gowli\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\srihari.gowli\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\srihari.gowli\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\srihari.gowli\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\srihari.gowli\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\srihari.gowli\AppData\Local\Temp\surefire13995072149447583540\surefirebooter16465365310072515097.jar C:\Users\srihari.gowli\AppData\Local\Temp\surefire13995072149447583540 2025-09-22T16-19-38_737-jvmRun1 surefire391024981641101715tmp surefire_017406393462186229735tmp"/>
+    <property name="sun.java.command" value="C:\Users\srihari.gowli\AppData\Local\Temp\surefire7012876150956649616\surefirebooter-20251211173530779_3.jar C:\Users\srihari.gowli\AppData\Local\Temp\surefire7012876150956649616 2025-12-11T17-35-30_373-jvmRun1 surefire-20251211173530779_1tmp surefire_0-20251211173530779_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Backup\Projects\rhb.com\target\test-classes;D:\Backup\Projects\rhb.com\target\classes;C:\Users\srihari.gowli\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\srihari.gowli\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\srihari.gowli\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\srihari.gowli\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\srihari.gowli\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\srihari.gowli\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\srihari.gowli\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\com\github\sdrss\reportng\2.7.0\reportng-2.7.0.jar;C:\Users\srihari.gowli\.m2\repository\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\srihari.gowli\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\srihari.gowli\.m2\repository\commons-lang\commons-lang\2.1\commons-lang-2.1.jar;C:\Users\srihari.gowli\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.7.1\jackson-databind-2.12.7.1.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\srihari.gowli\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\srihari.gowli\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\srihari.gowli\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\srihari.gowli\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\srihari.gowli\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\srihari.gowli\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\srihari.gowli\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\srihari.gowli\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Backup\Projects\RHB_Project\rhb.com\target\test-classes;D:\Backup\Projects\RHB_Project\rhb.com\target\classes;C:\Users\srihari.gowli\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\srihari.gowli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\srihari.gowli\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\srihari.gowli\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\srihari.gowli\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\srihari.gowli\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\srihari.gowli\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\srihari.gowli\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\srihari.gowli\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\srihari.gowli\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\srihari.gowli\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\srihari.gowli\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\srihari.gowli\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\srihari.gowli\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\srihari.gowli\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\srihari.gowli\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\srihari.gowli\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;C:\Users\srihari.gowli\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\srihari.gowli\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\srihari.gowli\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\srihari.gowli\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\srihari.gowli\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\srihari.gowli"/>
     <property name="user.language" value="en"/>
@@ -26,29 +26,26 @@
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\Backup\Projects\rhb.com"/>
+    <property name="basedir" value="D:\Backup\Projects\RHB_Project\rhb.com"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="testng.Failed" value="2"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\srihari.gowli\AppData\Local\Temp\surefire13995072149447583540\surefirebooter16465365310072515097.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\srihari.gowli\AppData\Local\Temp\surefire7012876150956649616\surefirebooter-20251211173530779_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.14+8-LTS-191"/>
     <property name="user.name" value="srihari.gowli"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="testng.KnownDefect" value="0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="testng.Fixed" value="0"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\srihari.gowli\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\SRIHAR~1.GOW\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.14"/>
-    <property name="user.dir" value="D:\Backup\Projects\rhb.com"/>
+    <property name="user.dir" value="D:\Backup\Projects\RHB_Project\rhb.com"/>
     <property name="os.arch" value="amd64"/>
     <property name="webdriver.gecko.driver" value="C:\Users\srihari.gowli\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -60,67 +57,393 @@
     <property name="java.vm.version" value="17.0.14+8-LTS-191"/>
     <property name="java.specification.maintenance.version" value="1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="testng.Passed" value="2"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Login_Data[Approver, User@123](1)" classname="test_case.Login" time="1.054">
-    <system-out><![CDATA[2025-09-22 16:19:42 INFO  [main] Base_Class - Application Started
-2025-09-22 16:19:42 INFO  [main] Base_Class - ===================
-2025-09-22 16:19:46 INFO  [main] Base_Class - FireFoxDriver Object is Created  FirefoxDriver: firefox on windows (82622849-c81f-44e2-8617-f019fac1bcdd)
-2025-09-22 16:19:46 INFO  [main] Base_Class - Browser Got Opened
-2025-09-22 16:19:46 INFO  [main] Base_Class - url Called  http://192.168.2.27:9091/
-2025-09-22 16:19:46 INFO  [main] Base_Class - Tear Up is Done
-Test Case Starting
-2025-09-22 16:19:47 INFO  [main] Login - Login Test Cases Started
-2025-09-22 16:19:47 INFO  [main] Login - Login_Page Object Created
-2025-09-22 16:19:47 INFO  [main] Login - Login Page Method call
-2025-09-22 16:19:47 INFO  [main] Login_page - Login Method Called
-2025-09-22 16:19:47 INFO  [main] Login_page - Entered UserName is :Approver
-2025-09-22 16:19:47 INFO  [main] Login_page - Password Entered
-2025-09-22 16:19:48 INFO  [main] Login_page - Submit Button Clicked
-2025-09-22 16:19:48 INFO  [main] Login_page - Login SuccessFull
-2025-09-22 16:19:48 INFO  [main] Login - Login Test Completed Sucessfully
-Test Case Success
+  <testcase name="verifyLoginData[Approver, User@123](1)" classname="tests.Login" time="1.55">
+    <system-out><![CDATA[2025-12-11 17:35:34 INFO  [main] BaseClass - Application Started
+2025-12-11 17:35:34 INFO  [main] BaseClass - ===================
+2025-12-11 17:35:38 INFO  [main] BaseClass - FireFoxDriver Object is Created  FirefoxDriver: firefox on windows (cc9c2f7f-8385-4378-9a80-565cc2a7707a)
+2025-12-11 17:35:38 INFO  [main] BaseClass - Browser Got Opened
+2025-12-11 17:35:38 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2025-12-11 17:35:38 INFO  [main] BaseClass - Tear Up is Done
+2025-12-11 17:35:39 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:39 INFO  [main] Login - Login User method Started
+2025-12-11 17:35:39 INFO  [main] Login - Login Page Method call
+2025-12-11 17:35:39 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:39 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 17:35:39 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:41 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:41 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 17:35:41 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 17:35:41 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 17:35:41 INFO  [main] Listeners - Test Case Success
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="Add_Group" classname="test_case.Access_permissions" time="1.599">
-    <failure message="Submit is clicked : Not Clicked" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Submit is clicked : Not Clicked
-	at test_case.Access_permissions.Add_Group(Access_permissions.java:29)
-]]></failure>
-    <system-out><![CDATA[2025-09-22 16:19:48 INFO  [main] Access_permissions - Access Permissions link Click
-Test Case Starting
-2025-09-22 16:19:48 INFO  [main] Access_permissions - This is Add Group Method
-2025-09-22 16:19:48 INFO  [main] Helper_Class - Access Permissions Module Clicked
-2025-09-22 16:19:48 INFO  [main] Helper_Class - Sub Module Group is clicked Clicked
-2025-09-22 16:19:49 INFO  [main] Helper_Class - New Group Button is clicked Clicked
-2025-09-22 16:19:49 INFO  [main] Helper_Class - All Modules is clicked Clicked
-Test Case Failure
+  <testcase name="logoutMainUser" classname="tests.LoginTest" time="0.623">
+    <system-out><![CDATA[2025-12-11 17:35:41 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:41 INFO  [main] LoginTest - Logout for the User
+2025-12-11 17:35:41 INFO  [main] LoginPage - This is logout method
+2025-12-11 17:35:41 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 17:35:41 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 17:35:41 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 17:35:41 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 17:35:41 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 17:35:41 INFO  [main] LoginPage - Logout Success
+2025-12-11 17:35:41 INFO  [main] Listeners - Test Case Success
 ]]></system-out>
   </testcase>
-  <testcase name="Add_Role" classname="test_case.Access_permissions" time="0.906">
-    <failure message="Add New Role : Not Clicked" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Add New Role : Not Clicked
-	at test_case.Access_permissions.Add_Role(Access_permissions.java:36)
-]]></failure>
-    <system-out><![CDATA[Test Case Starting
-2025-09-22 16:19:49 INFO  [main] Access_permissions - This is Add Role Method
-2025-09-22 16:19:50 INFO  [main] Helper_Class - Roles Module Clicked
-Test Case Failure
+  <testcase name="verifyLoginTest[Approver1, User@1234, Invalid user name or password or Deactivated.](1)" classname="tests.LoginTest" time="1.351">
+    <system-out><![CDATA[2025-12-11 17:35:42 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:42 INFO  [main] LoginTest - Login Test Started
+2025-12-11 17:35:42 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 17:35:42 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:42 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 17:35:42 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:42 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:43 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:43 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 17:35:43 INFO  [main] Listeners - Test Case Success
 ]]></system-out>
   </testcase>
-  <testcase name="Add_User" classname="test_case.Access_permissions" time="3.645">
-    <system-out><![CDATA[Test Case Starting
-2025-09-22 16:19:50 INFO  [main] Access_permissions - This is an Add User Method
-2025-09-22 16:19:51 INFO  [main] Helper_Class - User Module to be selected  Clicked
-2025-09-22 16:19:51 INFO  [main] Helper_Class - Select Role User Yes Radio Button  Clicked
-2025-09-22 16:19:52 INFO  [main] Helper_Class - Selected Role User Yes Radio Button  Clicked
-2025-09-22 16:19:52 INFO  [main] Helper_Class - Active User Yes Radio Button  Clicked
-2025-09-22 16:19:54 INFO  [main] Helper_Class - User Save Button  Clicked
-2025-09-22 16:19:54 INFO  [main] Access_Permissions_page - User Created Successfully
-Test Case Success
+  <testcase name="verifyLoginTest[Approver, User@1234, Invalid user name or password.](2)" classname="tests.LoginTest" time="1.356">
+    <system-out><![CDATA[2025-12-11 17:35:43 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:43 INFO  [main] LoginTest - Login Test Started
+2025-12-11 17:35:43 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 17:35:43 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:43 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 17:35:43 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:43 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:44 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:44 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 17:35:44 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLoginTest[Approver1, User@123, Invalid user name or password or Deactivated.](3)" classname="tests.LoginTest" time="1.37">
+    <system-out><![CDATA[2025-12-11 17:35:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:44 INFO  [main] LoginTest - Login Test Started
+2025-12-11 17:35:44 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 17:35:44 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:44 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 17:35:44 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:44 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:46 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:46 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 17:35:46 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLoginTest[Approver, User@123, ](4)" classname="tests.LoginTest" time="1.403">
+    <system-out><![CDATA[2025-12-11 17:35:46 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:46 INFO  [main] LoginTest - Login Test Started
+2025-12-11 17:35:46 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 17:35:46 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:46 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 17:35:46 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:46 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:46 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 17:35:46 INFO  [main] LoginTest - Login Success for User: Approver
+2025-12-11 17:35:46 INFO  [main] LoginTest - Logout for the User
+2025-12-11 17:35:46 INFO  [main] LoginPage - This is logout method
+2025-12-11 17:35:46 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 17:35:46 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 17:35:46 INFO  [main] LoginPage - Main User
+2025-12-11 17:35:47 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 17:35:47 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 17:35:47 INFO  [main] LoginPage - Logout Success
+2025-12-11 17:35:47 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyblockUser[Check, User123, Invalid user name or password.](1)" classname="tests.LoginTest" time="1.313">
+    <system-out><![CDATA[2025-12-11 17:35:47 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:47 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 17:35:47 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 17:35:47 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:47 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 17:35:47 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:47 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:48 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:48 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 17:35:48 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyblockUser[Check, User1234, Invalid user name or password.](2)" classname="tests.LoginTest" time="1.32">
+    <system-out><![CDATA[2025-12-11 17:35:48 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:48 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 17:35:48 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 17:35:48 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:48 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 17:35:48 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:49 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:50 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:50 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 17:35:50 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyblockUser[Check, User@123, ](3)" classname="tests.LoginTest" time="1.391">
+    <system-out><![CDATA[2025-12-11 17:35:50 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:50 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 17:35:50 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 17:35:50 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:50 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 17:35:50 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:50 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:51 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 17:35:51 INFO  [main] LoginTest - Login Success for User: Check
+2025-12-11 17:35:51 INFO  [main] LoginTest - Logout for the User
+2025-12-11 17:35:51 INFO  [main] LoginPage - This is logout method
+2025-12-11 17:35:51 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 17:35:51 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 17:35:51 INFO  [main] LoginPage - Main User
+2025-12-11 17:35:51 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 17:35:51 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 17:35:51 INFO  [main] LoginPage - Logout Success
+2025-12-11 17:35:51 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyblockUser[Check, User123, Invalid user name or password.](4)" classname="tests.LoginTest" time="1.438">
+    <system-out><![CDATA[2025-12-11 17:35:51 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:51 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 17:35:51 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 17:35:51 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:51 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 17:35:51 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:51 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:52 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:53 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 17:35:53 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyblockUser[Check, User1234, Invalid user name or password.](5)" classname="tests.LoginTest" time="1.327">
+    <system-out><![CDATA[2025-12-11 17:35:53 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:53 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 17:35:53 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 17:35:53 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:53 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 17:35:53 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:53 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:54 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:54 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 17:35:54 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyblockUser[Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.](6)" classname="tests.LoginTest" time="1.354">
+    <system-out><![CDATA[2025-12-11 17:35:54 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:54 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 17:35:54 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 17:35:54 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:54 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 17:35:54 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:54 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:55 INFO  [main] LoginPage - This is failed test text
+2025-12-11 17:35:55 INFO  [main] LoginPage - Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.
+2025-12-11 17:35:55 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="mainUserLogin[Approver, User@123](1)" classname="tests.LoginTest" time="1.092">
+    <system-out><![CDATA[2025-12-11 17:35:55 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:55 INFO  [main] LoginTest - Main Users Login
+2025-12-11 17:35:55 INFO  [main] Login - Login User method Started
+2025-12-11 17:35:55 INFO  [main] Login - Login Page Method call
+2025-12-11 17:35:55 INFO  [main] LoginPage - Login Method Called
+2025-12-11 17:35:55 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 17:35:55 INFO  [main] LoginPage - Password Entered
+2025-12-11 17:35:56 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 17:35:56 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 17:35:56 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 17:35:56 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 17:35:56 INFO  [main] LoginTest - User Logged In
+2025-12-11 17:35:56 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAddGroup" classname="tests.AccessPermissions" time="1.709">
+    <system-out><![CDATA[2025-12-11 17:35:56 INFO  [main] AccessPermissions - Access Permissions link Click
+2025-12-11 17:35:56 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:56 INFO  [main] AccessPermissions - This is Add Group Method
+2025-12-11 17:35:57 INFO  [main] HelperClass - Access Permissions Module Clicked
+2025-12-11 17:35:57 INFO  [main] HelperClass - Sub Module Group is clicked Clicked
+2025-12-11 17:35:58 INFO  [main] HelperClass - New Group Button is clicked Clicked
+2025-12-11 17:35:58 INFO  [main] HelperClass - All Modules is clicked Clicked
+2025-12-11 17:35:58 INFO  [main] AccessPermissionsPage - Group Created Successfully
+2025-12-11 17:35:58 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyViewGroup" classname="tests.AccessPermissions" time="1.016">
+    <system-out><![CDATA[2025-12-11 17:35:58 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:58 INFO  [main] AccessPermissions - This is View Group Method
+2025-12-11 17:35:58 INFO  [main] AccessPermissionsPage - View Group method entered
+2025-12-11 17:35:59 INFO  [main] HelperClass - View Group Clicked
+2025-12-11 17:35:59 INFO  [main] HelperClass - Close Group Clicked
+2025-12-11 17:35:59 INFO  [main] AccessPermissionsPage - View Group Successfull
+2025-12-11 17:35:59 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEditGroup" classname="tests.AccessPermissions" time="0.643">
+    <system-out><![CDATA[2025-12-11 17:35:59 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:35:59 INFO  [main] AccessPermissions - This is Edit Group Method
+2025-12-11 17:35:59 INFO  [main] AccessPermissionsPage - Edit Group method entered
+2025-12-11 17:35:59 INFO  [main] HelperClass - Edit Group Clicked
+2025-12-11 17:36:00 INFO  [main] HelperClass - Save Group Clicked
+2025-12-11 17:36:00 INFO  [main] AccessPermissionsPage - Edit Group Successfull
+2025-12-11 17:36:00 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDeleteGroup" classname="tests.AccessPermissions" time="1.195">
+    <system-out><![CDATA[2025-12-11 17:36:00 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:00 INFO  [main] AccessPermissions - This is Delete Group Method
+2025-12-11 17:36:00 INFO  [main] AccessPermissionsPage - Delete Group method entered
+2025-12-11 17:36:01 INFO  [main] HelperClass - Delete Group Clicked
+2025-12-11 17:36:01 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 17:36:01 INFO  [main] AccessPermissionsPage - Delete Group Successfull
+2025-12-11 17:36:01 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAddRole" classname="tests.AccessPermissions" time="2.738">
+    <system-out><![CDATA[2025-12-11 17:36:01 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:01 INFO  [main] AccessPermissions - This is Add Role Method
+2025-12-11 17:36:01 INFO  [main] HelperClass - Roles Module Clicked
+2025-12-11 17:36:02 INFO  [main] HelperClass - Add New Role Clicked
+2025-12-11 17:36:02 INFO  [main] HelperClass - Group Down Selected  Clicked
+2025-12-11 17:36:03 INFO  [main] HelperClass - Select Group Name Clicked
+2025-12-11 17:36:03 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 17:36:03 INFO  [main] HelperClass - Group Add Permissions in Access Permissions for Role Clicked
+2025-12-11 17:36:03 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 17:36:04 INFO  [main] HelperClass - Role Saved JS Clicked
+2025-12-11 17:36:04 INFO  [main] AccessPermissionsPage - Roles Created Successfully
+2025-12-11 17:36:04 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyViewRole" classname="tests.AccessPermissions" time="1.183">
+    <system-out><![CDATA[2025-12-11 17:36:04 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:04 INFO  [main] AccessPermissions - This is View Role Method
+2025-12-11 17:36:04 INFO  [main] AccessPermissionsPage - View Role method entered
+2025-12-11 17:36:04 INFO  [main] HelperClass - View Role Clicked
+2025-12-11 17:36:05 INFO  [main] HelperClass - Close Role Clicked
+2025-12-11 17:36:05 INFO  [main] AccessPermissionsPage - View Role Successfull
+2025-12-11 17:36:05 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEditRole" classname="tests.AccessPermissions" time="1.365">
+    <system-out><![CDATA[2025-12-11 17:36:05 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:05 INFO  [main] AccessPermissions - This is Edit Role Method
+2025-12-11 17:36:05 INFO  [main] AccessPermissionsPage - Edit Role method entered
+2025-12-11 17:36:06 INFO  [main] HelperClass - Edit Role Clicked
+2025-12-11 17:36:06 INFO  [main] HelperClass - Save Role Clicked
+2025-12-11 17:36:06 INFO  [main] AccessPermissionsPage - Edit Role Successfull
+2025-12-11 17:36:06 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDeleteRole" classname="tests.AccessPermissions" time="0.968">
+    <system-out><![CDATA[2025-12-11 17:36:06 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:06 INFO  [main] AccessPermissions - This is Delete Role Method
+2025-12-11 17:36:06 INFO  [main] AccessPermissionsPage - Delete Role method entered
+2025-12-11 17:36:07 INFO  [main] HelperClass - Delete Role Icon  Clicked
+2025-12-11 17:36:07 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 17:36:07 INFO  [main] AccessPermissionsPage - Delete Role Successfull
+2025-12-11 17:36:07 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAddUser" classname="tests.AccessPermissions" time="1.377">
+    <system-out><![CDATA[2025-12-11 17:36:07 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:07 INFO  [main] AccessPermissions - This is an Add User Method
+2025-12-11 17:36:08 INFO  [main] HelperClass - Select Role User  Radio Button  Clicked
+2025-12-11 17:36:08 INFO  [main] HelperClass - Selected Role User  Radio Button  Clicked
+2025-12-11 17:36:08 INFO  [main] HelperClass - Active User Radio Button JS Clicked
+2025-12-11 17:36:09 INFO  [main] HelperClass - Submit Button Clicked
+2025-12-11 17:36:09 INFO  [main] AccessPermissionsPage - User Created Successfully
+2025-12-11 17:36:09 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyViewUser" classname="tests.AccessPermissions" time="0.911">
+    <system-out><![CDATA[2025-12-11 17:36:09 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:09 INFO  [main] AccessPermissions - This is User View  Method
+2025-12-11 17:36:09 INFO  [main] AccessPermissionsPage - View User method entered
+2025-12-11 17:36:09 INFO  [main] HelperClass - View User Clicked
+2025-12-11 17:36:09 INFO  [main] HelperClass - Close User Clicked
+2025-12-11 17:36:09 INFO  [main] AccessPermissionsPage - View User Successfull
+2025-12-11 17:36:09 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEditUser" classname="tests.AccessPermissions" time="1.219">
+    <system-out><![CDATA[2025-12-11 17:36:10 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:10 INFO  [main] AccessPermissions - This is User edit  Method
+2025-12-11 17:36:10 INFO  [main] AccessPermissionsPage - Edit User method entered
+2025-12-11 17:36:10 INFO  [main] HelperClass - Edit User Clicked
+2025-12-11 17:36:11 INFO  [main] HelperClass - Save User Clicked
+2025-12-11 17:36:11 INFO  [main] AccessPermissionsPage - Edit User Successfull
+2025-12-11 17:36:11 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDeleteUser" classname="tests.AccessPermissions" time="0.496">
+    <system-out><![CDATA[2025-12-11 17:36:11 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:11 INFO  [main] AccessPermissions - This is User Delete  Method
+2025-12-11 17:36:11 INFO  [main] AccessPermissionsPage - Delete User method entered
+2025-12-11 17:36:11 INFO  [main] HelperClass - Delete User Clicked
+2025-12-11 17:36:11 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 17:36:11 INFO  [main] AccessPermissionsPage - Delete User Successfull
+2025-12-11 17:36:11 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAddDocSeg" classname="tests.DocSegments" time="4.858">
+    <system-out><![CDATA[2025-12-11 17:36:11 INFO  [main] DocSegments - Documents Segments link Click
+2025-12-11 17:36:11 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:11 INFO  [main] DocSegments - The Document segment add started 
+2025-12-11 17:36:11 INFO  [main] DocSegmentsPage - Add New Document Segement
+2025-12-11 17:36:12 INFO  [main] HelperClass - Documents Segment Module Clicked
+2025-12-11 17:36:12 INFO  [main] HelperClass - Add New Segement Clicked
+2025-12-11 17:36:12 INFO  [main] HelperClass - Custom Query Drop Down Clicked
+2025-12-11 17:36:13 INFO  [main] HelperClass - Custom Query Select Clicked
+2025-12-11 17:36:13 INFO  [main] HelperClass - Vault Drop Down Clicked
+2025-12-11 17:36:13 INFO  [main] HelperClass - Vault Server Clicked
+2025-12-11 17:36:13 INFO  [main] HelperClass - Groups Checkbox JS Clicked
+2025-12-11 17:36:14 INFO  [main] HelperClass - Configue Link Tab Clicked
+2025-12-11 17:36:14 INFO  [main] HelperClass - Archive Id Clicked
+2025-12-11 17:36:14 INFO  [main] HelperClass - Account Number Clicked
+2025-12-11 17:36:14 INFO  [main] HelperClass - Save Button Clicked
+2025-12-11 17:36:14 INFO  [main] DocSegmentsPage - New Document Segement Added Sucessfully
+2025-12-11 17:36:16 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyViewDogSeg" classname="tests.DocSegments" time="0.877">
+    <system-out><![CDATA[2025-12-11 17:36:16 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:16 INFO  [main] DocSegments - View Segement Method Called
+2025-12-11 17:36:16 INFO  [main] DocSegmentsPage - View Doc Segment
+2025-12-11 17:36:16 INFO  [main] HelperClass - View Icon Clicked
+2025-12-11 17:36:17 INFO  [main] HelperClass - Close View Icon Clicked
+2025-12-11 17:36:17 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEditDogSeg" classname="tests.DocSegments" time="1.051">
+    <system-out><![CDATA[2025-12-11 17:36:17 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:17 INFO  [main] DocSegments - Edit Segement Method Called
+2025-12-11 17:36:17 INFO  [main] DocSegmentsPage - Edit Doc Segment
+2025-12-11 17:36:17 INFO  [main] HelperClass - Edit Icon Clicked
+2025-12-11 17:36:18 INFO  [main] HelperClass - Save Icon Clicked
+2025-12-11 17:36:18 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDeleteDogSeg" classname="tests.DocSegments" time="1.046">
+    <system-out><![CDATA[2025-12-11 17:36:18 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:18 INFO  [main] DocSegments - Delete Segement Method Called
+2025-12-11 17:36:18 INFO  [main] DocSegmentsPage - Delete Doc Segment
+2025-12-11 17:36:19 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 17:36:19 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 17:36:19 INFO  [main] Listeners - Test Case Success
+]]></system-out>
+  </testcase>
+  <testcase name="logoutUser" classname="tests.Logout" time="0.595">
+    <system-out><![CDATA[2025-12-11 17:36:19 INFO  [main] Listeners - Test Case Started
+2025-12-11 17:36:19 INFO  [main] Login - Logout for the User
+2025-12-11 17:36:19 INFO  [main] LoginPage - This is logout method
+2025-12-11 17:36:19 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 17:36:19 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 17:36:19 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 17:36:19 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 17:36:20 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 17:36:20 INFO  [main] LoginPage - Logout Success
+2025-12-11 17:36:20 INFO  [main] Listeners - Test Case Success
 ]]></system-out>
   </testcase>
 </testsuite>

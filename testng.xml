@@ -3,14 +3,16 @@
 <suite name="Suite">
  <listeners>
   <listener class-name="base.Listeners"/>
-  <listener class-name="org.uncommons.reportng.HTMLReporter" />
  </listeners>
+ 
   <test name="Test">
 	  <classes>
-	      <class name="test_case.Login"/>
-	      <class name="test_case.Login_Test_Data"/> 
-	      <class name="test_case.Access_permissions"/>
-		  <class name="test_case.Logout"/>  -->
+	      <class name="tests.Login"/>
+	      <class name="tests.LoginTest"/> 
+	      <class name="tests.AccessPermissions"/>
+	      <class name="tests.DocSegments"/>
+		  <class name="tests.Logout"/>
+		   
 	  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->	
