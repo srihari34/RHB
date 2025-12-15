@@ -14,13 +14,13 @@ pipeline {
             }
         }
 
-        stage('Build & Test') {
+        stage('Build & Run Test') {
             steps {
                 // Run Maven tests
                 bat 'mvn clean test'
             }
         }
-
+}
         post {
         always {
             testNG(
