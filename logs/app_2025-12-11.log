@@ -2629,3 +2629,1413 @@ Session ID: 4457e460-f706-4e40-b073-d1febe950853
 2025-12-11 17:36:20 INFO  [main] HelperClass - Confirm Yes Button Clicked
 2025-12-11 17:36:20 INFO  [main] LoginPage - Logout Success
 2025-12-11 17:36:20 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:40:48 INFO  [main] BaseClass - Application Started
+2025-12-11 18:40:48 INFO  [main] BaseClass - ===================
+2025-12-11 18:40:53 INFO  [main] BaseClass - FireFoxDriver Object is Created  FirefoxDriver: firefox on windows (0ae4a95a-4be1-4a97-8c5d-719c36081805)
+2025-12-11 18:40:53 INFO  [main] BaseClass - Browser Got Opened
+2025-12-11 18:40:53 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2025-12-11 18:40:53 INFO  [main] BaseClass - Tear Up is Done
+2025-12-11 18:40:55 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:40:55 INFO  [main] Login - Login User method Started
+2025-12-11 18:40:55 INFO  [main] Login - Login Page Method call
+2025-12-11 18:40:55 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:40:55 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:40:55 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:40:56 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:40:56 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 18:40:56 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 18:40:56 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 18:40:56 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:40:56 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:40:56 INFO  [main] LoginTest - Logout for the User
+2025-12-11 18:40:56 INFO  [main] LoginPage - This is logout method
+2025-12-11 18:40:56 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 18:40:56 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 18:40:56 INFO  [main] LoginPage - Main User
+2025-12-11 18:40:57 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 18:40:57 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 18:40:57 INFO  [main] LoginPage - Logout Success
+2025-12-11 18:40:57 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:40:57 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:40:57 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:40:57 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 18:40:57 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:40:57 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 18:40:57 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:40:57 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:40:58 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:40:58 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:40:58 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:40:59 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:40:59 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:40:59 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 18:40:59 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:40:59 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:40:59 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:40:59 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:00 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:41:00 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 18:41:00 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:00 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:00 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:41:00 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 18:41:00 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:00 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 18:41:00 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:00 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:01 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:41:01 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:41:01 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:01 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:01 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:41:01 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 18:41:01 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:01 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:41:01 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:02 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:02 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 18:41:02 INFO  [main] LoginTest - Login Success for User: Approver
+2025-12-11 18:41:02 INFO  [main] LoginTest - Logout for the User
+2025-12-11 18:41:02 INFO  [main] LoginPage - This is logout method
+2025-12-11 18:41:02 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 18:41:02 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 18:41:02 INFO  [main] LoginPage - Main User
+2025-12-11 18:41:02 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 18:41:03 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 18:41:03 INFO  [main] LoginPage - Logout Success
+2025-12-11 18:41:03 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:03 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:03 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:41:03 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:41:03 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:03 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:41:03 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:03 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:04 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:41:04 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 18:41:04 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:04 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:04 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:41:04 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:41:04 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:04 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:41:04 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:04 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:05 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:41:05 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 18:41:05 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:05 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:05 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:41:05 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:41:05 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:05 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:41:05 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:06 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:06 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 18:41:06 INFO  [main] LoginTest - Login Success for User: Check
+2025-12-11 18:41:06 INFO  [main] LoginTest - Logout for the User
+2025-12-11 18:41:06 INFO  [main] LoginPage - This is logout method
+2025-12-11 18:41:06 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 18:41:06 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 18:41:06 INFO  [main] LoginPage - Main User
+2025-12-11 18:41:07 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 18:41:07 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 18:41:07 INFO  [main] LoginPage - Logout Success
+2025-12-11 18:41:07 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:07 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:07 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:41:07 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:41:07 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:07 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:41:07 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:07 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:08 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:41:08 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 18:41:08 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:08 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:08 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:41:08 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:41:08 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:08 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:41:08 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:08 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:09 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:41:09 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 18:41:09 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:10 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:10 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:41:10 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:41:10 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:10 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:41:10 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:10 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:11 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:41:11 INFO  [main] LoginPage - Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.
+2025-12-11 18:41:11 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:11 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:11 INFO  [main] LoginTest - Main Users Login
+2025-12-11 18:41:11 INFO  [main] Login - Login User method Started
+2025-12-11 18:41:11 INFO  [main] Login - Login Page Method call
+2025-12-11 18:41:11 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:41:11 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:41:11 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:41:12 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:41:12 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 18:41:12 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 18:41:12 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 18:41:12 INFO  [main] LoginTest - User Logged In
+2025-12-11 18:41:12 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:12 INFO  [main] AccessPermissions - Access Permissions link Click
+2025-12-11 18:41:12 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:12 INFO  [main] AccessPermissions - This is Add Group Method
+2025-12-11 18:41:12 INFO  [main] HelperClass - Access Permissions Module Clicked
+2025-12-11 18:41:12 INFO  [main] HelperClass - Sub Module Group is clicked Clicked
+2025-12-11 18:41:13 INFO  [main] HelperClass - New Group Button is clicked Clicked
+2025-12-11 18:41:13 INFO  [main] HelperClass - All Modules is clicked Clicked
+2025-12-11 18:41:14 INFO  [main] AccessPermissionsPage - Group Created Successfully
+2025-12-11 18:41:14 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:14 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:14 INFO  [main] AccessPermissions - This is View Group Method
+2025-12-11 18:41:14 INFO  [main] AccessPermissionsPage - View Group method entered
+2025-12-11 18:41:14 INFO  [main] HelperClass - View Group Clicked
+2025-12-11 18:41:15 INFO  [main] HelperClass - Close Group Clicked
+2025-12-11 18:41:15 INFO  [main] AccessPermissionsPage - View Group Successfull
+2025-12-11 18:41:15 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:15 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:15 INFO  [main] AccessPermissions - This is Edit Group Method
+2025-12-11 18:41:15 INFO  [main] AccessPermissionsPage - Edit Group method entered
+2025-12-11 18:41:15 INFO  [main] HelperClass - Edit Group Clicked
+2025-12-11 18:41:15 INFO  [main] HelperClass - Save Group Clicked
+2025-12-11 18:41:15 INFO  [main] AccessPermissionsPage - Edit Group Successfull
+2025-12-11 18:41:15 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:15 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:15 INFO  [main] AccessPermissions - This is Delete Group Method
+2025-12-11 18:41:15 INFO  [main] AccessPermissionsPage - Delete Group method entered
+2025-12-11 18:41:16 INFO  [main] HelperClass - Delete Group Clicked
+2025-12-11 18:41:16 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 18:41:16 INFO  [main] AccessPermissionsPage - Delete Group Successfull
+2025-12-11 18:41:16 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:16 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:16 INFO  [main] AccessPermissions - This is Add Role Method
+2025-12-11 18:41:17 INFO  [main] HelperClass - Roles Module Clicked
+2025-12-11 18:41:18 INFO  [main] HelperClass - Add New Role Clicked
+2025-12-11 18:41:18 INFO  [main] HelperClass - Group Down Selected  Clicked
+2025-12-11 18:41:18 INFO  [main] HelperClass - Select Group Name Clicked
+2025-12-11 18:41:18 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 18:41:19 INFO  [main] HelperClass - Group Add Permissions in Access Permissions for Role Clicked
+2025-12-11 18:41:19 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 18:41:19 INFO  [main] HelperClass - Role Saved JS Clicked
+2025-12-11 18:41:19 INFO  [main] AccessPermissionsPage - Roles Created Successfully
+2025-12-11 18:41:19 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:19 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:19 INFO  [main] AccessPermissions - This is View Role Method
+2025-12-11 18:41:19 INFO  [main] AccessPermissionsPage - View Role method entered
+2025-12-11 18:41:20 INFO  [main] HelperClass - View Role Clicked
+2025-12-11 18:41:20 INFO  [main] HelperClass - Close Role Clicked
+2025-12-11 18:41:20 INFO  [main] AccessPermissionsPage - View Role Successfull
+2025-12-11 18:41:20 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:20 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:20 INFO  [main] AccessPermissions - This is Edit Role Method
+2025-12-11 18:41:20 INFO  [main] AccessPermissionsPage - Edit Role method entered
+2025-12-11 18:41:20 INFO  [main] HelperClass - Edit Role Clicked
+2025-12-11 18:41:21 INFO  [main] HelperClass - Save Role Clicked
+2025-12-11 18:41:21 INFO  [main] AccessPermissionsPage - Edit Role Successfull
+2025-12-11 18:41:21 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:21 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:21 INFO  [main] AccessPermissions - This is Delete Role Method
+2025-12-11 18:41:21 INFO  [main] AccessPermissionsPage - Delete Role method entered
+2025-12-11 18:41:32 ERROR [main] AccessPermissionsPage - Delete Role Failed
+2025-12-11 18:41:32 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:41:32 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:32 INFO  [main] AccessPermissions - This is an Add User Method
+2025-12-11 18:41:33 INFO  [main] HelperClass - Select Role User  Radio Button  Clicked
+2025-12-11 18:41:33 INFO  [main] HelperClass - Selected Role User  Radio Button  Clicked
+2025-12-11 18:41:33 INFO  [main] HelperClass - Active User Radio Button JS Clicked
+2025-12-11 18:41:33 INFO  [main] HelperClass - Submit Button Clicked
+2025-12-11 18:41:33 INFO  [main] AccessPermissionsPage - User Created Successfully
+2025-12-11 18:41:33 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:34 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:34 INFO  [main] AccessPermissions - This is User View  Method
+2025-12-11 18:41:34 INFO  [main] AccessPermissionsPage - View User method entered
+2025-12-11 18:41:34 INFO  [main] HelperClass - View User Clicked
+2025-12-11 18:41:34 INFO  [main] HelperClass - Close User Clicked
+2025-12-11 18:41:34 INFO  [main] AccessPermissionsPage - View User Successfull
+2025-12-11 18:41:34 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:35 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:35 INFO  [main] AccessPermissions - This is User edit  Method
+2025-12-11 18:41:35 INFO  [main] AccessPermissionsPage - Edit User method entered
+2025-12-11 18:41:35 INFO  [main] HelperClass - Edit User Clicked
+2025-12-11 18:41:36 INFO  [main] HelperClass - Save User Clicked
+2025-12-11 18:41:36 INFO  [main] AccessPermissionsPage - Edit User Successfull
+2025-12-11 18:41:36 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:36 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:36 INFO  [main] AccessPermissions - This is User Delete  Method
+2025-12-11 18:41:36 INFO  [main] AccessPermissionsPage - Delete User method entered
+2025-12-11 18:41:37 INFO  [main] HelperClass - Delete User Clicked
+2025-12-11 18:41:37 ERROR [main] HelperClass - Failed to click on Delete Yes: Unable to locate element: //div[@id='jBox3']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0ae4a95a-4be1-4a97-8c5d-719c36081805, findElement {value=//div[@id='jBox3']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.2, moz:accessibilityChecks: false, moz:buildID: 20251124145406, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20848, moz:profile: C:\Users\SRIHAR~1.GOW\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0ae4a95a-4be1-4a97-8c5d-719c36081805
+2025-12-11 18:41:37 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:41:37 INFO  [main] DocSegments - Documents Segments link Click
+2025-12-11 18:41:37 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:37 INFO  [main] DocSegments - The Document segment add started 
+2025-12-11 18:41:37 INFO  [main] DocSegmentsPage - Add New Document Segement
+2025-12-11 18:41:37 INFO  [main] HelperClass - Documents Segment Module Clicked
+2025-12-11 18:41:37 INFO  [main] HelperClass - Add New Segement Clicked
+2025-12-11 18:41:38 INFO  [main] HelperClass - Custom Query Drop Down Clicked
+2025-12-11 18:41:38 INFO  [main] HelperClass - Custom Query Select Clicked
+2025-12-11 18:41:39 INFO  [main] HelperClass - Vault Drop Down Clicked
+2025-12-11 18:41:39 INFO  [main] HelperClass - Vault Server Clicked
+2025-12-11 18:41:39 INFO  [main] HelperClass - Groups Checkbox JS Clicked
+2025-12-11 18:41:39 INFO  [main] HelperClass - Configue Link Tab Clicked
+2025-12-11 18:41:40 INFO  [main] HelperClass - Archive Id Clicked
+2025-12-11 18:41:40 INFO  [main] HelperClass - Account Number Clicked
+2025-12-11 18:41:40 INFO  [main] HelperClass - Save Button Clicked
+2025-12-11 18:41:40 INFO  [main] DocSegmentsPage - New Document Segement Added Sucessfully
+2025-12-11 18:41:42 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:42 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:42 INFO  [main] DocSegments - View Segement Method Called
+2025-12-11 18:41:42 INFO  [main] DocSegmentsPage - View Doc Segment
+2025-12-11 18:41:42 INFO  [main] HelperClass - View Icon Clicked
+2025-12-11 18:41:43 INFO  [main] HelperClass - Close View Icon Clicked
+2025-12-11 18:41:43 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:43 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:43 INFO  [main] DocSegments - Edit Segement Method Called
+2025-12-11 18:41:43 INFO  [main] DocSegmentsPage - Edit Doc Segment
+2025-12-11 18:41:43 INFO  [main] HelperClass - Edit Icon Clicked
+2025-12-11 18:41:44 INFO  [main] HelperClass - Save Icon Clicked
+2025-12-11 18:41:44 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:41:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:44 INFO  [main] DocSegments - Delete Segement Method Called
+2025-12-11 18:41:44 INFO  [main] DocSegmentsPage - Delete Doc Segment
+2025-12-11 18:41:45 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 18:41:45 ERROR [main] HelperClass - Failed to click on Delete Icon: Unable to locate element: //div[@id='jBox4']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0ae4a95a-4be1-4a97-8c5d-719c36081805, findElement {value=//div[@id='jBox4']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.2, moz:accessibilityChecks: false, moz:buildID: 20251124145406, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20848, moz:profile: C:\Users\SRIHAR~1.GOW\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0ae4a95a-4be1-4a97-8c5d-719c36081805
+2025-12-11 18:41:45 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:41:45 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:41:45 INFO  [main] Login - Logout for the User
+2025-12-11 18:41:45 INFO  [main] LoginPage - This is logout method
+2025-12-11 18:41:45 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 18:41:45 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 18:41:45 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 18:41:45 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 18:41:46 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 18:41:46 INFO  [main] LoginPage - Logout Success
+2025-12-11 18:41:46 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:33 INFO  [main] BaseClass - Application Started
+2025-12-11 18:52:33 INFO  [main] BaseClass - ===================
+2025-12-11 18:52:36 INFO  [main] BaseClass - FireFoxDriver Object is Created  FirefoxDriver: firefox on windows (11a2c511-acc9-4646-93ea-ccf7424ffbbb)
+2025-12-11 18:52:36 INFO  [main] BaseClass - Browser Got Opened
+2025-12-11 18:52:37 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2025-12-11 18:52:37 INFO  [main] BaseClass - Tear Up is Done
+2025-12-11 18:52:38 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:38 INFO  [main] Login - Login User method Started
+2025-12-11 18:52:38 INFO  [main] Login - Login Page Method call
+2025-12-11 18:52:38 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:38 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:52:38 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:39 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:39 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 18:52:39 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 18:52:39 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 18:52:39 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:39 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:39 INFO  [main] LoginTest - Logout for the User
+2025-12-11 18:52:39 INFO  [main] LoginPage - This is logout method
+2025-12-11 18:52:39 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 18:52:39 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 18:52:39 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 18:52:39 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 18:52:40 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 18:52:40 INFO  [main] LoginPage - Logout Success
+2025-12-11 18:52:40 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:40 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:40 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:52:40 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 18:52:40 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:40 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 18:52:40 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:40 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:41 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:41 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:52:41 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:41 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:41 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:52:41 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 18:52:41 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:41 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:52:41 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:41 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:42 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:42 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 18:52:42 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:42 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:42 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:52:42 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 18:52:42 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:43 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 18:52:43 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:43 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:44 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:44 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:52:44 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:44 INFO  [main] LoginTest - Login Test Started
+2025-12-11 18:52:44 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 18:52:44 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:44 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:52:44 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:45 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:45 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 18:52:45 INFO  [main] LoginTest - Login Success for User: Approver
+2025-12-11 18:52:45 INFO  [main] LoginTest - Logout for the User
+2025-12-11 18:52:45 INFO  [main] LoginPage - This is logout method
+2025-12-11 18:52:45 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 18:52:45 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 18:52:45 INFO  [main] LoginPage - Main User
+2025-12-11 18:52:45 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 18:52:45 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 18:52:45 INFO  [main] LoginPage - Logout Success
+2025-12-11 18:52:45 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:45 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:45 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:52:45 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:52:45 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:45 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:52:45 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:45 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:46 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:46 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:52:46 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 18:52:46 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:52:46 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:46 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:52:46 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:52:46 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:46 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:52:46 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:47 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:48 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:48 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:52:48 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 18:52:48 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:52:48 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:48 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:52:48 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:52:48 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:48 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:52:48 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:48 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:49 ERROR [main] LoginTest - Assertion failed: Login failed for valid credentials expected [true] but found [false]
+2025-12-11 18:52:49 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:52:49 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:49 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:52:49 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:52:49 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:49 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:52:49 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:49 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:50 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:50 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:52:50 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 18:52:50 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:52:50 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:50 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:52:50 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:52:50 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:50 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:52:50 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:50 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:52 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:52 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:52:52 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 18:52:52 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:52:52 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:52 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 18:52:52 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 18:52:52 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:52 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 18:52:52 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:52 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:53 INFO  [main] LoginPage - This is failed test text
+2025-12-11 18:52:53 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 18:52:53 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 18:52:53 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:52:53 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:53 INFO  [main] LoginTest - Main Users Login
+2025-12-11 18:52:53 INFO  [main] Login - Login User method Started
+2025-12-11 18:52:53 INFO  [main] Login - Login Page Method call
+2025-12-11 18:52:53 INFO  [main] LoginPage - Login Method Called
+2025-12-11 18:52:53 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 18:52:53 INFO  [main] LoginPage - Password Entered
+2025-12-11 18:52:54 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 18:52:54 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 18:52:54 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 18:52:54 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 18:52:54 INFO  [main] LoginTest - User Logged In
+2025-12-11 18:52:54 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:54 INFO  [main] AccessPermissions - Access Permissions link Click
+2025-12-11 18:52:54 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:54 INFO  [main] AccessPermissions - This is Add Group Method
+2025-12-11 18:52:54 INFO  [main] HelperClass - Access Permissions Module Clicked
+2025-12-11 18:52:54 INFO  [main] HelperClass - Sub Module Group is clicked Clicked
+2025-12-11 18:52:55 INFO  [main] HelperClass - New Group Button is clicked Clicked
+2025-12-11 18:52:55 INFO  [main] HelperClass - All Modules is clicked Clicked
+2025-12-11 18:52:55 INFO  [main] AccessPermissionsPage - Group Created Successfully
+2025-12-11 18:52:55 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:55 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:55 INFO  [main] AccessPermissions - This is View Group Method
+2025-12-11 18:52:55 INFO  [main] AccessPermissionsPage - View Group method entered
+2025-12-11 18:52:56 INFO  [main] HelperClass - View Group Clicked
+2025-12-11 18:52:56 INFO  [main] HelperClass - Close Group Clicked
+2025-12-11 18:52:56 INFO  [main] AccessPermissionsPage - View Group Successfull
+2025-12-11 18:52:56 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:56 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:56 INFO  [main] AccessPermissions - This is Edit Group Method
+2025-12-11 18:52:56 INFO  [main] AccessPermissionsPage - Edit Group method entered
+2025-12-11 18:52:57 INFO  [main] HelperClass - Edit Group Clicked
+2025-12-11 18:52:57 INFO  [main] HelperClass - Save Group Clicked
+2025-12-11 18:52:57 INFO  [main] AccessPermissionsPage - Edit Group Successfull
+2025-12-11 18:52:57 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:57 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:57 INFO  [main] AccessPermissions - This is Delete Group Method
+2025-12-11 18:52:57 INFO  [main] AccessPermissionsPage - Delete Group method entered
+2025-12-11 18:52:58 INFO  [main] HelperClass - Delete Group Clicked
+2025-12-11 18:52:58 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 18:52:58 INFO  [main] AccessPermissionsPage - Delete Group Successfull
+2025-12-11 18:52:58 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:52:58 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:52:58 INFO  [main] AccessPermissions - This is Add Role Method
+2025-12-11 18:52:59 INFO  [main] HelperClass - Roles Module Clicked
+2025-12-11 18:52:59 INFO  [main] HelperClass - Add New Role Clicked
+2025-12-11 18:53:00 INFO  [main] HelperClass - Group Down Selected  Clicked
+2025-12-11 18:53:00 INFO  [main] HelperClass - Select Group Name Clicked
+2025-12-11 18:53:00 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 18:53:00 INFO  [main] HelperClass - Group Add Permissions in Access Permissions for Role Clicked
+2025-12-11 18:53:01 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 18:53:01 INFO  [main] HelperClass - Role Saved JS Clicked
+2025-12-11 18:53:01 INFO  [main] AccessPermissionsPage - Roles Created Successfully
+2025-12-11 18:53:01 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:53:01 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:01 INFO  [main] AccessPermissions - This is View Role Method
+2025-12-11 18:53:01 INFO  [main] AccessPermissionsPage - View Role method entered
+2025-12-11 18:53:02 INFO  [main] HelperClass - View Role Clicked
+2025-12-11 18:53:02 INFO  [main] HelperClass - Close Role Clicked
+2025-12-11 18:53:02 INFO  [main] AccessPermissionsPage - View Role Successfull
+2025-12-11 18:53:02 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:53:02 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:02 INFO  [main] AccessPermissions - This is Edit Role Method
+2025-12-11 18:53:02 INFO  [main] AccessPermissionsPage - Edit Role method entered
+2025-12-11 18:53:02 INFO  [main] HelperClass - Edit Role Clicked
+2025-12-11 18:53:03 INFO  [main] HelperClass - Save Role Clicked
+2025-12-11 18:53:03 INFO  [main] AccessPermissionsPage - Edit Role Successfull
+2025-12-11 18:53:03 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:53:03 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:03 INFO  [main] AccessPermissions - This is Delete Role Method
+2025-12-11 18:53:03 INFO  [main] AccessPermissionsPage - Delete Role method entered
+2025-12-11 18:53:13 ERROR [main] AccessPermissionsPage - Delete Role Failed
+2025-12-11 18:53:13 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:53:13 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:13 INFO  [main] AccessPermissions - This is an Add User Method
+2025-12-11 18:53:14 INFO  [main] HelperClass - Select Role User  Radio Button  Clicked
+2025-12-11 18:53:14 INFO  [main] HelperClass - Selected Role User  Radio Button  Clicked
+2025-12-11 18:53:14 INFO  [main] HelperClass - Active User Radio Button JS Clicked
+2025-12-11 18:53:14 INFO  [main] HelperClass - Submit Button Clicked
+2025-12-11 18:53:14 INFO  [main] AccessPermissionsPage - User Created Successfully
+2025-12-11 18:53:14 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:53:14 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:14 INFO  [main] AccessPermissions - This is User View  Method
+2025-12-11 18:53:14 INFO  [main] AccessPermissionsPage - View User method entered
+2025-12-11 18:53:25 ERROR [main] AccessPermissionsPage - View User Failed
+2025-12-11 18:53:25 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:53:25 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:25 INFO  [main] AccessPermissions - This is User edit  Method
+2025-12-11 18:53:25 INFO  [main] AccessPermissionsPage - Edit User method entered
+2025-12-11 18:53:35 ERROR [main] AccessPermissionsPage - Edit User Failed
+2025-12-11 18:53:35 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:53:35 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:35 INFO  [main] AccessPermissions - This is User Delete  Method
+2025-12-11 18:53:35 INFO  [main] AccessPermissionsPage - Delete User method entered
+2025-12-11 18:53:46 ERROR [main] AccessPermissionsPage - Delete User Failed
+2025-12-11 18:53:46 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:53:46 INFO  [main] DocSegments - Documents Segments link Click
+2025-12-11 18:53:46 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:46 INFO  [main] DocSegments - The Document segment add started 
+2025-12-11 18:53:46 INFO  [main] DocSegmentsPage - Add New Document Segement
+2025-12-11 18:53:46 INFO  [main] HelperClass - Documents Segment Module Clicked
+2025-12-11 18:53:46 INFO  [main] HelperClass - Add New Segement Clicked
+2025-12-11 18:53:47 INFO  [main] HelperClass - Custom Query Drop Down Clicked
+2025-12-11 18:53:47 INFO  [main] HelperClass - Custom Query Select Clicked
+2025-12-11 18:53:47 INFO  [main] HelperClass - Vault Drop Down Clicked
+2025-12-11 18:53:47 INFO  [main] HelperClass - Vault Server Clicked
+2025-12-11 18:53:47 INFO  [main] HelperClass - Groups Checkbox JS Clicked
+2025-12-11 18:53:48 INFO  [main] HelperClass - Configue Link Tab Clicked
+2025-12-11 18:53:48 INFO  [main] HelperClass - Archive Id Clicked
+2025-12-11 18:53:48 INFO  [main] HelperClass - Account Number Clicked
+2025-12-11 18:53:48 INFO  [main] HelperClass - Save Button Clicked
+2025-12-11 18:53:48 INFO  [main] DocSegmentsPage - New Document Segement Added Sucessfully
+2025-12-11 18:53:50 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:53:50 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:50 INFO  [main] DocSegments - View Segement Method Called
+2025-12-11 18:53:50 INFO  [main] DocSegmentsPage - View Doc Segment
+2025-12-11 18:53:51 INFO  [main] HelperClass - View Icon Clicked
+2025-12-11 18:53:51 INFO  [main] HelperClass - Close View Icon Clicked
+2025-12-11 18:53:51 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:53:51 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:51 INFO  [main] DocSegments - Edit Segement Method Called
+2025-12-11 18:53:51 INFO  [main] DocSegmentsPage - Edit Doc Segment
+2025-12-11 18:53:52 INFO  [main] HelperClass - Edit Icon Clicked
+2025-12-11 18:53:53 INFO  [main] HelperClass - Save Icon Clicked
+2025-12-11 18:53:53 INFO  [main] Listeners - Test Case Success
+2025-12-11 18:53:53 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:53 INFO  [main] DocSegments - Delete Segement Method Called
+2025-12-11 18:53:53 INFO  [main] DocSegmentsPage - Delete Doc Segment
+2025-12-11 18:53:53 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 18:53:53 ERROR [main] HelperClass - Failed to click on Delete Icon: Unable to locate element: //div[@id='jBox4']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [11a2c511-acc9-4646-93ea-ccf7424ffbbb, findElement {using=xpath, value=//div[@id='jBox4']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.2, moz:accessibilityChecks: false, moz:buildID: 20251124145406, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27764, moz:profile: C:\Users\SRIHAR~1.GOW\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 11a2c511-acc9-4646-93ea-ccf7424ffbbb
+2025-12-11 18:53:53 INFO  [main] Listeners - Test Case Failure
+2025-12-11 18:53:54 INFO  [main] Listeners - Test Case Started
+2025-12-11 18:53:54 INFO  [main] Login - Logout for the User
+2025-12-11 18:53:54 INFO  [main] LoginPage - This is logout method
+2025-12-11 18:53:54 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 18:53:54 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 18:53:54 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 18:53:54 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 18:53:54 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 18:53:54 INFO  [main] LoginPage - Logout Success
+2025-12-11 18:53:54 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:02 INFO  [main] BaseClass - Application Started
+2025-12-11 19:02:02 INFO  [main] BaseClass - ===================
+2025-12-11 19:02:06 INFO  [main] BaseClass - FireFoxDriver Object is Created  FirefoxDriver: firefox on windows (b2062d7c-a815-4202-a50e-c2b3413d17bf)
+2025-12-11 19:02:06 INFO  [main] BaseClass - Browser Got Opened
+2025-12-11 19:02:06 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2025-12-11 19:02:06 INFO  [main] BaseClass - Tear Up is Done
+2025-12-11 19:02:07 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:07 INFO  [main] Login - Login User method Started
+2025-12-11 19:02:07 INFO  [main] Login - Login Page Method call
+2025-12-11 19:02:07 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:07 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:02:07 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:08 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:08 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 19:02:08 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:02:08 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 19:02:08 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:09 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:09 INFO  [main] LoginTest - Logout for the User
+2025-12-11 19:02:09 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:02:09 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:02:09 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:02:09 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 19:02:09 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:02:09 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:02:09 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:02:09 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:10 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:10 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:02:10 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 19:02:10 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:10 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 19:02:10 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:10 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:11 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:11 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:02:11 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:11 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:11 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:02:11 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 19:02:11 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:11 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:02:11 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:11 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:12 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:12 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 19:02:12 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:12 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:12 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:02:12 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 19:02:12 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:12 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 19:02:12 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:13 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:14 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:14 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:02:14 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:14 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:14 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:02:14 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 19:02:14 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:14 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:02:14 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:15 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:15 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:02:15 INFO  [main] LoginTest - Login Success for User: Approver
+2025-12-11 19:02:15 INFO  [main] LoginTest - Logout for the User
+2025-12-11 19:02:15 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:02:15 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:02:15 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:02:15 INFO  [main] LoginPage - Main User
+2025-12-11 19:02:15 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:02:15 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:02:15 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:02:15 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:15 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:15 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:02:15 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:02:15 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:15 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:02:15 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:16 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:17 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:17 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:02:17 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:02:17 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:17 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:17 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:02:17 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:02:17 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:17 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:02:17 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:17 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:18 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:18 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:02:18 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:02:18 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:18 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:18 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:02:18 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:02:18 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:18 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:02:18 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:18 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:19 ERROR [main] LoginTest - Assertion failed: Login failed for valid credentials expected [true] but found [false]
+2025-12-11 19:02:19 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:19 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:19 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:02:19 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:02:19 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:19 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:02:19 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:20 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:21 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:21 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:02:21 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:02:21 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:21 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:21 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:02:21 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:02:21 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:21 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:02:21 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:21 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:22 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:22 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:02:22 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:02:22 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:22 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:22 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:02:22 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:02:22 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:22 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:02:22 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:22 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:23 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:02:23 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:02:23 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:02:23 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:23 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:23 INFO  [main] LoginTest - Main Users Login
+2025-12-11 19:02:23 INFO  [main] Login - Login User method Started
+2025-12-11 19:02:23 INFO  [main] Login - Login Page Method call
+2025-12-11 19:02:23 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:02:24 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:02:24 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:02:24 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:02:24 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 19:02:24 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:02:24 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 19:02:24 INFO  [main] LoginTest - User Logged In
+2025-12-11 19:02:24 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:24 INFO  [main] AccessPermissions - Access Permissions link Click
+2025-12-11 19:02:24 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:24 INFO  [main] AccessPermissions - This is Add Group Method
+2025-12-11 19:02:25 INFO  [main] HelperClass - Access Permissions Module Clicked
+2025-12-11 19:02:25 INFO  [main] HelperClass - Sub Module Group is clicked Clicked
+2025-12-11 19:02:26 INFO  [main] HelperClass - New Group Button is clicked Clicked
+2025-12-11 19:02:26 INFO  [main] HelperClass - All Modules is clicked Clicked
+2025-12-11 19:02:26 INFO  [main] AccessPermissionsPage - Group Created Successfully
+2025-12-11 19:02:26 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:26 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:26 INFO  [main] AccessPermissions - This is View Group Method
+2025-12-11 19:02:26 INFO  [main] AccessPermissionsPage - View Group method entered
+2025-12-11 19:02:27 INFO  [main] HelperClass - View Group Clicked
+2025-12-11 19:02:27 INFO  [main] HelperClass - Close Group Clicked
+2025-12-11 19:02:27 INFO  [main] AccessPermissionsPage - View Group Successfull
+2025-12-11 19:02:27 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:27 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:27 INFO  [main] AccessPermissions - This is Edit Group Method
+2025-12-11 19:02:27 INFO  [main] AccessPermissionsPage - Edit Group method entered
+2025-12-11 19:02:27 INFO  [main] HelperClass - Edit Group Clicked
+2025-12-11 19:02:28 INFO  [main] HelperClass - Save Group Clicked
+2025-12-11 19:02:28 INFO  [main] AccessPermissionsPage - Edit Group Successfull
+2025-12-11 19:02:28 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:28 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:28 INFO  [main] AccessPermissions - This is Delete Group Method
+2025-12-11 19:02:28 INFO  [main] AccessPermissionsPage - Delete Group method entered
+2025-12-11 19:02:29 INFO  [main] HelperClass - Delete Group Clicked
+2025-12-11 19:02:29 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 19:02:29 INFO  [main] AccessPermissionsPage - Delete Group Successfull
+2025-12-11 19:02:29 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:29 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:29 INFO  [main] AccessPermissions - This is Add Role Method
+2025-12-11 19:02:29 INFO  [main] HelperClass - Roles Module Clicked
+2025-12-11 19:02:30 INFO  [main] HelperClass - Add New Role Clicked
+2025-12-11 19:02:30 INFO  [main] HelperClass - Group Down Selected  Clicked
+2025-12-11 19:02:31 INFO  [main] HelperClass - Select Group Name Clicked
+2025-12-11 19:02:31 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 19:02:31 INFO  [main] HelperClass - Group Add Permissions in Access Permissions for Role Clicked
+2025-12-11 19:02:31 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 19:02:31 INFO  [main] HelperClass - Role Saved JS Clicked
+2025-12-11 19:02:31 INFO  [main] AccessPermissionsPage - Roles Created Successfully
+2025-12-11 19:02:31 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:32 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:32 INFO  [main] AccessPermissions - This is View Role Method
+2025-12-11 19:02:32 INFO  [main] AccessPermissionsPage - View Role method entered
+2025-12-11 19:02:32 INFO  [main] HelperClass - View Role Clicked
+2025-12-11 19:02:33 INFO  [main] HelperClass - Close Role Clicked
+2025-12-11 19:02:33 INFO  [main] AccessPermissionsPage - View Role Successfull
+2025-12-11 19:02:33 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:33 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:33 INFO  [main] AccessPermissions - This is Edit Role Method
+2025-12-11 19:02:33 INFO  [main] AccessPermissionsPage - Edit Role method entered
+2025-12-11 19:02:33 INFO  [main] HelperClass - Edit Role Clicked
+2025-12-11 19:02:34 INFO  [main] HelperClass - Save Role Clicked
+2025-12-11 19:02:34 INFO  [main] AccessPermissionsPage - Edit Role Successfull
+2025-12-11 19:02:34 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:02:34 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:34 INFO  [main] AccessPermissions - This is Delete Role Method
+2025-12-11 19:02:34 INFO  [main] AccessPermissionsPage - Delete Role method entered
+2025-12-11 19:02:44 ERROR [main] AccessPermissionsPage - Delete Role Failed
+2025-12-11 19:02:44 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:44 INFO  [main] AccessPermissions - This is an Add User Method
+2025-12-11 19:02:44 ERROR [main] AccessPermissionsPage - JS click failed: Unable to locate element: //span[text()='Users']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b2062d7c-a815-4202-a50e-c2b3413d17bf, findElement {value=//span[text()='Users'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.2, moz:accessibilityChecks: false, moz:buildID: 20251124145406, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5496, moz:profile: C:\Users\SRIHAR~1.GOW\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b2062d7c-a815-4202-a50e-c2b3413d17bf
+2025-12-11 19:02:44 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:45 INFO  [main] DocSegments - Documents Segments link Click
+2025-12-11 19:02:45 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:02:45 INFO  [main] DocSegments - The Document segment add started 
+2025-12-11 19:02:45 INFO  [main] DocSegmentsPage - Add New Document Segement
+2025-12-11 19:02:45 ERROR [main] DocSegmentsPage - Add New Document Segement Failedorg.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b2062d7c-a815-4202-a50e-c2b3413d17bf, findElement {value=//span[text()='Document Segments'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 145.0.2, moz:accessibilityChecks: false, moz:buildID: 20251124145406, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5496, moz:profile: C:\Users\SRIHAR~1.GOW\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: b2062d7c-a815-4202-a50e-c2b3413d17bf
+2025-12-11 19:02:45 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:02:45 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:07:31 INFO  [main] BaseClass - Application Started
+2025-12-11 19:07:31 INFO  [main] BaseClass - ===================
+2025-12-11 19:07:34 INFO  [main] BaseClass - FireFoxDriver Object is Created  FirefoxDriver: firefox on windows (a8173cc0-478e-45d9-af65-a2e51bda5858)
+2025-12-11 19:07:34 INFO  [main] BaseClass - Browser Got Opened
+2025-12-11 19:07:35 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2025-12-11 19:07:35 INFO  [main] BaseClass - Tear Up is Done
+2025-12-11 19:07:36 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:36 INFO  [main] Login - Login User method Started
+2025-12-11 19:07:36 INFO  [main] Login - Login Page Method call
+2025-12-11 19:07:36 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:36 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:07:36 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:37 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:37 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 19:07:37 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:07:37 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 19:07:37 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:38 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:38 INFO  [main] LoginTest - Logout for the User
+2025-12-11 19:07:38 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:07:38 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:07:38 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:07:38 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 19:07:38 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:07:38 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:07:38 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:07:38 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:39 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:39 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:07:39 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 19:07:39 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:39 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 19:07:39 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:39 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:40 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:40 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:07:40 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:40 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:40 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:07:40 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 19:07:40 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:40 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:07:40 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:40 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:41 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:41 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 19:07:41 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:41 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:41 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:07:41 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 19:07:41 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:41 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 19:07:41 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:41 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:42 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:43 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:07:43 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:43 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:43 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:07:43 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 19:07:43 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:43 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:07:43 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:44 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:44 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:07:44 INFO  [main] LoginTest - Login Success for User: Approver
+2025-12-11 19:07:44 INFO  [main] LoginTest - Logout for the User
+2025-12-11 19:07:44 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:07:44 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:07:44 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:07:44 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 19:07:44 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:07:44 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:07:44 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:07:44 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:44 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:44 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:07:44 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:07:44 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:44 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:07:44 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:45 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:46 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:46 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:07:46 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:07:46 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:07:46 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:46 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:07:46 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:07:46 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:46 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:07:46 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:46 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:47 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:47 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:07:47 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:07:47 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:07:47 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:47 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:07:47 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:07:47 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:47 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:07:47 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:48 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:49 ERROR [main] LoginTest - Assertion failed: Login failed for valid credentials expected [true] but found [false]
+2025-12-11 19:07:49 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:07:49 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:49 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:07:49 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:07:49 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:49 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:07:49 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:49 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:50 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:50 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:07:50 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:07:50 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:07:50 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:50 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:07:50 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:07:50 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:50 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:07:50 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:50 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:51 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:51 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:07:51 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:07:51 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:07:51 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:51 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:07:51 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:07:51 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:51 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:07:52 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:52 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:53 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:07:53 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:07:53 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:07:53 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:07:53 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:53 INFO  [main] LoginTest - Main Users Login
+2025-12-11 19:07:53 INFO  [main] Login - Login User method Started
+2025-12-11 19:07:53 INFO  [main] Login - Login Page Method call
+2025-12-11 19:07:53 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:07:53 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:07:53 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:07:54 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:07:54 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 19:07:54 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:07:54 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 19:07:54 INFO  [main] LoginTest - User Logged In
+2025-12-11 19:07:54 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:54 INFO  [main] AccessPermissions - Access Permissions link Click
+2025-12-11 19:07:54 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:54 INFO  [main] AccessPermissions - This is Add Group Method
+2025-12-11 19:07:54 INFO  [main] HelperClass - Access Permissions Module Clicked
+2025-12-11 19:07:55 INFO  [main] HelperClass - Sub Module Group is clicked Clicked
+2025-12-11 19:07:55 INFO  [main] HelperClass - New Group Button is clicked Clicked
+2025-12-11 19:07:55 INFO  [main] HelperClass - All Modules is clicked Clicked
+2025-12-11 19:07:55 INFO  [main] AccessPermissionsPage - Group Created Successfully
+2025-12-11 19:07:55 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:56 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:56 INFO  [main] AccessPermissions - This is View Group Method
+2025-12-11 19:07:56 INFO  [main] AccessPermissionsPage - View Group method entered
+2025-12-11 19:07:56 INFO  [main] HelperClass - View Group Clicked
+2025-12-11 19:07:57 INFO  [main] HelperClass - Close Group Clicked
+2025-12-11 19:07:57 INFO  [main] AccessPermissionsPage - View Group Successfull
+2025-12-11 19:07:57 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:57 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:57 INFO  [main] AccessPermissions - This is Edit Group Method
+2025-12-11 19:07:57 INFO  [main] AccessPermissionsPage - Edit Group method entered
+2025-12-11 19:07:57 INFO  [main] HelperClass - Edit Group Clicked
+2025-12-11 19:07:57 INFO  [main] HelperClass - Save Group Clicked
+2025-12-11 19:07:57 INFO  [main] AccessPermissionsPage - Edit Group Successfull
+2025-12-11 19:07:57 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:57 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:57 INFO  [main] AccessPermissions - This is Delete Group Method
+2025-12-11 19:07:57 INFO  [main] AccessPermissionsPage - Delete Group method entered
+2025-12-11 19:07:58 INFO  [main] HelperClass - Delete Group Clicked
+2025-12-11 19:07:58 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 19:07:58 INFO  [main] AccessPermissionsPage - Delete Group Successfull
+2025-12-11 19:07:58 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:07:59 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:07:59 INFO  [main] AccessPermissions - This is Add Role Method
+2025-12-11 19:07:59 INFO  [main] HelperClass - Roles Module Clicked
+2025-12-11 19:08:00 INFO  [main] HelperClass - Add New Role Clicked
+2025-12-11 19:08:00 INFO  [main] HelperClass - Group Down Selected  Clicked
+2025-12-11 19:08:01 INFO  [main] HelperClass - Select Group Name Clicked
+2025-12-11 19:08:01 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 19:08:02 INFO  [main] HelperClass - Group Add Permissions in Access Permissions for Role Clicked
+2025-12-11 19:08:02 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 19:08:02 INFO  [main] HelperClass - Role Saved JS Clicked
+2025-12-11 19:08:02 INFO  [main] AccessPermissionsPage - Roles Created Successfully
+2025-12-11 19:08:02 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:02 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:02 INFO  [main] AccessPermissions - This is View Role Method
+2025-12-11 19:08:02 INFO  [main] AccessPermissionsPage - View Role method entered
+2025-12-11 19:08:03 INFO  [main] HelperClass - View Role Clicked
+2025-12-11 19:08:03 INFO  [main] HelperClass - Close Role Clicked
+2025-12-11 19:08:03 INFO  [main] AccessPermissionsPage - View Role Successfull
+2025-12-11 19:08:03 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:04 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:04 INFO  [main] AccessPermissions - This is Edit Role Method
+2025-12-11 19:08:04 INFO  [main] AccessPermissionsPage - Edit Role method entered
+2025-12-11 19:08:04 INFO  [main] HelperClass - Edit Role Clicked
+2025-12-11 19:08:05 INFO  [main] HelperClass - Save Role Clicked
+2025-12-11 19:08:05 INFO  [main] AccessPermissionsPage - Edit Role Successfull
+2025-12-11 19:08:05 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:05 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:05 INFO  [main] AccessPermissions - This is Delete Role Method
+2025-12-11 19:08:05 INFO  [main] AccessPermissionsPage - Delete Role method entered
+2025-12-11 19:08:06 INFO  [main] HelperClass - Delete Role Icon  Clicked
+2025-12-11 19:08:06 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 19:08:06 INFO  [main] AccessPermissionsPage - Delete Role Successfull
+2025-12-11 19:08:06 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:06 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:06 INFO  [main] AccessPermissions - This is an Add User Method
+2025-12-11 19:08:08 INFO  [main] HelperClass - Select Role User  Radio Button  Clicked
+2025-12-11 19:08:08 INFO  [main] HelperClass - Selected Role User  Radio Button  Clicked
+2025-12-11 19:08:08 INFO  [main] HelperClass - Active User Radio Button JS Clicked
+2025-12-11 19:08:08 INFO  [main] HelperClass - Submit Button Clicked
+2025-12-11 19:08:08 INFO  [main] AccessPermissionsPage - User Created Successfully
+2025-12-11 19:08:08 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:09 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:09 INFO  [main] AccessPermissions - This is User View  Method
+2025-12-11 19:08:09 INFO  [main] AccessPermissionsPage - View User method entered
+2025-12-11 19:08:09 INFO  [main] HelperClass - View User Clicked
+2025-12-11 19:08:09 INFO  [main] HelperClass - Close User Clicked
+2025-12-11 19:08:09 INFO  [main] AccessPermissionsPage - View User Successfull
+2025-12-11 19:08:09 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:09 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:09 INFO  [main] AccessPermissions - This is User edit  Method
+2025-12-11 19:08:09 INFO  [main] AccessPermissionsPage - Edit User method entered
+2025-12-11 19:08:10 INFO  [main] HelperClass - Edit User Clicked
+2025-12-11 19:08:11 INFO  [main] HelperClass - Save User Clicked
+2025-12-11 19:08:11 INFO  [main] AccessPermissionsPage - Edit User Successfull
+2025-12-11 19:08:11 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:11 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:11 INFO  [main] AccessPermissions - This is User Delete  Method
+2025-12-11 19:08:11 INFO  [main] AccessPermissionsPage - Delete User method entered
+2025-12-11 19:08:11 INFO  [main] HelperClass - Delete User Clicked
+2025-12-11 19:08:12 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 19:08:12 INFO  [main] AccessPermissionsPage - Delete User Successfull
+2025-12-11 19:08:12 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:12 INFO  [main] DocSegments - Documents Segments link Click
+2025-12-11 19:08:12 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:12 INFO  [main] DocSegments - The Document segment add started 
+2025-12-11 19:08:12 INFO  [main] DocSegmentsPage - Add New Document Segement
+2025-12-11 19:08:12 INFO  [main] HelperClass - Documents Segment Module Clicked
+2025-12-11 19:08:12 INFO  [main] HelperClass - Add New Segement Clicked
+2025-12-11 19:08:13 INFO  [main] HelperClass - Custom Query Drop Down Clicked
+2025-12-11 19:08:13 INFO  [main] HelperClass - Custom Query Select Clicked
+2025-12-11 19:08:13 INFO  [main] HelperClass - Vault Drop Down Clicked
+2025-12-11 19:08:14 INFO  [main] HelperClass - Vault Server Clicked
+2025-12-11 19:08:14 INFO  [main] HelperClass - Groups Checkbox JS Clicked
+2025-12-11 19:08:14 INFO  [main] HelperClass - Configue Link Tab Clicked
+2025-12-11 19:08:14 INFO  [main] HelperClass - Archive Id Clicked
+2025-12-11 19:08:14 INFO  [main] HelperClass - Account Number Clicked
+2025-12-11 19:08:15 INFO  [main] HelperClass - Save Button Clicked
+2025-12-11 19:08:15 INFO  [main] DocSegmentsPage - New Document Segement Added Sucessfully
+2025-12-11 19:08:17 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:17 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:17 INFO  [main] DocSegments - View Segement Method Called
+2025-12-11 19:08:17 INFO  [main] DocSegmentsPage - View Doc Segment
+2025-12-11 19:08:17 INFO  [main] HelperClass - View Icon Clicked
+2025-12-11 19:08:17 INFO  [main] HelperClass - Close View Icon Clicked
+2025-12-11 19:08:17 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:18 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:18 INFO  [main] DocSegments - Edit Segement Method Called
+2025-12-11 19:08:18 INFO  [main] DocSegmentsPage - Edit Doc Segment
+2025-12-11 19:08:18 INFO  [main] HelperClass - Edit Icon Clicked
+2025-12-11 19:08:18 INFO  [main] HelperClass - Save Icon Clicked
+2025-12-11 19:08:18 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:19 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:19 INFO  [main] DocSegments - Delete Segement Method Called
+2025-12-11 19:08:19 INFO  [main] DocSegmentsPage - Delete Doc Segment
+2025-12-11 19:08:19 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 19:08:19 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 19:08:19 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:08:19 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:08:19 INFO  [main] Login - Logout for the User
+2025-12-11 19:08:19 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:08:20 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:08:20 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:08:20 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 19:08:20 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:08:20 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:08:20 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:08:20 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:18 INFO  [main] BaseClass - Application Started
+2025-12-11 19:11:18 INFO  [main] BaseClass - ===================
+2025-12-11 19:11:22 INFO  [main] BaseClass - FireFoxDriver Object is Created  FirefoxDriver: firefox on windows (f45c3310-94d1-4a21-aa7e-97f98b2c4487)
+2025-12-11 19:11:22 INFO  [main] BaseClass - Browser Got Opened
+2025-12-11 19:11:22 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2025-12-11 19:11:22 INFO  [main] BaseClass - Tear Up is Done
+2025-12-11 19:11:23 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:24 INFO  [main] Login - Login User method Started
+2025-12-11 19:11:24 INFO  [main] Login - Login Page Method call
+2025-12-11 19:11:24 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:24 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:11:24 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:25 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:25 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 19:11:25 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:11:25 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 19:11:25 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:25 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:25 INFO  [main] LoginTest - Logout for the User
+2025-12-11 19:11:25 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:11:26 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:11:26 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:11:26 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 19:11:26 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:11:26 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:11:26 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:11:26 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:26 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:26 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:11:26 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 19:11:26 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:26 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 19:11:26 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:27 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:28 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:28 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:11:28 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:28 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:28 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:11:28 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 19:11:28 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:28 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:11:28 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:28 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:29 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:29 INFO  [main] LoginPage - Invalid user name or password.
+2025-12-11 19:11:29 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:29 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:29 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:11:29 INFO  [main] LoginTest - Attempting login for user: Approver1
+2025-12-11 19:11:29 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:29 INFO  [main] LoginPage - Entered UserName is :Approver1
+2025-12-11 19:11:29 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:29 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:31 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:31 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:11:31 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:31 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:31 INFO  [main] LoginTest - Login Test Started
+2025-12-11 19:11:31 INFO  [main] LoginTest - Attempting login for user: Approver
+2025-12-11 19:11:31 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:31 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:11:31 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:32 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:32 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:11:32 INFO  [main] LoginTest - Login Success for User: Approver
+2025-12-11 19:11:32 INFO  [main] LoginTest - Logout for the User
+2025-12-11 19:11:32 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:11:32 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:11:32 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:11:32 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 19:11:33 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:11:33 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:11:33 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:11:33 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:33 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:33 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:11:33 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:11:33 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:33 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:11:33 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:33 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:34 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:34 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:11:34 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:11:34 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:11:34 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:34 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:11:34 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:11:34 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:35 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:11:35 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:35 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:36 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:36 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:11:36 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:11:36 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:11:36 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:36 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:11:36 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:11:36 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:36 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:11:36 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:36 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:37 ERROR [main] LoginTest - Assertion failed: Login failed for valid credentials expected [true] but found [false]
+2025-12-11 19:11:37 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:11:37 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:37 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:11:37 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:11:37 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:38 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:11:38 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:38 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:39 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:39 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:11:39 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:11:39 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:11:39 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:39 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:11:39 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:11:39 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:39 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:11:39 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:39 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:40 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:40 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:11:40 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Invalid user name or password.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:11:40 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:11:40 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:40 INFO  [main] LoginTest - BlockLoginCredentials
+2025-12-11 19:11:40 INFO  [main] LoginTest - Attempting login for user: Check
+2025-12-11 19:11:40 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:40 INFO  [main] LoginPage - Entered UserName is :Check
+2025-12-11 19:11:40 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:41 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:42 INFO  [main] LoginPage - This is failed test text
+2025-12-11 19:11:42 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2025-12-11 19:11:42 ERROR [main] LoginTest - Assertion failed: Error Message Does Not Matched expected [Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.] but found [Invalid user name or password or Deactivated.]
+2025-12-11 19:11:42 INFO  [main] Listeners - Test Case Failure
+2025-12-11 19:11:42 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:42 INFO  [main] LoginTest - Main Users Login
+2025-12-11 19:11:42 INFO  [main] Login - Login User method Started
+2025-12-11 19:11:42 INFO  [main] Login - Login Page Method call
+2025-12-11 19:11:42 INFO  [main] LoginPage - Login Method Called
+2025-12-11 19:11:42 INFO  [main] LoginPage - Entered UserName is :Approver
+2025-12-11 19:11:42 INFO  [main] LoginPage - Password Entered
+2025-12-11 19:11:43 INFO  [main] HelperClass - Login Submit Button Clicked
+2025-12-11 19:11:43 INFO  [main] LoginPage - Submit Button Clicked
+2025-12-11 19:11:43 INFO  [main] HelperClass - Home Title is visible
+2025-12-11 19:11:43 INFO  [main] Login - Login Test Completed Successfully
+2025-12-11 19:11:43 INFO  [main] LoginTest - User Logged In
+2025-12-11 19:11:43 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:43 INFO  [main] AccessPermissions - Access Permissions link Click
+2025-12-11 19:11:43 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:43 INFO  [main] AccessPermissions - This is Add Group Method
+2025-12-11 19:11:44 INFO  [main] HelperClass - Access Permissions Module Clicked
+2025-12-11 19:11:44 INFO  [main] HelperClass - Sub Module Group is clicked Clicked
+2025-12-11 19:11:44 INFO  [main] HelperClass - New Group Button is clicked Clicked
+2025-12-11 19:11:45 INFO  [main] HelperClass - All Modules is clicked Clicked
+2025-12-11 19:11:45 INFO  [main] AccessPermissionsPage - Group Created Successfully
+2025-12-11 19:11:45 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:45 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:45 INFO  [main] AccessPermissions - This is View Group Method
+2025-12-11 19:11:45 INFO  [main] AccessPermissionsPage - View Group method entered
+2025-12-11 19:11:46 INFO  [main] HelperClass - View Group Clicked
+2025-12-11 19:11:46 INFO  [main] HelperClass - Close Group Clicked
+2025-12-11 19:11:46 INFO  [main] AccessPermissionsPage - View Group Successfull
+2025-12-11 19:11:46 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:46 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:46 INFO  [main] AccessPermissions - This is Edit Group Method
+2025-12-11 19:11:46 INFO  [main] AccessPermissionsPage - Edit Group method entered
+2025-12-11 19:11:46 INFO  [main] HelperClass - Edit Group Clicked
+2025-12-11 19:11:47 INFO  [main] HelperClass - Save Group Clicked
+2025-12-11 19:11:47 INFO  [main] AccessPermissionsPage - Edit Group Successfull
+2025-12-11 19:11:47 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:47 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:47 INFO  [main] AccessPermissions - This is Delete Group Method
+2025-12-11 19:11:47 INFO  [main] AccessPermissionsPage - Delete Group method entered
+2025-12-11 19:11:48 INFO  [main] HelperClass - Delete Group Clicked
+2025-12-11 19:11:48 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 19:11:48 INFO  [main] AccessPermissionsPage - Delete Group Successfull
+2025-12-11 19:11:48 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:48 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:48 INFO  [main] AccessPermissions - This is Add Role Method
+2025-12-11 19:11:48 INFO  [main] HelperClass - Roles Module Clicked
+2025-12-11 19:11:49 INFO  [main] HelperClass - Add New Role Clicked
+2025-12-11 19:11:50 INFO  [main] HelperClass - Group Down Selected  Clicked
+2025-12-11 19:11:50 INFO  [main] HelperClass - Select Group Name Clicked
+2025-12-11 19:11:51 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 19:11:51 INFO  [main] HelperClass - Group Add Permissions in Access Permissions for Role Clicked
+2025-12-11 19:11:51 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2025-12-11 19:11:51 INFO  [main] HelperClass - Role Saved JS Clicked
+2025-12-11 19:11:51 INFO  [main] AccessPermissionsPage - Roles Created Successfully
+2025-12-11 19:11:51 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:52 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:52 INFO  [main] AccessPermissions - This is View Role Method
+2025-12-11 19:11:52 INFO  [main] AccessPermissionsPage - View Role method entered
+2025-12-11 19:11:53 INFO  [main] HelperClass - View Role Clicked
+2025-12-11 19:11:53 INFO  [main] HelperClass - Close Role Clicked
+2025-12-11 19:11:53 INFO  [main] AccessPermissionsPage - View Role Successfull
+2025-12-11 19:11:53 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:53 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:53 INFO  [main] AccessPermissions - This is Edit Role Method
+2025-12-11 19:11:53 INFO  [main] AccessPermissionsPage - Edit Role method entered
+2025-12-11 19:11:54 INFO  [main] HelperClass - Edit Role Clicked
+2025-12-11 19:11:55 INFO  [main] HelperClass - Save Role Clicked
+2025-12-11 19:11:55 INFO  [main] AccessPermissionsPage - Edit Role Successfull
+2025-12-11 19:11:55 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:55 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:55 INFO  [main] AccessPermissions - This is Delete Role Method
+2025-12-11 19:11:55 INFO  [main] AccessPermissionsPage - Delete Role method entered
+2025-12-11 19:11:55 INFO  [main] HelperClass - Delete Role Icon  Clicked
+2025-12-11 19:11:56 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 19:11:56 INFO  [main] AccessPermissionsPage - Delete Role Successfull
+2025-12-11 19:11:56 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:56 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:56 INFO  [main] AccessPermissions - This is an Add User Method
+2025-12-11 19:11:57 INFO  [main] HelperClass - Select Role User  Radio Button  Clicked
+2025-12-11 19:11:57 INFO  [main] HelperClass - Selected Role User  Radio Button  Clicked
+2025-12-11 19:11:57 INFO  [main] HelperClass - Active User Radio Button JS Clicked
+2025-12-11 19:11:58 INFO  [main] HelperClass - Submit Button Clicked
+2025-12-11 19:11:58 INFO  [main] AccessPermissionsPage - User Created Successfully
+2025-12-11 19:11:58 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:58 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:58 INFO  [main] AccessPermissions - This is User View  Method
+2025-12-11 19:11:58 INFO  [main] AccessPermissionsPage - View User method entered
+2025-12-11 19:11:59 INFO  [main] HelperClass - View User Clicked
+2025-12-11 19:11:59 INFO  [main] HelperClass - Close User Clicked
+2025-12-11 19:11:59 INFO  [main] AccessPermissionsPage - View User Successfull
+2025-12-11 19:11:59 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:11:59 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:11:59 INFO  [main] AccessPermissions - This is User edit  Method
+2025-12-11 19:11:59 INFO  [main] AccessPermissionsPage - Edit User method entered
+2025-12-11 19:12:00 INFO  [main] HelperClass - Edit User Clicked
+2025-12-11 19:12:00 INFO  [main] HelperClass - Save User Clicked
+2025-12-11 19:12:00 INFO  [main] AccessPermissionsPage - Edit User Successfull
+2025-12-11 19:12:00 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:12:00 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:12:00 INFO  [main] AccessPermissions - This is User Delete  Method
+2025-12-11 19:12:00 INFO  [main] AccessPermissionsPage - Delete User method entered
+2025-12-11 19:12:01 INFO  [main] HelperClass - Delete User Clicked
+2025-12-11 19:12:01 INFO  [main] HelperClass - Delete Yes Clicked
+2025-12-11 19:12:01 INFO  [main] AccessPermissionsPage - Delete User Successfull
+2025-12-11 19:12:01 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:12:02 INFO  [main] DocSegments - Documents Segments link Click
+2025-12-11 19:12:02 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:12:02 INFO  [main] DocSegments - The Document segment add started 
+2025-12-11 19:12:02 INFO  [main] DocSegmentsPage - Add New Document Segement
+2025-12-11 19:12:02 INFO  [main] HelperClass - Documents Segment Module Clicked
+2025-12-11 19:12:02 INFO  [main] HelperClass - Add New Segement Clicked
+2025-12-11 19:12:03 INFO  [main] HelperClass - Custom Query Drop Down Clicked
+2025-12-11 19:12:03 INFO  [main] HelperClass - Custom Query Select Clicked
+2025-12-11 19:12:04 INFO  [main] HelperClass - Vault Drop Down Clicked
+2025-12-11 19:12:04 INFO  [main] HelperClass - Vault Server Clicked
+2025-12-11 19:12:04 INFO  [main] HelperClass - Groups Checkbox JS Clicked
+2025-12-11 19:12:04 INFO  [main] HelperClass - Configue Link Tab Clicked
+2025-12-11 19:12:04 INFO  [main] HelperClass - Archive Id Clicked
+2025-12-11 19:12:05 INFO  [main] HelperClass - Account Number Clicked
+2025-12-11 19:12:05 INFO  [main] HelperClass - Save Button Clicked
+2025-12-11 19:12:05 INFO  [main] DocSegmentsPage - New Document Segement Added Sucessfully
+2025-12-11 19:12:07 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:12:07 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:12:07 INFO  [main] DocSegments - View Segement Method Called
+2025-12-11 19:12:07 INFO  [main] DocSegmentsPage - View Doc Segment
+2025-12-11 19:12:07 INFO  [main] HelperClass - View Icon Clicked
+2025-12-11 19:12:08 INFO  [main] HelperClass - Close View Icon Clicked
+2025-12-11 19:12:08 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:12:08 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:12:08 INFO  [main] DocSegments - Edit Segement Method Called
+2025-12-11 19:12:08 INFO  [main] DocSegmentsPage - Edit Doc Segment
+2025-12-11 19:12:08 INFO  [main] HelperClass - Edit Icon Clicked
+2025-12-11 19:12:09 INFO  [main] HelperClass - Save Icon Clicked
+2025-12-11 19:12:09 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:12:09 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:12:09 INFO  [main] DocSegments - Delete Segement Method Called
+2025-12-11 19:12:09 INFO  [main] DocSegmentsPage - Delete Doc Segment
+2025-12-11 19:12:10 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 19:12:10 INFO  [main] HelperClass - Delete Icon Clicked
+2025-12-11 19:12:10 INFO  [main] Listeners - Test Case Success
+2025-12-11 19:12:10 INFO  [main] Listeners - Test Case Started
+2025-12-11 19:12:10 INFO  [main] Login - Logout for the User
+2025-12-11 19:12:10 INFO  [main] LoginPage - This is logout method
+2025-12-11 19:12:10 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2025-12-11 19:12:10 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2025-12-11 19:12:10 INFO  [main] LoginPage - Approver ApproverMain User
+2025-12-11 19:12:11 INFO  [main] HelperClass - Sign out Button Clicked
+2025-12-11 19:12:11 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2025-12-11 19:12:11 INFO  [main] LoginPage - Logout Success
+2025-12-11 19:12:11 INFO  [main] Listeners - Test Case Success

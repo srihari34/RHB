@@ -12,13 +12,14 @@
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
           <include name="verifyDeleteDogSeg"/>
-          <include name="verifyAddDocSeg"/>
         </methods>
       </class> <!-- tests.DocSegments -->
       <class name="tests.AccessPermissions">
         <methods>
           <include name="verifyAccessPermissionsSetup"/>
           <include name="verifyDeleteUser"/>
+          <include name="verifyDeleteRole"/>
+          <include name="verifyAddRole"/>
           <include name="verifyAddUser"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>

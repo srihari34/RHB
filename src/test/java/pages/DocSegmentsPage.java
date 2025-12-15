@@ -11,6 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.qameta.allure.Step;
 import utilities.HelperClass;
 import utilities.ReadExcelData;
 
@@ -83,7 +85,7 @@ public class DocSegmentsPage extends HelperClass{
 	
 	
 	
-
+	@Step("Adding the Document Segment by reading the data from Excel")
 	public boolean addDocSegment() {
 		try
 		{
@@ -128,7 +130,7 @@ public class DocSegmentsPage extends HelperClass{
 			return false;
 		}
 	}
-
+	@Step("View the Document Segement which was recently added")
 	public boolean viewDocSegement() {
 		
 		log.info("View Doc Segment");
@@ -150,7 +152,7 @@ public class DocSegmentsPage extends HelperClass{
 		}
 		
 	}
-
+	@Step("Edit the Document Segement which was recently added")
 	public boolean editDocSegement() {
 		
 		log.info("Edit Doc Segment");
@@ -171,7 +173,7 @@ public class DocSegmentsPage extends HelperClass{
 		return false;
 		}
 	}
-
+	@Step("Delete the Document Segement which was recently added")
 	public boolean deleteDocSegement() {
 		
 		log.info("Delete Doc Segment");

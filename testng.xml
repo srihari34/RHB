@@ -2,7 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
  <listeners>
-  <listener class-name="base.Listeners"/>
+   <listener class-name="base.Listeners"/>
+   <listener class-name="base.AllureListeners"/>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
  </listeners>
  
   <test name="Test">

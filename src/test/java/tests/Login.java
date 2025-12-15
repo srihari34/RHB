@@ -5,6 +5,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import pages.LoginPage;
 import utilities.ReadExcelData;
 import java.io.IOException;
@@ -18,6 +21,8 @@ public class Login extends BaseClass {
 	LoginPage loginobj;
 	
 	@Test(dataProvider = "LoginCredentials", dataProviderClass = Login.class)
+	@Description("Verify that User Login successfully")
+	@Severity(SeverityLevel.BLOCKER)
 
 	public void verifyLoginData(String username, String password) throws IOException {
 		log.info("Login User method Started");

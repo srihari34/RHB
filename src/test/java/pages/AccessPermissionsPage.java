@@ -11,6 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.qameta.allure.Step;
 import utilities.HelperClass;
 import utilities.ReadExcelData;
 
@@ -198,7 +200,7 @@ public class AccessPermissionsPage extends HelperClass {
 	@FindBy(xpath = "//div[@id='jBox3']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes']")
 	WebElement UserDeleteYes;
 
-
+    @Step("Adding the Group by reading the data from Excel")
 	public boolean addGroup() throws InterruptedException {
 		
 		
@@ -229,7 +231,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 
 	}
-	
+    @Step("View the Group which was recently added")
 	public boolean viewGroup()
 	{
 		log.info("View Group method entered");
@@ -254,6 +256,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
+    @Step("Edit the Group which was recently added")
 	public boolean editGroup()
 	{
 		log.info("Edit Group method entered");
@@ -280,7 +283,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
-	
+    @Step("Delelte the Group which was recently added")
 	public boolean deleteGroup()
 	{
 		log.info("Delete Group method entered");
@@ -303,7 +306,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
-
+    @Step("Adding the Role by reading the data from Excel")
 	public boolean addRole() throws InterruptedException {
 		try {
 		String userpath = System.getProperty("user.dir");
@@ -340,7 +343,7 @@ public class AccessPermissionsPage extends HelperClass {
 			return false;
 		}
 	}
-	
+	@Step("View the Role which was recently added")
 	public boolean viewRole()
 	{
 		log.info("View Role method entered");
@@ -363,7 +366,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
-
+	@Step("Edit the Role which was recently added")
 	public boolean editRole()
 	{
 		log.info("Edit Role method entered");
@@ -391,7 +394,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
-	
+	@Step("Delete the Role which was recently added")
 	public boolean deleteRole()
 	{
 		log.info("Delete Role method entered");
@@ -414,7 +417,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
-	
+	@Step("Adding the User by reading the data from Excel")
 	public boolean addUser() throws InterruptedException {
 		try {
 		String userpath = System.getProperty("user.dir");
@@ -460,7 +463,7 @@ public class AccessPermissionsPage extends HelperClass {
 			return false;
 		}
 	}
-	
+	@Step("View the User which was recently added")
 	public boolean viewUser()
 	{
 		log.info("View User method entered");
@@ -483,6 +486,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
+	@Step("Edit the User which was recently added")
 	public boolean editUser()
 	{
 		log.info("Edit User method entered");
@@ -511,6 +515,7 @@ public class AccessPermissionsPage extends HelperClass {
 		}
 		
 	}
+	@Step("Delete the User which was recently added")
 	public boolean deleteUser()
 	{
 		log.info("Delete User method entered");

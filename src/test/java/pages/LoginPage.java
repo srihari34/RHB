@@ -11,6 +11,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.qameta.allure.Step;
 import utilities.HelperClass;
 
 public class LoginPage extends HelperClass{
@@ -53,6 +55,7 @@ public class LoginPage extends HelperClass{
 	@FindBy(xpath="//h4[text()='Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.']")
 	WebElement DisableUserTest;
 	
+	@Step("Verify the Login")
 	public boolean loginData(String username, String password)
 	{
 		try
@@ -72,6 +75,7 @@ public class LoginPage extends HelperClass{
 			return false;
 		}	
 	}
+	@Step("Verify the Login")
 		public boolean loginTests(String username, String password)
 		{
 			try
@@ -98,6 +102,7 @@ public class LoginPage extends HelperClass{
 			log.info(message);
 			return message;
 		}
+		@Step("Verify the Logout")
 		public boolean logout() {
 			try
 			{

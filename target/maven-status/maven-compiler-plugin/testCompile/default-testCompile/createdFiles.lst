@@ -10,5 +10,6 @@ pages\AccessPermissionsPage.class
 tests\AccessPermissions.class
 utilities\HelperClass.class
 utilities\ReadExcelData.class
+base\AllureListeners.class
 pages\DocSegmentsPage.class
 utilities\ScreenShotBase.class

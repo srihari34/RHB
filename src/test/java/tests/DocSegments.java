@@ -8,6 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import base.BaseClass;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import pages.DocSegmentsPage;
 import pages.LoginPage;
 
@@ -24,6 +27,8 @@ public class DocSegments extends BaseClass{
 	}
 	
 	@Test(priority=1)
+	@Description("Verify that New Document Segment can be Added successfully")
+	@Severity(SeverityLevel.CRITICAL)
 	public void verifyAddDocSeg() throws InterruptedException {
 		
 		log.info("The Document segment add started ");
@@ -34,6 +39,8 @@ public class DocSegments extends BaseClass{
 	
 	
 	@Test(priority=2)
+	@Description("Verify that New Document Segment can be Viewed successfully")
+	@Severity(SeverityLevel.NORMAL)
 	public void verifyViewDogSeg() throws InterruptedException
 	{
 		log.info("View Segement Method Called");
@@ -42,6 +49,8 @@ public class DocSegments extends BaseClass{
 		
 	}
 	@Test(priority=3,enabled=true)
+	@Description("Verify that New Document Segment can be Edited successfully")
+	@Severity(SeverityLevel.NORMAL)
 	public void verifyEditDogSeg() throws InterruptedException
 	{
 		log.info("Edit Segement Method Called");
@@ -50,6 +59,8 @@ public class DocSegments extends BaseClass{
 		
 	}
 	@Test(priority=4,enabled=true)
+	@Description("Verify that New Document Segment can be Deleted successfully")
+	@Severity(SeverityLevel.NORMAL)
 	public void verifyDeleteDogSeg() throws InterruptedException
 	{
 		log.info("Delete Segement Method Called");

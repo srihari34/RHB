@@ -125,7 +125,7 @@
       <![CDATA[Test Case Started : verifyDeleteRole]]>
     </line>
     <line>
-      <![CDATA[Test Case Success : 1]]>
+      <![CDATA[Test Case Failure : 2]]>
     </line>
     <line>
       <![CDATA[Test Case Started : verifyAddUser]]>
@@ -155,7 +155,7 @@
       <![CDATA[Test Case Started : verifyAddDocSeg]]>
     </line>
     <line>
-      <![CDATA[Test Case Failure : 2]]>
+      <![CDATA[Test Case Success : 1]]>
     </line>
     <line>
       <![CDATA[Test Case Started : verifyViewDogSeg]]>
@@ -182,12 +182,12 @@
       <![CDATA[Test Case Success : 1]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-12-11T12:11:41 IST" name="Suite" finished-at="2025-12-11T12:13:00 IST" duration-ms="78903">
+  <suite started-at="2025-12-11T18:40:53 IST" name="Suite" finished-at="2025-12-11T18:41:46 IST" duration-ms="52207">
     <groups>
     </groups>
-    <test started-at="2025-12-11T12:11:41 IST" name="Test" finished-at="2025-12-11T12:13:00 IST" duration-ms="78903">
+    <test started-at="2025-12-11T18:40:53 IST" name="Test" finished-at="2025-12-11T18:41:46 IST" duration-ms="52207">
       <class name="tests.LoginTest">
-        <test-method signature="logoutMainUser()[pri:1, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:44 IST" name="logoutMainUser" finished-at="2025-12-11T12:11:45 IST" duration-ms="632" status="PASS">
+        <test-method signature="logoutMainUser()[pri:1, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:40:56 IST" name="logoutMainUser" finished-at="2025-12-11T18:40:57 IST" duration-ms="655" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : logoutMainUser]]>
@@ -197,7 +197,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logoutMainUser -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:45 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T12:11:46 IST" duration-ms="1374" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:40:57 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T18:40:58 IST" duration-ms="1320" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -224,7 +224,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:46 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T12:11:48 IST" duration-ms="1359" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:40:59 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T18:41:00 IST" duration-ms="1334" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +251,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:48 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T12:11:49 IST" duration-ms="1263" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:00 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T18:41:01 IST" duration-ms="1281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,7 +278,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:49 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T12:11:50 IST" duration-ms="1487" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:01 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-11T18:41:03 IST" duration-ms="1348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,7 +305,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:51 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T12:11:52 IST" duration-ms="1433" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:03 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T18:41:04 IST" duration-ms="1298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -332,7 +332,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:52 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T12:11:53 IST" duration-ms="1309" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:04 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T18:41:05 IST" duration-ms="1292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -359,7 +359,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:54 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T12:11:55 IST" duration-ms="1338" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:05 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T18:41:07 IST" duration-ms="1336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -386,7 +386,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:55 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T12:11:56 IST" duration-ms="1385" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:07 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T18:41:08 IST" duration-ms="1316" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -413,7 +413,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:56 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T12:11:58 IST" duration-ms="1274" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:08 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T18:41:09 IST" duration-ms="1287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -440,7 +440,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:58 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T12:11:59 IST" duration-ms="1303" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:10 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-11T18:41:11 IST" duration-ms="1280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -467,7 +467,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="mainUserLogin(java.lang.String,java.lang.String)[pri:4, instance:tests.LoginTest@631e06ab]" started-at="2025-12-11T12:11:59 IST" name="mainUserLogin" data-provider="LoginCredentials1" finished-at="2025-12-11T12:12:00 IST" duration-ms="864" status="PASS">
+        <test-method signature="mainUserLogin(java.lang.String,java.lang.String)[pri:4, instance:tests.LoginTest@49bd54f7]" started-at="2025-12-11T18:41:11 IST" name="mainUserLogin" data-provider="LoginCredentials1" finished-at="2025-12-11T18:41:12 IST" duration-ms="796" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -491,11 +491,11 @@
         </test-method> <!-- mainUserLogin -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.AccessPermissions">
-        <test-method is-config="true" signature="verifyAccessPermissionsSetup()[pri:0, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:00 IST" name="verifyAccessPermissionsSetup" finished-at="2025-12-11T12:12:00 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="verifyAccessPermissionsSetup()[pri:0, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:12 IST" name="verifyAccessPermissionsSetup" finished-at="2025-12-11T18:41:12 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccessPermissionsSetup -->
-        <test-method signature="verifyAddGroup()[pri:1, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:00 IST" name="verifyAddGroup" finished-at="2025-12-11T12:12:02 IST" duration-ms="1558" status="PASS">
+        <test-method signature="verifyAddGroup()[pri:1, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:12 IST" name="verifyAddGroup" finished-at="2025-12-11T18:41:14 IST" duration-ms="1714" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddGroup]]>
@@ -505,7 +505,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddGroup -->
-        <test-method signature="verifyViewGroup()[pri:2, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:02 IST" name="verifyViewGroup" finished-at="2025-12-11T12:12:03 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="957" status="PASS">
+        <test-method signature="verifyViewGroup()[pri:2, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:14 IST" name="verifyViewGroup" finished-at="2025-12-11T18:41:15 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="969" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewGroup]]>
@@ -515,7 +515,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewGroup -->
-        <test-method signature="verifyEditGroup()[pri:3, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:03 IST" name="verifyEditGroup" finished-at="2025-12-11T12:12:03 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="564" status="PASS">
+        <test-method signature="verifyEditGroup()[pri:3, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:15 IST" name="verifyEditGroup" finished-at="2025-12-11T18:41:15 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="586" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditGroup]]>
@@ -525,7 +525,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditGroup -->
-        <test-method signature="verifyDeleteGroup()[pri:4, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:04 IST" name="verifyDeleteGroup" finished-at="2025-12-11T12:12:05 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="963" status="PASS">
+        <test-method signature="verifyDeleteGroup()[pri:4, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:15 IST" name="verifyDeleteGroup" finished-at="2025-12-11T18:41:16 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="912" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyDeleteGroup]]>
@@ -535,7 +535,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDeleteGroup -->
-        <test-method signature="verifyAddRole()[pri:5, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:05 IST" name="verifyAddRole" finished-at="2025-12-11T12:12:07 IST" duration-ms="2555" status="PASS">
+        <test-method signature="verifyAddRole()[pri:5, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:16 IST" name="verifyAddRole" finished-at="2025-12-11T18:41:19 IST" duration-ms="2425" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddRole]]>
@@ -545,7 +545,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddRole -->
-        <test-method signature="verifyViewRole()[pri:6, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:07 IST" name="verifyViewRole" finished-at="2025-12-11T12:12:08 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="1016" status="PASS">
+        <test-method signature="verifyViewRole()[pri:6, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:19 IST" name="verifyViewRole" finished-at="2025-12-11T18:41:20 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="1015" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewRole]]>
@@ -555,7 +555,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewRole -->
-        <test-method signature="verifyEditRole()[pri:7, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:09 IST" name="verifyEditRole" finished-at="2025-12-11T12:12:10 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="1167" status="PASS">
+        <test-method signature="verifyEditRole()[pri:7, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:20 IST" name="verifyEditRole" finished-at="2025-12-11T18:41:21 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="713" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditRole]]>
@@ -565,17 +565,58 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditRole -->
-        <test-method signature="verifyDeleteRole()[pri:8, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:10 IST" name="verifyDeleteRole" finished-at="2025-12-11T12:12:11 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="926" status="PASS">
+        <test-method signature="verifyDeleteRole()[pri:8, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:21 IST" name="verifyDeleteRole" finished-at="2025-12-11T18:41:32 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="10464" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Role was not Delete successfully! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Role was not Delete successfully! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.AccessPermissions.verifyDeleteRole(AccessPermissions.java:90)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyDeleteRole]]>
             </line>
             <line>
-              <![CDATA[Test Case Success : 1]]>
+              <![CDATA[Test Case Failure : 2]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyDeleteRole -->
-        <test-method signature="verifyAddUser()[pri:9, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:11 IST" name="verifyAddUser" finished-at="2025-12-11T12:12:12 IST" duration-ms="1190" status="PASS">
+        <test-method signature="verifyAddUser()[pri:9, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:32 IST" name="verifyAddUser" finished-at="2025-12-11T18:41:33 IST" duration-ms="1755" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddUser]]>
@@ -585,7 +626,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddUser -->
-        <test-method signature="verifyViewUser()[pri:10, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:12 IST" name="verifyViewUser" finished-at="2025-12-11T12:12:13 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="935" status="PASS">
+        <test-method signature="verifyViewUser()[pri:10, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:34 IST" name="verifyViewUser" finished-at="2025-12-11T18:41:34 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="937" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewUser]]>
@@ -595,7 +636,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewUser -->
-        <test-method signature="verifyEditUser()[pri:11, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:13 IST" name="verifyEditUser" finished-at="2025-12-11T12:12:14 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="568" status="PASS">
+        <test-method signature="verifyEditUser()[pri:11, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:35 IST" name="verifyEditUser" finished-at="2025-12-11T18:41:36 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="1156" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditUser]]>
@@ -605,7 +646,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditUser -->
-        <test-method signature="verifyDeleteUser()[pri:12, instance:tests.AccessPermissions@346a361]" started-at="2025-12-11T12:12:14 IST" name="verifyDeleteUser" finished-at="2025-12-11T12:12:23 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="8938" status="FAIL">
+        <test-method signature="verifyDeleteUser()[pri:12, instance:tests.AccessPermissions@5a12c728]" started-at="2025-12-11T18:41:36 IST" name="verifyDeleteUser" finished-at="2025-12-11T18:41:37 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="821" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[User was not Edited successfully! expected [true] but found [false]]]>
@@ -615,7 +656,7 @@
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at tests.AccessPermissions.verifyDeleteUser(AccessPermissions.java:115)
+at tests.AccessPermissions.verifyDeleteUser(AccessPermissions.java:120)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -658,11 +699,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- verifyDeleteUser -->
       </class> <!-- tests.AccessPermissions -->
       <class name="tests.Login">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.Login@18f20260]" started-at="2025-12-11T12:11:37 IST" name="launchBrowser" finished-at="2025-12-11T12:11:41 IST" duration-ms="4238" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.Login@5aa360ea]" started-at="2025-12-11T18:40:48 IST" name="launchBrowser" finished-at="2025-12-11T18:40:53 IST" duration-ms="4998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoginData(java.lang.String,java.lang.String)[pri:0, instance:tests.Login@18f20260]" started-at="2025-12-11T12:11:43 IST" name="verifyLoginData" data-provider="LoginCredentials" finished-at="2025-12-11T12:11:44 IST" duration-ms="1248" status="PASS">
+        <test-method signature="verifyLoginData(java.lang.String,java.lang.String)[pri:0, instance:tests.Login@5aa360ea]" started-at="2025-12-11T18:40:55 IST" name="verifyLoginData" data-provider="LoginCredentials" finished-at="2025-12-11T18:40:56 IST" duration-ms="1373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -686,7 +727,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- verifyLoginData -->
       </class> <!-- tests.Login -->
       <class name="tests.Logout">
-        <test-method signature="logoutUser()[pri:0, instance:tests.Logout@1643d68f]" started-at="2025-12-11T12:12:59 IST" name="logoutUser" finished-at="2025-12-11T12:13:00 IST" duration-ms="554" status="PASS">
+        <test-method signature="logoutUser()[pri:0, instance:tests.Logout@6e5bfdfc]" started-at="2025-12-11T18:41:45 IST" name="logoutUser" finished-at="2025-12-11T18:41:46 IST" duration-ms="571" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : logoutUser]]>
@@ -698,62 +739,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- logoutUser -->
       </class> <!-- tests.Logout -->
       <class name="tests.DocSegments">
-        <test-method is-config="true" signature="verifyDocSegmentssetup()[pri:0, instance:tests.DocSegments@107ed6fc]" started-at="2025-12-11T12:12:23 IST" name="verifyDocSegmentssetup" finished-at="2025-12-11T12:12:23 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="verifyDocSegmentssetup()[pri:0, instance:tests.DocSegments@79ab3a71]" started-at="2025-12-11T18:41:37 IST" name="verifyDocSegmentssetup" finished-at="2025-12-11T18:41:37 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDocSegmentssetup -->
-        <test-method signature="verifyAddDocSeg()[pri:1, instance:tests.DocSegments@107ed6fc]" started-at="2025-12-11T12:12:23 IST" name="verifyAddDocSeg" finished-at="2025-12-11T12:12:41 IST" duration-ms="18350" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Doc Segment was not added successfully expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Doc Segment was not added successfully expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at tests.DocSegments.verifyAddDocSeg(DocSegments.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyAddDocSeg()[pri:1, instance:tests.DocSegments@79ab3a71]" started-at="2025-12-11T18:41:37 IST" name="verifyAddDocSeg" finished-at="2025-12-11T18:41:42 IST" duration-ms="5199" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddDocSeg]]>
             </line>
             <line>
-              <![CDATA[Test Case Failure : 2]]>
+              <![CDATA[Test Case Success : 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddDocSeg -->
-        <test-method signature="verifyViewDogSeg()[pri:2, instance:tests.DocSegments@107ed6fc]" started-at="2025-12-11T12:12:41 IST" name="verifyViewDogSeg" finished-at="2025-12-11T12:12:52 IST" duration-ms="10694" status="PASS">
+        <test-method signature="verifyViewDogSeg()[pri:2, instance:tests.DocSegments@79ab3a71]" started-at="2025-12-11T18:41:42 IST" name="verifyViewDogSeg" finished-at="2025-12-11T18:41:43 IST" duration-ms="865" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewDogSeg]]>
@@ -763,7 +763,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewDogSeg -->
-        <test-method signature="verifyEditDogSeg()[pri:3, instance:tests.DocSegments@107ed6fc]" started-at="2025-12-11T12:12:52 IST" name="verifyEditDogSeg" finished-at="2025-12-11T12:12:53 IST" duration-ms="1002" status="PASS">
+        <test-method signature="verifyEditDogSeg()[pri:3, instance:tests.DocSegments@79ab3a71]" started-at="2025-12-11T18:41:43 IST" name="verifyEditDogSeg" finished-at="2025-12-11T18:41:44 IST" duration-ms="891" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditDogSeg]]>
@@ -773,7 +773,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditDogSeg -->
-        <test-method signature="verifyDeleteDogSeg()[pri:4, instance:tests.DocSegments@107ed6fc]" started-at="2025-12-11T12:12:53 IST" name="verifyDeleteDogSeg" finished-at="2025-12-11T12:12:59 IST" duration-ms="6101" status="FAIL">
+        <test-method signature="verifyDeleteDogSeg()[pri:4, instance:tests.DocSegments@79ab3a71]" started-at="2025-12-11T18:41:44 IST" name="verifyDeleteDogSeg" finished-at="2025-12-11T18:41:45 IST" duration-ms="744" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Doc Segement Was Not Deleted Successfully expected [true] but found [false]]]>

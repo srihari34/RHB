@@ -8,6 +8,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import pages.LoginPage;
 import utilities.ReadExcelData;
 
@@ -31,6 +34,8 @@ public class LoginTest extends BaseClass {
 	}
 
 	@Test(priority = 2, enabled = true, dataProvider = "LoginCredentials", dataProviderClass = LoginTest.class)
+	@Description("Verify the Login Page with Different Scenarios")
+	@Severity(SeverityLevel.CRITICAL)
 	public void verifyLoginTest(String username, String password, String errormessage)
 			throws InterruptedException, IOException {
 		log.info("Login Test Started");
@@ -84,6 +89,8 @@ public class LoginTest extends BaseClass {
 	}
 
 	@Test(priority = 3, enabled = true, dataProvider = "BlockLoginCredentials", dataProviderClass = LoginTest.class)
+	@Description("Verify the Blocking the User After Multiple Wrong Login Attemps")
+	@Severity(SeverityLevel.CRITICAL)
 	public void verifyblockUser(String username, String password, String errormessage) throws InterruptedException, IOException 
 	{
 		log.info("BlockLoginCredentials");

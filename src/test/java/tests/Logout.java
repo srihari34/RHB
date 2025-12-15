@@ -8,6 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import pages.LoginPage;
 
 public class Logout  extends BaseClass{
@@ -17,6 +20,8 @@ public class Logout  extends BaseClass{
 	LoginPage loginobj;
 
 	@Test
+	@Description("Verify the User Logout successfully")
+	@Severity(SeverityLevel.BLOCKER)
 	public  void logoutUser() throws IOException {
 	
 		log.info("Logout for the User");
