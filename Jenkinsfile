@@ -21,11 +21,14 @@ pipeline {
             }
         }
 
-        stage('Publish TestNG Results') {
-            steps {
-                // Publish TestNG report
-                publishTestNGResults testResultsPattern: '**/target/surefire-reports/testng-results.xml'
-            }
+        post {
+        always {
+            testNG(
+                testResultsPattern: '**/testng-results.xml',
+                escapeTestDescriptions: false,
+                escapeExceptionMessages: false,
+                escapeTestMethods: false
+            )
         }
     }
 }
