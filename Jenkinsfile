@@ -21,5 +21,10 @@ pipeline {
             }
         }
 }
-  
+   post {
+        always {
+            // Optional: just print a message
+            echo 'Build and tests executed. Check console output for results.'
+        }
+    }
 }
