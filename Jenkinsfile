@@ -21,14 +21,5 @@ pipeline {
             }
         }
 }
-        post {
-        always {
-            testNG(
-                testResultsPattern: '**/testng-results.xml',
-                escapeTestDescriptions: false,
-                escapeExceptionMessages: false,
-                escapeTestMethods: false
-            )
-        }
-    }
+  
 }

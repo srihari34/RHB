@@ -31,7 +31,7 @@ public class AccessPermissionsPage extends HelperClass {
 	
 
 	@FindBy(xpath = "//span[text()='Access & Permissions']")
-	WebElement AccessPermissions;
+	private WebElement AccessPermissions;
 
 	@FindBy(xpath = "//span[text()='Groups']")
 	WebElement Groups;
