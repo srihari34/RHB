@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Backup\Projects\RHB_Project\rhb.com\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 2 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DocSegments" class="method navigator-link" hash-for-method="verifyDeleteDogSeg">verifyDeleteDogSeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DocSegments" class="method navigator-link" hash-for-method="verifyEditDogSeg">verifyEditDogSeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="logoutMainUser">logoutMainUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.Logout" class="method navigator-link" hash-for-method="logoutUser">logoutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="mainUserLogin(Approver, User@123)">mainUserLogin(Approver, User@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DocSegments" class="method navigator-link" hash-for-method="verifyAddDocSeg">verifyAddDocSeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyAddGroup">verifyAddGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyAddRole">verifyAddRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyAddUser">verifyAddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyDeleteGroup">verifyDeleteGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyDeleteRole">verifyDeleteRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyDeleteUser">verifyDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyEditGroup">verifyEditGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyEditRole">verifyEditRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyEditUser">verifyEditUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.Login" class="method navigator-link" hash-for-method="verifyLoginData(Approver, User@123)">verifyLoginData(Approver, User@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLoginTest(Approver1, User@123, Invalid user name or password or Deactivated.)">verifyLoginTest(Approver1, User@123, Invalid user name or password or Deactivated.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLoginTest(Approver, User@123, )">verifyLoginTest(Approver, User@123, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLoginTest(Approver, User@1234, Invalid user name or password.)">verifyLoginTest(Approver, User@1234, Invalid user name or password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLoginTest(Approver1, User@1234, Invalid user name or password or Deactivated.)">verifyLoginTest(Approver1, User@1234, Invalid user name or password or Deactivated.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.DocSegments" class="method navigator-link" hash-for-method="verifyViewDogSeg">verifyViewDogSeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyViewGroup">verifyViewGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyViewRole">verifyViewRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AccessPermissions" class="method navigator-link" hash-for-method="verifyViewUser">verifyViewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyblockUser(Check, User123, Invalid user name or password.)">verifyblockUser(Check, User123, Invalid user name or password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyblockUser(Check, User1234, Invalid user name or password.)">verifyblockUser(Check, User1234, Invalid user name or password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyblockUser(Check, User123, Invalid user name or password.)">verifyblockUser(Check, User123, Invalid user name or password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyblockUser(Check, User@123, )">verifyblockUser(Check, User@123, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyblockUser(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)">verifyblockUser(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyblockUser(Check, User1234, Invalid user name or password.)">verifyblockUser(Check, User1234, Invalid user name or password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.DocSegments</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteDogSeg">
+                  </a> <!-- verifyDeleteDogSeg -->
+                  <span class="method-name">verifyDeleteDogSeg</span>
+                  <div class="stack-trace">java.lang.AssertionError: Doc Segement Was Not Deleted Successfully expected [true] but found [false]
+	at tests.DocSegments.verifyDeleteDogSeg(DocSegments.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditDogSeg">
+                  </a> <!-- verifyEditDogSeg -->
+                  <span class="method-name">verifyEditDogSeg</span>
+                  <div class="stack-trace">java.lang.AssertionError: Doc Segement Was Not Edited Successfully expected [true] but found [false]
+	at tests.DocSegments.verifyEditDogSeg(DocSegments.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AccessPermissions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddGroup">
+                  </a> <!-- verifyAddGroup -->
+                  <span class="method-name">verifyAddGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddRole">
+                  </a> <!-- verifyAddRole -->
+                  <span class="method-name">verifyAddRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddUser">
+                  </a> <!-- verifyAddUser -->
+                  <span class="method-name">verifyAddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteGroup">
+                  </a> <!-- verifyDeleteGroup -->
+                  <span class="method-name">verifyDeleteGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteRole">
+                  </a> <!-- verifyDeleteRole -->
+                  <span class="method-name">verifyDeleteRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteUser">
+                  </a> <!-- verifyDeleteUser -->
+                  <span class="method-name">verifyDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditGroup">
+                  </a> <!-- verifyEditGroup -->
+                  <span class="method-name">verifyEditGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditRole">
+                  </a> <!-- verifyEditRole -->
+                  <span class="method-name">verifyEditRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditUser">
+                  </a> <!-- verifyEditUser -->
+                  <span class="method-name">verifyEditUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyViewGroup">
+                  </a> <!-- verifyViewGroup -->
+                  <span class="method-name">verifyViewGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyViewRole">
+                  </a> <!-- verifyViewRole -->
+                  <span class="method-name">verifyViewRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyViewUser">
+                  </a> <!-- verifyViewUser -->
+                  <span class="method-name">verifyViewUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutUser">
+                  </a> <!-- logoutUser -->
+                  <span class="method-name">logoutUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DocSegments</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddDocSeg">
+                  </a> <!-- verifyAddDocSeg -->
+                  <span class="method-name">verifyAddDocSeg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyViewDogSeg">
+                  </a> <!-- verifyViewDogSeg -->
+                  <span class="method-name">verifyViewDogSeg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginData(Approver, User@123)">
+                  </a> <!-- verifyLoginData(Approver, User@123) -->
+                  <span class="method-name">verifyLoginData</span>
+                  <span class="parameters">(Approver,User@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutMainUser">
+                  </a> <!-- logoutMainUser -->
+                  <span class="method-name">logoutMainUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mainUserLogin(Approver, User@123)">
+                  </a> <!-- mainUserLogin(Approver, User@123) -->
+                  <span class="method-name">mainUserLogin</span>
+                  <span class="parameters">(Approver,User@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(Approver1, User@123, Invalid user name or password or Deactivated.)">
+                  </a> <!-- verifyLoginTest(Approver1, User@123, Invalid user name or password or Deactivated.) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(Approver1,User@123,Invalid user name or password or Deactivated.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(Approver, User@123, )">
+                  </a> <!-- verifyLoginTest(Approver, User@123, ) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(Approver,User@123,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(Approver, User@1234, Invalid user name or password.)">
+                  </a> <!-- verifyLoginTest(Approver, User@1234, Invalid user name or password.) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(Approver,User@1234,Invalid user name or password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTest(Approver1, User@1234, Invalid user name or password or Deactivated.)">
+                  </a> <!-- verifyLoginTest(Approver1, User@1234, Invalid user name or password or Deactivated.) -->
+                  <span class="method-name">verifyLoginTest</span>
+                  <span class="parameters">(Approver1,User@1234,Invalid user name or password or Deactivated.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyblockUser(Check, User123, Invalid user name or password.)">
+                  </a> <!-- verifyblockUser(Check, User123, Invalid user name or password.) -->
+                  <span class="method-name">verifyblockUser</span>
+                  <span class="parameters">(Check,User123,Invalid user name or password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyblockUser(Check, User1234, Invalid user name or password.)">
+                  </a> <!-- verifyblockUser(Check, User1234, Invalid user name or password.) -->
+                  <span class="method-name">verifyblockUser</span>
+                  <span class="parameters">(Check,User1234,Invalid user name or password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyblockUser(Check, User123, Invalid user name or password.)">
+                  </a> <!-- verifyblockUser(Check, User123, Invalid user name or password.) -->
+                  <span class="method-name">verifyblockUser</span>
+                  <span class="parameters">(Check,User123,Invalid user name or password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyblockUser(Check, User@123, )">
+                  </a> <!-- verifyblockUser(Check, User@123, ) -->
+                  <span class="method-name">verifyblockUser</span>
+                  <span class="parameters">(Check,User@123,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyblockUser(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)">
+                  </a> <!-- verifyblockUser(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...) -->
+                  <span class="method-name">verifyblockUser</span>
+                  <span class="parameters">(Check,User12345,Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyblockUser(Check, User1234, Invalid user name or password.)">
+                  </a> <!-- verifyblockUser(Check, User1234, Invalid user name or password.) -->
+                  <span class="method-name">verifyblockUser</span>
+                  <span class="parameters">(Check,User1234,Invalid user name or password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Backup\Projects\RHB_Project\rhb.com\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;base.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;base.AllureListeners&quot;/&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Login&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.AccessPermissions&quot;/&gt;
+      &lt;class name=&quot;tests.DocSegments&quot;/&gt;
+      &lt;class name=&quot;tests.Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyDeleteDogSeg')
+data.setCell(0, 2, 'tests.DocSegments')
+data.setCell(0, 3, 10346);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAddDocSeg')
+data.setCell(1, 2, 'tests.DocSegments')
+data.setCell(1, 3, 5467);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddRole')
+data.setCell(2, 2, 'tests.AccessPermissions')
+data.setCell(2, 3, 1721);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginTest')
+data.setCell(3, 2, 'tests.LoginTest')
+data.setCell(3, 3, 1469);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginData')
+data.setCell(4, 2, 'tests.Login')
+data.setCell(4, 3, 1398);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLoginTest')
+data.setCell(5, 2, 'tests.LoginTest')
+data.setCell(5, 3, 1346);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyblockUser')
+data.setCell(6, 2, 'tests.LoginTest')
+data.setCell(6, 3, 1332);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLoginTest')
+data.setCell(7, 2, 'tests.LoginTest')
+data.setCell(7, 3, 1324);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyblockUser')
+data.setCell(8, 2, 'tests.LoginTest')
+data.setCell(8, 3, 1319);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyblockUser')
+data.setCell(9, 2, 'tests.LoginTest')
+data.setCell(9, 3, 1298);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyblockUser')
+data.setCell(10, 2, 'tests.LoginTest')
+data.setCell(10, 3, 1298);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyblockUser')
+data.setCell(11, 2, 'tests.LoginTest')
+data.setCell(11, 3, 1296);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLoginTest')
+data.setCell(12, 2, 'tests.LoginTest')
+data.setCell(12, 3, 1280);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyblockUser')
+data.setCell(13, 2, 'tests.LoginTest')
+data.setCell(13, 3, 1259);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyAddGroup')
+data.setCell(14, 2, 'tests.AccessPermissions')
+data.setCell(14, 3, 1247);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAddUser')
+data.setCell(15, 2, 'tests.AccessPermissions')
+data.setCell(15, 3, 1154);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyViewUser')
+data.setCell(16, 2, 'tests.AccessPermissions')
+data.setCell(16, 3, 909);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyViewRole')
+data.setCell(17, 2, 'tests.AccessPermissions')
+data.setCell(17, 3, 893);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyDeleteRole')
+data.setCell(18, 2, 'tests.AccessPermissions')
+data.setCell(18, 3, 888);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyViewGroup')
+data.setCell(19, 2, 'tests.AccessPermissions')
+data.setCell(19, 3, 887);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyEditRole')
+data.setCell(20, 2, 'tests.AccessPermissions')
+data.setCell(20, 3, 828);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyViewDogSeg')
+data.setCell(21, 2, 'tests.DocSegments')
+data.setCell(21, 3, 816);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyEditDogSeg')
+data.setCell(22, 2, 'tests.DocSegments')
+data.setCell(22, 3, 758);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'mainUserLogin')
+data.setCell(23, 2, 'tests.LoginTest')
+data.setCell(23, 3, 738);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyEditGroup')
+data.setCell(24, 2, 'tests.AccessPermissions')
+data.setCell(24, 3, 588);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'logoutMainUser')
+data.setCell(25, 2, 'tests.LoginTest')
+data.setCell(25, 3, 588);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyEditUser')
+data.setCell(26, 2, 'tests.AccessPermissions')
+data.setCell(26, 3, 539);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'logoutUser')
+data.setCell(27, 2, 'tests.Logout')
+data.setCell(27, 3, 531);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyDeleteGroup')
+data.setCell(28, 2, 'tests.AccessPermissions')
+data.setCell(28, 3, 444);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyDeleteUser')
+data.setCell(29, 2, 'tests.AccessPermissions')
+data.setCell(29, 3, 366);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddGroup</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyAddGroup</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEditRole</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyEditRole</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEditGroup</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyEditGroup</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">mainUserLogin(Approver, User@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : mainUserLogin</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDeleteUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyDeleteUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginTest(Approver1, User@123, Invalid user name or password or Deactivated.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyLoginTest</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDeleteRole</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyDeleteRole</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logoutMainUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : logoutMainUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginTest(Approver, User@123, )</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyLoginTest</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddDocSeg</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyAddDocSeg</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyblockUser(Check, User123, Invalid user name or password.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyblockUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyblockUser(Check, User1234, Invalid user name or password.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyblockUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyblockUser(Check, User123, Invalid user name or password.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyblockUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEditUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyEditUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyblockUser(Check, User@123, )</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyblockUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logoutUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : logoutUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDeleteGroup</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyDeleteGroup</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyViewDogSeg</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyViewDogSeg</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyblockUser(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyblockUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyViewGroup</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyViewGroup</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyViewRole</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyViewRole</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginData(Approver, User@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyLoginData</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginTest(Approver, User@1234, Invalid user name or password.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyLoginTest</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginTest(Approver1, User@1234, Invalid user name or password or Deactivated.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyLoginTest</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddRole</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyAddRole</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyAddUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyViewUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyViewUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyblockUser(Check, User1234, Invalid user name or password.)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyblockUser</span>
+                <span class="reporter-method-output">Test Case Success : 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDeleteDogSeg</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyDeleteDogSeg</span>
+                <span class="reporter-method-output">Test Case Failure : 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEditDogSeg</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case Started : verifyEditDogSeg</span>
+                <span class="reporter-method-output">Test Case Failure : 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AccessPermissions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Logout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.DocSegments</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginData(Approver, User@123)</span>
+                <span class="method-start">4844 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logoutMainUser</span>
+                <span class="method-start">6543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(Approver1, User@1234, Invalid user name or password or Deactivated.)</span>
+                <span class="method-start">7349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(Approver, User@1234, Invalid user name or password.)</span>
+                <span class="method-start">8708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(Approver1, User@123, Invalid user name or password or Deactivated.)</span>
+                <span class="method-start">10146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest(Approver, User@123, )</span>
+                <span class="method-start">11548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyblockUser(Check, User123, Invalid user name or password.)</span>
+                <span class="method-start">13209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyblockUser(Check, User1234, Invalid user name or password.)</span>
+                <span class="method-start">14601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyblockUser(Check, User@123, )</span>
+                <span class="method-start">15991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyblockUser(Check, User123, Invalid user name or password.)</span>
+                <span class="method-start">17447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyblockUser(Check, User1234, Invalid user name or password.)</span>
+                <span class="method-start">18818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyblockUser(Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contac...)</span>
+                <span class="method-start">20178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mainUserLogin(Approver, User@123)</span>
+                <span class="method-start">21576 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AccessPermissions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">verifyAccessPermissionsSetup</span>
+                <span class="method-start">22541 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddGroup</span>
+                <span class="method-start">22554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyViewGroup</span>
+                <span class="method-start">23934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyEditGroup</span>
+                <span class="method-start">24913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteGroup</span>
+                <span class="method-start">25646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddRole</span>
+                <span class="method-start">26293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyViewRole</span>
+                <span class="method-start">28259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyEditRole</span>
+                <span class="method-start">29277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteRole</span>
+                <span class="method-start">30297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAddUser</span>
+                <span class="method-start">31338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyViewUser</span>
+                <span class="method-start">32614 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyEditUser</span>
+                <span class="method-start">33724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteUser</span>
+                <span class="method-start">34409 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DocSegments</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">verifyDocSegmentssetup</span>
+                <span class="method-start">34944 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddDocSeg</span>
+                <span class="method-start">34954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyViewDogSeg</span>
+                <span class="method-start">40533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyEditDogSeg</span>
+                <span class="method-start">41539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDeleteDogSeg</span>
+                <span class="method-start">42448 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Logout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logoutUser</span>
+                <span class="method-start">52930 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
