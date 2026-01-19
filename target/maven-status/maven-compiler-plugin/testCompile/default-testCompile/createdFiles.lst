@@ -1,0 +1,15 @@
+tests\DocSegments.class
+base\BaseClass.class
+tests\Login.class
+utilities\ExtendReportManager.class
+pages\LoginPage.class
+tests\Logout.class
+base\Listeners.class
+tests\LoginTest.class
+pages\AccessPermissionsPage.class
+tests\AccessPermissions.class
+utilities\HelperClass.class
+utilities\ReadExcelData.class
+base\AllureListeners.class
+pages\DocSegmentsPage.class
+utilities\ScreenShotBase.class

@@ -33,7 +33,10 @@ public class Listeners extends ScreenShotBase implements ITestListener {
         extentTest.set(test);
 	}
 	
+<<<<<<< HEAD
 	@Override
+=======
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 	public void onTestSuccess(ITestResult result)
 	{
 		log.info("Test Case Success");

@@ -55,11 +55,19 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>28/2/0</td>
 </tr><tr>
 <td>Started on:</td><td>Mon Jan 19 12:56:52 IST 2026</td>
 </tr>
 <tr><td>Total time:</td><td>49 seconds (49782 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>27/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 11 18:40:53 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>52 seconds (52207 ms)</td>
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +84,75 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='tests.DocSegments.verifyDeleteDogSeg()'><b>verifyDeleteDogSeg</b><br>Test class: tests.DocSegments<br/>
 <a href="#Output-1069736192" onClick='toggleBox("Output-1069736192", this, "Show output", "Hide output");'>Show output</a>
 
 <a href="#Output-1069736192" onClick="toggleAllBoxes();">Show all outputs</a>
 <div class='log' id="Output-1069736192">
+=======
+<td title='tests.AccessPermissions.verifyDeleteUser()'><b>verifyDeleteUser</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-777790557" onClick='toggleBox("Output-777790557", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777790557" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777790557">
+Test Case Started : verifyDeleteUser<br/>
+Test Case Failure : 2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: User was not Edited successfully! expected [true] but found [false]
+	at tests.AccessPermissions.verifyDeleteUser(AccessPermissions.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace777790557", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace777790557'><pre>java.lang.AssertionError: User was not Edited successfully! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.AccessPermissions.verifyDeleteUser(AccessPermissions.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.DocSegments.verifyDeleteDogSeg()'><b>verifyDeleteDogSeg</b><br>Test class: tests.DocSegments<br/>
+<a href="#Output-892155721" onClick='toggleBox("Output-892155721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-892155721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-892155721">
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 Test Case Started : verifyDeleteDogSeg<br/>
 Test Case Failure : 2<br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: Doc Segement Was Not Deleted Successfully expected [true] but found [false]
+<<<<<<< HEAD
 	at tests.DocSegments.verifyDeleteDogSeg(DocSegments.java:68)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1069736192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
@@ -94,6 +161,66 @@ Test Case Failure : 2<br/>
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
 	at tests.DocSegments.verifyDeleteDogSeg(DocSegments.java:68)
+=======
+	at tests.DocSegments.verifyDeleteDogSeg(DocSegments.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace892155721", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace892155721'><pre>java.lang.AssertionError: Doc Segement Was Not Deleted Successfully expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.DocSegments.verifyDeleteDogSeg(DocSegments.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>tests.DocSegments@79ab3a71</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyDeleteRole()'><b>verifyDeleteRole</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1681397030" onClick='toggleBox("Output-1681397030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1681397030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1681397030">
+Test Case Started : verifyDeleteRole<br/>
+Test Case Failure : 2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Role was not Delete successfully! expected [true] but found [false]
+	at tests.AccessPermissions.verifyDeleteRole(AccessPermissions.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1681397030", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1681397030'><pre>java.lang.AssertionError: Role was not Delete successfully! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.AccessPermissions.verifyDeleteRole(AccessPermissions.java:90)
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -124,6 +251,7 @@ Test Case Failure : 2<br/>
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>10</td>
+<<<<<<< HEAD
 <td>tests.DocSegments@60b85ba1</td></tr>
 <tr>
 <td title='tests.DocSegments.verifyEditDogSeg()'><b>verifyEditDogSeg</b><br>Test class: tests.DocSegments<br/>
@@ -175,6 +303,9 @@ Test Case Failure : 2<br/>
 </pre></div></td>
 <td>0</td>
 <td>tests.DocSegments@60b85ba1</td></tr>
+=======
+<td>tests.AccessPermissions@5a12c728</td></tr>
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -185,6 +316,7 @@ Test Case Failure : 2<br/>
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='tests.AccessPermissions.verifyAddGroup()'><b>verifyAddGroup</b><br>Test class: tests.AccessPermissions<br/>
 <a href="#Output-1813922009" onClick='toggleBox("Output-1813922009", this, "Show output", "Hide output");'>Show output</a>
 
@@ -463,12 +595,20 @@ Test Case Success : 1<br/>
 
 <a href="#Output-1869400026" onClick="toggleAllBoxes();">Show all outputs</a>
 <div class='log' id="Output-1869400026">
+=======
+<td title='tests.Login.verifyLoginData()'><b>verifyLoginData</b><br>Test class: tests.Login<br>Parameters: Approver, User@123<br/>
+<a href="#Output-747833043" onClick='toggleBox("Output-747833043", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747833043" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747833043">
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 Test Case Started : verifyLoginData<br/>
 Test Case Success : 1<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
+<<<<<<< HEAD
 <td>tests.Login@35e52059</td></tr>
 <tr>
 <td title='tests.LoginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: tests.LoginTest<br>Parameters: Approver, User@1234, Invalid user name or password.<br/>
@@ -476,12 +616,35 @@ Test Case Success : 1<br/>
 
 <a href="#Output-1355676410" onClick="toggleAllBoxes();">Show all outputs</a>
 <div class='log' id="Output-1355676410">
+=======
+<td>tests.Login@5aa360ea</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyEditUser()'><b>verifyEditUser</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-933317281" onClick='toggleBox("Output-933317281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-933317281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-933317281">
+Test Case Started : verifyEditUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: tests.LoginTest<br>Parameters: Approver, User@1234, Invalid user name or password.<br/>
+<a href="#Output-1270823096" onClick='toggleBox("Output-1270823096", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1270823096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1270823096">
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 Test Case Started : verifyLoginTest<br/>
 Test Case Success : 1<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
+<<<<<<< HEAD
 <td>tests.LoginTest@6e5bfdfc</td></tr>
 <tr>
 <td title='tests.LoginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: tests.LoginTest<br>Parameters: Approver1, User@1234, Invalid user name or password or Deactivated.<br/>
@@ -541,13 +704,325 @@ Test Case Success : 1<br/>
 
 <a href="#Output-1058101486" onClick="toggleAllBoxes();">Show all outputs</a>
 <div class='log' id="Output-1058101486">
+=======
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyblockUser()'><b>verifyblockUser</b><br>Test class: tests.LoginTest<br>Parameters: Check, User@123, <br/>
+<a href="#Output-645089403" onClick='toggleBox("Output-645089403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-645089403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-645089403">
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 Test Case Started : verifyblockUser<br/>
 Test Case Success : 1<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
+<<<<<<< HEAD
 <td>tests.LoginTest@6e5bfdfc</td></tr>
+=======
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyAddRole()'><b>verifyAddRole</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1672306663" onClick='toggleBox("Output-1672306663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1672306663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1672306663">
+Test Case Started : verifyAddRole<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.DocSegments.verifyViewDogSeg()'><b>verifyViewDogSeg</b><br>Test class: tests.DocSegments<br/>
+<a href="#Output-1886136102" onClick='toggleBox("Output-1886136102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1886136102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1886136102">
+Test Case Started : verifyViewDogSeg<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.DocSegments@79ab3a71</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyDeleteGroup()'><b>verifyDeleteGroup</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1589606252" onClick='toggleBox("Output-1589606252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1589606252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1589606252">
+Test Case Started : verifyDeleteGroup<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: tests.LoginTest<br>Parameters: Approver1, User@1234, Invalid user name or password or Deactivated.<br/>
+<a href="#Output-274827125" onClick='toggleBox("Output-274827125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-274827125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-274827125">
+Test Case Started : verifyLoginTest<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.Logout.logoutUser()'><b>logoutUser</b><br>Test class: tests.Logout<br/>
+<a href="#Output-1521653862" onClick='toggleBox("Output-1521653862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1521653862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1521653862">
+Test Case Started : logoutUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.Logout@6e5bfdfc</td></tr>
+<tr>
+<td title='tests.LoginTest.logoutMainUser()'><b>logoutMainUser</b><br>Test class: tests.LoginTest<br/>
+<a href="#Output-106350019" onClick='toggleBox("Output-106350019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-106350019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-106350019">
+Test Case Started : logoutMainUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyAddUser()'><b>verifyAddUser</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-628963688" onClick='toggleBox("Output-628963688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-628963688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-628963688">
+Test Case Started : verifyAddUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: tests.LoginTest<br>Parameters: Approver1, User@123, Invalid user name or password or Deactivated.<br/>
+<a href="#Output-203498806" onClick='toggleBox("Output-203498806", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203498806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203498806">
+Test Case Started : verifyLoginTest<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyEditGroup()'><b>verifyEditGroup</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1139678455" onClick='toggleBox("Output-1139678455", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139678455" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139678455">
+Test Case Started : verifyEditGroup<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: tests.LoginTest<br>Parameters: Approver, User@123, <br/>
+<a href="#Output-1542221" onClick='toggleBox("Output-1542221", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1542221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1542221">
+Test Case Started : verifyLoginTest<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyViewUser()'><b>verifyViewUser</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1298147262" onClick='toggleBox("Output-1298147262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1298147262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1298147262">
+Test Case Started : verifyViewUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyblockUser()'><b>verifyblockUser</b><br>Test class: tests.LoginTest<br>Parameters: Check, User123, Invalid user name or password.<br/>
+<a href="#Output-610358919" onClick='toggleBox("Output-610358919", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-610358919" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-610358919">
+Test Case Started : verifyblockUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.LoginTest.mainUserLogin()'><b>mainUserLogin</b><br>Test class: tests.LoginTest<br>Parameters: Approver, User@123<br/>
+<a href="#Output-1020242985" onClick='toggleBox("Output-1020242985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1020242985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1020242985">
+Test Case Started : mainUserLogin<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.DocSegments.verifyEditDogSeg()'><b>verifyEditDogSeg</b><br>Test class: tests.DocSegments<br/>
+<a href="#Output-858315599" onClick='toggleBox("Output-858315599", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-858315599" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-858315599">
+Test Case Started : verifyEditDogSeg<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.DocSegments@79ab3a71</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyblockUser()'><b>verifyblockUser</b><br>Test class: tests.LoginTest<br>Parameters: Check, User1234, Invalid user name or password.<br/>
+<a href="#Output-995991728" onClick='toggleBox("Output-995991728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-995991728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-995991728">
+Test Case Started : verifyblockUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyViewRole()'><b>verifyViewRole</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1281445260" onClick='toggleBox("Output-1281445260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1281445260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1281445260">
+Test Case Started : verifyViewRole<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyAddGroup()'><b>verifyAddGroup</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1004826012" onClick='toggleBox("Output-1004826012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1004826012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1004826012">
+Test Case Started : verifyAddGroup<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.DocSegments.verifyAddDocSeg()'><b>verifyAddDocSeg</b><br>Test class: tests.DocSegments<br/>
+<a href="#Output-736233691" onClick='toggleBox("Output-736233691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-736233691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-736233691">
+Test Case Started : verifyAddDocSeg<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>tests.DocSegments@79ab3a71</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyblockUser()'><b>verifyblockUser</b><br>Test class: tests.LoginTest<br>Parameters: Check, User12345, Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.<br/>
+<a href="#Output-1339736743" onClick='toggleBox("Output-1339736743", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1339736743" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1339736743">
+Test Case Started : verifyblockUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyEditRole()'><b>verifyEditRole</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-217859585" onClick='toggleBox("Output-217859585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-217859585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-217859585">
+Test Case Started : verifyEditRole<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyblockUser()'><b>verifyblockUser</b><br>Test class: tests.LoginTest<br>Parameters: Check, User1234, Invalid user name or password.<br/>
+<a href="#Output-1525050520" onClick='toggleBox("Output-1525050520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1525050520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1525050520">
+Test Case Started : verifyblockUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyblockUser()'><b>verifyblockUser</b><br>Test class: tests.LoginTest<br>Parameters: Check, User123, Invalid user name or password.<br/>
+<a href="#Output-953492906" onClick='toggleBox("Output-953492906", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-953492906" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-953492906">
+Test Case Started : verifyblockUser<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@49bd54f7</td></tr>
+<tr>
+<td title='tests.AccessPermissions.verifyViewGroup()'><b>verifyViewGroup</b><br>Test class: tests.AccessPermissions<br/>
+<a href="#Output-1787266936" onClick='toggleBox("Output-1787266936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1787266936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1787266936">
+Test Case Started : verifyViewGroup<br/>
+Test Case Success : 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.AccessPermissions@5a12c728</td></tr>
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 </table><p>
 </body>
 </html>

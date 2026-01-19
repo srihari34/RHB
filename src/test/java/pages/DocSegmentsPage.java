@@ -77,7 +77,11 @@ public class DocSegmentsPage extends HelperClass{
 	@FindBy(css = ".fas.fa-times")
 	WebElement closeIconRole;
 	
+<<<<<<< HEAD
 	@FindBy(css = ".far.fa-saves")
+=======
+	@FindBy(css = ".far.fa-save")
+>>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
 	WebElement saveIconGroupRoleUser;
 	
 	@FindBy(xpath = "//div[@id='jBox4']//div[contains(@class, 'jBox-Confirm-button-submit') and text()='Yes']")

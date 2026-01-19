@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="29" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case Started : verifyLoginData]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : logoutMainUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyLoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyLoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyLoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyLoginTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyblockUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyblockUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyblockUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyblockUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyblockUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyblockUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : mainUserLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyAddGroup]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyViewGroup]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyEditGroup]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyDeleteGroup]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyAddRole]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyViewRole]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyEditRole]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyDeleteRole]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Failure : 2]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyAddUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyViewUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyEditUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyDeleteUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyAddDocSeg]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyViewDogSeg]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyEditDogSeg]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : verifyDeleteDogSeg]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : logoutUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-12-12T12:50:24 IST" name="Suite" finished-at="2025-12-12T12:51:16 IST" duration-ms="52118">
+    <groups>
+    </groups>
+    <test started-at="2025-12-12T12:50:24 IST" name="Test" finished-at="2025-12-12T12:51:16 IST" duration-ms="52118">
+      <class name="tests.LoginTest">
+        <test-method signature="logoutMainUser()[pri:1, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:27 IST" name="logoutMainUser" finished-at="2025-12-12T12:50:27 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : logoutMainUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutMainUser -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:28 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-12T12:50:29 IST" duration-ms="1382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approver1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user name or password or Deactivated.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyLoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:29 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-12T12:50:31 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user name or password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyLoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:31 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-12T12:50:32 IST" duration-ms="1318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approver1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user name or password or Deactivated.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyLoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:32 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2025-12-12T12:50:33 IST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyLoginTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:34 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-12T12:50:35 IST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user name or password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyblockUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyblockUser -->
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:35 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-12T12:50:36 IST" duration-ms="1256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user name or password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyblockUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyblockUser -->
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:36 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-12T12:50:38 IST" duration-ms="1396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyblockUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyblockUser -->
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:38 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-12T12:50:39 IST" duration-ms="1322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user name or password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyblockUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyblockUser -->
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:39 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-12T12:50:41 IST" duration-ms="1290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user name or password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyblockUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyblockUser -->
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:41 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2025-12-12T12:50:42 IST" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Check]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyblockUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyblockUser -->
+        <test-method signature="mainUserLogin(java.lang.String,java.lang.String)[pri:4, instance:tests.LoginTest@5851bd4f]" started-at="2025-12-12T12:50:42 IST" name="mainUserLogin" data-provider="LoginCredentials1" finished-at="2025-12-12T12:50:43 IST" duration-ms="1040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : mainUserLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mainUserLogin -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AccessPermissions">
+        <test-method is-config="true" signature="verifyAccessPermissionsSetup()[pri:0, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:43 IST" name="verifyAccessPermissionsSetup" finished-at="2025-12-12T12:50:43 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccessPermissionsSetup -->
+        <test-method signature="verifyAddGroup()[pri:1, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:43 IST" name="verifyAddGroup" finished-at="2025-12-12T12:50:45 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyAddGroup]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddGroup -->
+        <test-method signature="verifyViewGroup()[pri:2, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:45 IST" name="verifyViewGroup" finished-at="2025-12-12T12:50:46 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyViewGroup]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyViewGroup -->
+        <test-method signature="verifyEditGroup()[pri:3, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:46 IST" name="verifyEditGroup" finished-at="2025-12-12T12:50:47 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="575" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyEditGroup]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditGroup -->
+        <test-method signature="verifyDeleteGroup()[pri:4, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:47 IST" name="verifyDeleteGroup" finished-at="2025-12-12T12:50:47 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="439" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyDeleteGroup]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteGroup -->
+        <test-method signature="verifyAddRole()[pri:5, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:48 IST" name="verifyAddRole" finished-at="2025-12-12T12:50:50 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyAddRole]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddRole -->
+        <test-method signature="verifyViewRole()[pri:6, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:51 IST" name="verifyViewRole" finished-at="2025-12-12T12:50:52 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="982" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyViewRole]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyViewRole -->
+        <test-method signature="verifyEditRole()[pri:7, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:52 IST" name="verifyEditRole" finished-at="2025-12-12T12:50:52 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyEditRole]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditRole -->
+        <test-method signature="verifyDeleteRole()[pri:8, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:50:53 IST" name="verifyDeleteRole" finished-at="2025-12-12T12:51:03 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="10435" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Role was not Delete successfully! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Role was not Delete successfully! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.AccessPermissions.verifyDeleteRole(AccessPermissions.java:104)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyDeleteRole]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Failure : 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteRole -->
+        <test-method signature="verifyAddUser()[pri:9, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:51:03 IST" name="verifyAddUser" finished-at="2025-12-12T12:51:05 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyAddUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddUser -->
+        <test-method signature="verifyViewUser()[pri:10, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:51:05 IST" name="verifyViewUser" finished-at="2025-12-12T12:51:05 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="375" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyViewUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyViewUser -->
+        <test-method signature="verifyEditUser()[pri:11, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:51:06 IST" name="verifyEditUser" finished-at="2025-12-12T12:51:06 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="584" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyEditUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditUser -->
+        <test-method signature="verifyDeleteUser()[pri:12, instance:tests.AccessPermissions@3caa4757]" started-at="2025-12-12T12:51:06 IST" name="verifyDeleteUser" finished-at="2025-12-12T12:51:07 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="434" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyDeleteUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteUser -->
+      </class> <!-- tests.AccessPermissions -->
+      <class name="tests.Login">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.Login@30c0ccff]" started-at="2025-12-12T12:50:20 IST" name="launchBrowser" finished-at="2025-12-12T12:50:24 IST" duration-ms="4060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginData(java.lang.String,java.lang.String)[pri:0, instance:tests.Login@30c0ccff]" started-at="2025-12-12T12:50:25 IST" name="verifyLoginData" data-provider="LoginCredentials" finished-at="2025-12-12T12:50:27 IST" duration-ms="1395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Approver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyLoginData]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginData -->
+      </class> <!-- tests.Login -->
+      <class name="tests.Logout">
+        <test-method signature="logoutUser()[pri:0, instance:tests.Logout@1804f60d]" started-at="2025-12-12T12:51:16 IST" name="logoutUser" finished-at="2025-12-12T12:51:16 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : logoutUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- tests.Logout -->
+      <class name="tests.DocSegments">
+        <test-method is-config="true" signature="verifyDocSegmentssetup()[pri:0, instance:tests.DocSegments@69c43e48]" started-at="2025-12-12T12:51:07 IST" name="verifyDocSegmentssetup" finished-at="2025-12-12T12:51:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDocSegmentssetup -->
+        <test-method signature="verifyAddDocSeg()[pri:1, instance:tests.DocSegments@69c43e48]" started-at="2025-12-12T12:51:07 IST" name="verifyAddDocSeg" finished-at="2025-12-12T12:51:12 IST" duration-ms="5054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyAddDocSeg]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddDocSeg -->
+        <test-method signature="verifyViewDogSeg()[pri:2, instance:tests.DocSegments@69c43e48]" started-at="2025-12-12T12:51:12 IST" name="verifyViewDogSeg" finished-at="2025-12-12T12:51:13 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyViewDogSeg]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyViewDogSeg -->
+        <test-method signature="verifyEditDogSeg()[pri:3, instance:tests.DocSegments@69c43e48]" started-at="2025-12-12T12:51:13 IST" name="verifyEditDogSeg" finished-at="2025-12-12T12:51:14 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyEditDogSeg]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditDogSeg -->
+        <test-method signature="verifyDeleteDogSeg()[pri:4, instance:tests.DocSegments@69c43e48]" started-at="2025-12-12T12:51:14 IST" name="verifyDeleteDogSeg" finished-at="2025-12-12T12:51:15 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : verifyDeleteDogSeg]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteDogSeg -->
+      </class> <!-- tests.DocSegments -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
