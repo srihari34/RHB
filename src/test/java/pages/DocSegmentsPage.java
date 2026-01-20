@@ -28,7 +28,7 @@ public class DocSegmentsPage extends HelperClass{
 		PageFactory.initElements(obj, this);
 
 	}
-	// Just Comments
+	
 	@FindBy(xpath = "//span[text()='Document Segments']")
 	WebElement DocumentSegment;
 	
@@ -76,9 +76,6 @@ public class DocSegmentsPage extends HelperClass{
 	
 	@FindBy(css = ".fas.fa-times")
 	WebElement closeIconRole;
-	
-	@FindBy(css = ".far.fa-saves")
-	WebElement saveIconGroupRoleUser1;
 	
 	@FindBy(css = ".far.fa-save")
 	WebElement saveIconGroupRoleUser;
