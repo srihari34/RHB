@@ -8,7 +8,7 @@ pipeline {
     }
 
     triggers {
-        pollSCM('H/2 * * * *')
+        pollSCM('H/2 * * * *') // Poll Git every 2 minutes
     }
 
     stages {
@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Build & Run Test') {
+        stage('Build & Run Tests') {
             steps {
                 bat 'mvn clean test'
             }
@@ -34,10 +34,12 @@ pipeline {
     post {
         always {
             echo 'Publishing Allure Report...'
-
-            // ✅ Use script block to provide workspace context
-            script {
-                allure results: [[path: 'allure-results']], includeProperties: false, jdk: ''
+            lock(resource: 'allure-cli') {
+                node {
+                    script {
+                        allure results: [[path: 'allure-results']], includeProperties: false, jdk: ''
+                    }
+                }
             }
         }
     }
