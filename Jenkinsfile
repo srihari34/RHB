@@ -8,7 +8,7 @@ pipeline {
     }
 
     triggers {
-        pollSCM('H/2 * * * *') // Cron polling every 2 mins
+        pollSCM('H/2 * * * *')
     }
 
     stages {
@@ -33,10 +33,10 @@ pipeline {
 
     post {
         always {
-            echo 'Publishing Allure Report...'
-
-            // ✅ Single-line safe syntax for Groovy
-            allure results: [[path: 'allure-results']], includeProperties: false, jdk: ''
+            node {
+                echo 'Publishing Allure Report...'
+                allure results: [[path: 'allure-results']], includeProperties: false, jdk: '', allowEmptyResults: true
+            }
         }
     }
 }
