@@ -4,6 +4,7 @@ pipeline {
     tools {
         jdk 'JDK17'
         maven 'Maven'
+		 allure 'Allure'  
     }
 
     triggers {
@@ -33,6 +34,11 @@ pipeline {
     post {
         always {
             echo 'Build and tests executed. Check console output for results.'
+			
+			allure(                         
+                includeProperties: false,
+                jdk: '',
+                results: [[path: 'allure-results']]
         }
     }
 }
