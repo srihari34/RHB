@@ -4,7 +4,7 @@ pipeline {
     tools {
         jdk 'JDK17'
         maven 'Maven'
-		 allure 'Allure'  
+        allure 'Allure'
     }
 
     triggers {
@@ -33,12 +33,10 @@ pipeline {
 
     post {
         always {
-            echo 'Build and tests executed. Check console output for results.'
-			
-			allure(                         
-                includeProperties: false,
-                jdk: '',
-                results: [[path: 'allure-results']]
+            echo 'Publishing Allure Report...'
+
+            // ✅ Single-line safe syntax for Groovy
+            allure results: [[path: 'allure-results']], includeProperties: false, jdk: ''
         }
     }
 }
