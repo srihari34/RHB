@@ -34,13 +34,7 @@ pipeline {
     post {
         always {
             echo 'Publishing Allure Report...'
-            lock(resource: 'allure-cli') {
-                node {
-                    script {
-                        allure results: [[path: 'allure-results']], includeProperties: false, jdk: ''
-                    }
-                }
-            }
+            allure results: [[path: 'allure-results']], includeProperties: false, jdk: '', allowEmptyResults: true
         }
     }
 }
