@@ -4,7 +4,6 @@ pipeline {
     tools {
         jdk 'JDK17'
         maven 'Maven'
-        allure 'Allure'  // This auto-installs if not present – good!
     }
     
     triggers {
@@ -27,27 +26,13 @@ pipeline {
         stage('Build & Run Tests') {
             steps {
                 bat 'mvn clean test'
-                // If tests fail → pipeline will still continue to next stages unless you add failure handling
-            }
-        }
-        
-        stage('Publish Allure Report') {
-            steps {
-                echo 'Publishing Allure Report...'
-                allure(
-                    includeProperties: false,
-                    jdk: '',  // empty = use tool's JDK or system
-                    results: [[path: 'target/allure-results']]
-                )
             }
         }
     }
     
     post {
         always {
-            echo 'Pipeline finished (post actions)'
-            // Optional: archive other artifacts, email, etc.
-            // archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
+            echo 'Pipeline finished'
         }
         success {
             echo 'Build succeeded!'
