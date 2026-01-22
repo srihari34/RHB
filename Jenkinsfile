@@ -34,7 +34,7 @@ pipeline {
     post {
         always {
             echo 'Publishing Allure Report...'
-            allure results: [[path: 'allure-results']], includeProperties: false, jdk: '', allowEmptyResults: true
+            allure results: [[path: 'allure-results']], includeProperties: false, jdk: ''
         }
     }
 }
