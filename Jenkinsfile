@@ -33,9 +33,11 @@ pipeline {
 
     post {
         always {
-            node {
-                echo 'Publishing Allure Report...'
-                allure results: [[path: 'allure-results']], includeProperties: false, jdk: '', allowEmptyResults: true
+            echo 'Publishing Allure Report...'
+
+            // ✅ Use script block to provide workspace context
+            script {
+                allure results: [[path: 'allure-results']], includeProperties: false, jdk: ''
             }
         }
     }
