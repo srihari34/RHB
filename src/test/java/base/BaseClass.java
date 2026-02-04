@@ -76,7 +76,7 @@ public class BaseClass {
 		log.info("url Called  " + url);
 		log.info("Tear Up is Done");
 	}
-	@AfterSuite(enabled=false) 
+	@AfterSuite(enabled=true) 
 	public void closeBrowser()
 	{
 		log.info("Closing Browser Method");

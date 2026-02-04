@@ -3,40 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="base.Listeners"/>
-<<<<<<< HEAD
     <listener class-name="base.AllureListeners"/>
     <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
-=======
->>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.DocSegments">
+      <class name="tests.LoginTest">
         <methods>
-          <include name="verifyDocSegmentssetup"/>
-<<<<<<< HEAD
-          <include name="verifyEditDogSeg"/>
-=======
->>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
-          <include name="verifyDeleteDogSeg"/>
+          <include name="verifyblockUser" invocation-numbers="1 2 3 4 5"/>
         </methods>
-      </class> <!-- tests.DocSegments -->
-<<<<<<< HEAD
-=======
-      <class name="tests.AccessPermissions">
-        <methods>
-          <include name="verifyAccessPermissionsSetup"/>
-          <include name="verifyDeleteUser"/>
-          <include name="verifyDeleteRole"/>
-          <include name="verifyAddRole"/>
-          <include name="verifyAddUser"/>
-          <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- tests.AccessPermissions -->
->>>>>>> 6dd703ddb2e4857eb8ec9d16e5c6c3464450e0b6
+      </class> <!-- tests.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
