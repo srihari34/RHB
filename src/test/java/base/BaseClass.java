@@ -83,7 +83,7 @@ public class BaseClass {
 		try
 		{
 		obj.quit();
-		log.info("Application Closed");
+		log.info("Applications Closed");
 		log.info("===================");
 		}
 		catch(Exception e)
