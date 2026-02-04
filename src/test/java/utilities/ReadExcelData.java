@@ -9,13 +9,18 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ReadExcelData {
+	
+	 private Workbook workbook;
 	 private Sheet sheet;
 
 	    public ReadExcelData(String filePath, String sheetName) {
 	        try {
 	            FileInputStream fis = new FileInputStream(filePath);
-	            Workbook workbook = WorkbookFactory.create(fis);
+	            workbook = WorkbookFactory.create(fis);
 	            sheet = workbook.getSheet(sheetName);
+	            if (sheet == null) {
+	                throw new IllegalArgumentException("Sheet '" + sheetName + "' not found in file: " + filePath);
+	            }
 	        } catch (IOException e) {
 	            e.printStackTrace();
 	        }
