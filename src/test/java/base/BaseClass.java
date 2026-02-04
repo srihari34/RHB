@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -51,14 +52,14 @@ public class BaseClass {
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
 	    	
-//          UnComment Below  to run in Headless Mode
-//	    	FirefoxOptions options = new FirefoxOptions();
-//          options.addArguments("--disable-notifications");
-//          options.addArguments("--disable-popup-blocking");
-//          options.addArguments("--start-maximized");
-//          options.addArguments("--disable-infobars");
-//          options.addArguments("--headless");
-//		    options.addArguments("--headless");
+       //   UnComment Below  to run in Headless Mode
+	      FirefoxOptions options = new FirefoxOptions();
+          options.addArguments("--disable-notifications");
+          options.addArguments("--disable-popup-blocking");
+          options.addArguments("--start-maximized");
+          options.addArguments("--disable-infobars");
+          options.addArguments("--headless");
+		    options.addArguments("--headless");
 			WebDriverManager.firefoxdriver().setup();
 			obj = new FirefoxDriver();
 			log.info("FireFoxDriver Object is Created  " + obj);
@@ -83,7 +84,7 @@ public class BaseClass {
 		try
 		{
 		obj.quit();
-		log.info("Applications Closed");
+		log.info("Application Closed");
 		log.info("===================");
 		}
 		catch(Exception e)
