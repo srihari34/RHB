@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Test Case Started : verifyLoginData]]>
@@ -176,18 +176,30 @@
       <![CDATA[Test Case Success : 1]]>
     </line>
     <line>
+      <![CDATA[Test Case Started : detailReportGenerate]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started : readDataExtraction]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Success : 1]]>
+    </line>
+    <line>
       <![CDATA[Test Case Started : logoutUser]]>
     </line>
     <line>
       <![CDATA[Test Case Success : 1]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-02-04T18:25:45 IST" name="Suite" finished-at="2026-02-04T18:26:25 IST" duration-ms="40186">
+  <suite started-at="2026-03-24T17:26:22 IST" name="Suite" finished-at="2026-03-24T17:27:18 IST" duration-ms="56144">
     <groups>
     </groups>
-    <test started-at="2026-02-04T18:25:45 IST" name="Test" finished-at="2026-02-04T18:26:25 IST" duration-ms="40186">
+    <test started-at="2026-03-24T17:26:22 IST" name="Test" finished-at="2026-03-24T17:27:18 IST" duration-ms="56144">
       <class name="tests.LoginTest">
-        <test-method signature="logoutMainUser()[pri:1, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:49 IST" name="logoutMainUser" finished-at="2026-02-04T18:25:49 IST" duration-ms="483" status="PASS">
+        <test-method signature="logoutMainUser()[pri:1, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:25 IST" name="logoutMainUser" finished-at="2026-03-24T17:26:25 IST" duration-ms="537" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : logoutMainUser]]>
@@ -197,7 +209,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logoutMainUser -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:49 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-02-04T18:25:51 IST" duration-ms="1266" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:26 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-03-24T17:26:27 IST" duration-ms="1324" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -224,7 +236,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:51 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-02-04T18:25:52 IST" duration-ms="1263" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:27 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-03-24T17:26:28 IST" duration-ms="1310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +263,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:52 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-02-04T18:25:53 IST" duration-ms="1248" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:28 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-03-24T17:26:30 IST" duration-ms="1321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,7 +290,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:53 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-02-04T18:25:55 IST" duration-ms="1375" status="PASS">
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:30 IST" name="verifyLoginTest" data-provider="LoginCredentials" finished-at="2026-03-24T17:26:31 IST" duration-ms="1287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,7 +317,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:55 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-02-04T18:25:56 IST" duration-ms="1269" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:31 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-03-24T17:26:33 IST" duration-ms="1380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -332,7 +344,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:56 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-02-04T18:25:57 IST" duration-ms="1209" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:33 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-03-24T17:26:34 IST" duration-ms="1277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -359,7 +371,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:57 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-02-04T18:25:59 IST" duration-ms="1377" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:34 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-03-24T17:26:35 IST" duration-ms="1317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -386,7 +398,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:25:59 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-02-04T18:26:00 IST" duration-ms="1252" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:35 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-03-24T17:26:37 IST" duration-ms="1294" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -413,7 +425,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:26:00 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-02-04T18:26:02 IST" duration-ms="1230" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:37 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-03-24T17:26:38 IST" duration-ms="1293" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -440,7 +452,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:26:02 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-02-04T18:26:03 IST" duration-ms="1332" status="PASS">
+        <test-method signature="verifyblockUser(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:38 IST" name="verifyblockUser" data-provider="BlockLoginCredentials" finished-at="2026-03-24T17:26:40 IST" duration-ms="1261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -467,7 +479,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyblockUser -->
-        <test-method signature="mainUserLogin(java.lang.String,java.lang.String)[pri:4, instance:tests.LoginTest@5851bd4f]" started-at="2026-02-04T18:26:03 IST" name="mainUserLogin" data-provider="LoginCredentials1" finished-at="2026-02-04T18:26:04 IST" duration-ms="1013" status="PASS">
+        <test-method signature="mainUserLogin(java.lang.String,java.lang.String)[pri:4, instance:tests.LoginTest@3a80515c]" started-at="2026-03-24T17:26:40 IST" name="mainUserLogin" data-provider="LoginCredentials1" finished-at="2026-03-24T17:26:41 IST" duration-ms="1002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -491,7 +503,11 @@
         </test-method> <!-- mainUserLogin -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.AccessPermissions">
-        <test-method signature="verifyAddGroup()[pri:1, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:04 IST" name="verifyAddGroup" finished-at="2026-02-04T18:26:06 IST" duration-ms="1453" status="PASS">
+        <test-method is-config="true" signature="verifyAccessPermissionsSetup()[pri:0, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:41 IST" name="verifyAccessPermissionsSetup" finished-at="2026-03-24T17:26:41 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccessPermissionsSetup -->
+        <test-method signature="verifyAddGroup()[pri:1, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:41 IST" name="verifyAddGroup" finished-at="2026-03-24T17:26:42 IST" duration-ms="1637" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddGroup]]>
@@ -501,11 +517,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddGroup -->
-        <test-method is-config="true" signature="verifyAccessPermissionsSetup()[pri:0, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:04 IST" name="verifyAccessPermissionsSetup" finished-at="2026-02-04T18:26:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccessPermissionsSetup -->
-        <test-method signature="verifyViewGroup()[pri:2, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:06 IST" name="verifyViewGroup" finished-at="2026-02-04T18:26:07 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="853" status="PASS">
+        <test-method signature="verifyViewGroup()[pri:2, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:43 IST" name="verifyViewGroup" finished-at="2026-03-24T17:26:43 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="914" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewGroup]]>
@@ -515,7 +527,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewGroup -->
-        <test-method signature="verifyEditGroup()[pri:3, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:07 IST" name="verifyEditGroup" finished-at="2026-02-04T18:26:07 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="472" status="PASS">
+        <test-method signature="verifyEditGroup()[pri:3, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:44 IST" name="verifyEditGroup" finished-at="2026-03-24T17:26:44 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="595" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditGroup]]>
@@ -525,7 +537,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditGroup -->
-        <test-method signature="verifyDeleteGroup()[pri:4, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:07 IST" name="verifyDeleteGroup" finished-at="2026-02-04T18:26:08 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="840" status="PASS">
+        <test-method signature="verifyDeleteGroup()[pri:4, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:44 IST" name="verifyDeleteGroup" finished-at="2026-03-24T17:26:45 IST" depends-on-methods="tests.AccessPermissions.verifyAddGroup" duration-ms="454" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyDeleteGroup]]>
@@ -535,7 +547,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDeleteGroup -->
-        <test-method signature="verifyAddRole()[pri:5, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:08 IST" name="verifyAddRole" finished-at="2026-02-04T18:26:10 IST" duration-ms="2124" status="PASS">
+        <test-method signature="verifyAddRole()[pri:5, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:45 IST" name="verifyAddRole" finished-at="2026-03-24T17:26:47 IST" duration-ms="2159" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddRole]]>
@@ -545,7 +557,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddRole -->
-        <test-method signature="verifyViewRole()[pri:6, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:11 IST" name="verifyViewRole" finished-at="2026-02-04T18:26:11 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="774" status="PASS">
+        <test-method signature="verifyViewRole()[pri:6, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:47 IST" name="verifyViewRole" finished-at="2026-03-24T17:26:48 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="992" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewRole]]>
@@ -555,7 +567,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewRole -->
-        <test-method signature="verifyEditRole()[pri:7, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:12 IST" name="verifyEditRole" finished-at="2026-02-04T18:26:13 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="1235" status="PASS">
+        <test-method signature="verifyEditRole()[pri:7, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:49 IST" name="verifyEditRole" finished-at="2026-03-24T17:26:50 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="1191" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditRole]]>
@@ -565,7 +577,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditRole -->
-        <test-method signature="verifyDeleteRole()[pri:8, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:13 IST" name="verifyDeleteRole" finished-at="2026-02-04T18:26:13 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="455" status="PASS">
+        <test-method signature="verifyDeleteRole()[pri:8, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:50 IST" name="verifyDeleteRole" finished-at="2026-03-24T17:26:51 IST" depends-on-methods="tests.AccessPermissions.verifyAddRole" duration-ms="814" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyDeleteRole]]>
@@ -575,7 +587,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDeleteRole -->
-        <test-method signature="verifyAddUser()[pri:9, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:14 IST" name="verifyAddUser" finished-at="2026-02-04T18:26:15 IST" duration-ms="1433" status="PASS">
+        <test-method signature="verifyAddUser()[pri:9, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:51 IST" name="verifyAddUser" finished-at="2026-03-24T17:26:52 IST" duration-ms="1180" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddUser]]>
@@ -585,7 +597,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddUser -->
-        <test-method signature="verifyViewUser()[pri:10, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:15 IST" name="verifyViewUser" finished-at="2026-02-04T18:26:16 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="376" status="PASS">
+        <test-method signature="verifyViewUser()[pri:10, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:52 IST" name="verifyViewUser" finished-at="2026-03-24T17:26:53 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="892" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewUser]]>
@@ -595,7 +607,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewUser -->
-        <test-method signature="verifyEditUser()[pri:11, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:16 IST" name="verifyEditUser" finished-at="2026-02-04T18:26:16 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="566" status="PASS">
+        <test-method signature="verifyEditUser()[pri:11, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:53 IST" name="verifyEditUser" finished-at="2026-03-24T17:26:54 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="649" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditUser]]>
@@ -605,7 +617,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditUser -->
-        <test-method signature="verifyDeleteUser()[pri:12, instance:tests.AccessPermissions@3caa4757]" started-at="2026-02-04T18:26:17 IST" name="verifyDeleteUser" finished-at="2026-02-04T18:26:17 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="880" status="PASS">
+        <test-method signature="verifyDeleteUser()[pri:12, instance:tests.AccessPermissions@238b521e]" started-at="2026-03-24T17:26:54 IST" name="verifyDeleteUser" finished-at="2026-03-24T17:26:55 IST" depends-on-methods="tests.AccessPermissions.verifyAddUser" duration-ms="945" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyDeleteUser]]>
@@ -617,11 +629,11 @@
         </test-method> <!-- verifyDeleteUser -->
       </class> <!-- tests.AccessPermissions -->
       <class name="tests.Login">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.Login@30c0ccff]" started-at="2026-02-04T18:25:40 IST" name="launchBrowser" finished-at="2026-02-04T18:25:45 IST" duration-ms="4796" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.Login@46cf05f7]" started-at="2026-03-24T17:26:18 IST" name="launchBrowser" finished-at="2026-03-24T17:26:22 IST" duration-ms="3626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoginData(java.lang.String,java.lang.String)[pri:0, instance:tests.Login@30c0ccff]" started-at="2026-02-04T18:25:47 IST" name="verifyLoginData" data-provider="LoginCredentials" finished-at="2026-02-04T18:25:48 IST" duration-ms="1780" status="PASS">
+        <test-method signature="verifyLoginData(java.lang.String,java.lang.String)[pri:0, instance:tests.Login@46cf05f7]" started-at="2026-03-24T17:26:23 IST" name="verifyLoginData" data-provider="LoginCredentials" finished-at="2026-03-24T17:26:25 IST" duration-ms="1343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -644,8 +656,20 @@
           </reporter-output>
         </test-method> <!-- verifyLoginData -->
       </class> <!-- tests.Login -->
+      <class name="tests.BatchReport">
+        <test-method signature="readDataExtraction()[pri:2, instance:tests.BatchReport@21680803]" started-at="2026-03-24T17:27:08 IST" name="readDataExtraction" finished-at="2026-03-24T17:27:17 IST" duration-ms="9792" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : readDataExtraction]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readDataExtraction -->
+      </class> <!-- tests.BatchReport -->
       <class name="tests.Logout">
-        <test-method signature="logoutUser()[pri:0, instance:tests.Logout@1804f60d]" started-at="2026-02-04T18:26:25 IST" name="logoutUser" finished-at="2026-02-04T18:26:25 IST" duration-ms="467" status="PASS">
+        <test-method signature="logoutUser()[pri:0, instance:tests.Logout@588ab592]" started-at="2026-03-24T17:27:17 IST" name="logoutUser" finished-at="2026-03-24T17:27:18 IST" duration-ms="457" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : logoutUser]]>
@@ -656,12 +680,28 @@
           </reporter-output>
         </test-method> <!-- logoutUser -->
       </class> <!-- tests.Logout -->
+      <class name="tests.DetailReport">
+        <test-method is-config="true" signature="reportsModule()[pri:0, instance:tests.DetailReport@3e2fc448]" started-at="2026-03-24T17:27:03 IST" name="reportsModule" finished-at="2026-03-24T17:27:04 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsModule -->
+        <test-method signature="detailReportGenerate()[pri:0, instance:tests.DetailReport@3e2fc448]" started-at="2026-03-24T17:27:04 IST" name="detailReportGenerate" finished-at="2026-03-24T17:27:07 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started : detailReportGenerate]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Success : 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- detailReportGenerate -->
+      </class> <!-- tests.DetailReport -->
       <class name="tests.DocSegments">
-        <test-method is-config="true" signature="verifyDocSegmentssetup()[pri:0, instance:tests.DocSegments@69c43e48]" started-at="2026-02-04T18:26:18 IST" name="verifyDocSegmentssetup" finished-at="2026-02-04T18:26:18 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="verifyDocSegmentssetup()[pri:0, instance:tests.DocSegments@1b39fd82]" started-at="2026-03-24T17:26:55 IST" name="verifyDocSegmentssetup" finished-at="2026-03-24T17:26:55 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDocSegmentssetup -->
-        <test-method signature="verifyAddDocSeg()[pri:1, instance:tests.DocSegments@69c43e48]" started-at="2026-02-04T18:26:18 IST" name="verifyAddDocSeg" finished-at="2026-02-04T18:26:22 IST" duration-ms="4457" status="PASS">
+        <test-method signature="verifyAddDocSeg()[pri:1, instance:tests.DocSegments@1b39fd82]" started-at="2026-03-24T17:26:55 IST" name="verifyAddDocSeg" finished-at="2026-03-24T17:27:00 IST" duration-ms="4884" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyAddDocSeg]]>
@@ -671,7 +711,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddDocSeg -->
-        <test-method signature="verifyViewDogSeg()[pri:2, instance:tests.DocSegments@69c43e48]" started-at="2026-02-04T18:26:22 IST" name="verifyViewDogSeg" finished-at="2026-02-04T18:26:23 IST" duration-ms="765" status="PASS">
+        <test-method signature="verifyViewDogSeg()[pri:2, instance:tests.DocSegments@1b39fd82]" started-at="2026-03-24T17:27:00 IST" name="verifyViewDogSeg" finished-at="2026-03-24T17:27:01 IST" duration-ms="859" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyViewDogSeg]]>
@@ -681,7 +721,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyViewDogSeg -->
-        <test-method signature="verifyEditDogSeg()[pri:3, instance:tests.DocSegments@69c43e48]" started-at="2026-02-04T18:26:23 IST" name="verifyEditDogSeg" finished-at="2026-02-04T18:26:24 IST" duration-ms="853" status="PASS">
+        <test-method signature="verifyEditDogSeg()[pri:3, instance:tests.DocSegments@1b39fd82]" started-at="2026-03-24T17:27:01 IST" name="verifyEditDogSeg" finished-at="2026-03-24T17:27:02 IST" duration-ms="912" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyEditDogSeg]]>
@@ -691,7 +731,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEditDogSeg -->
-        <test-method signature="verifyDeleteDogSeg()[pri:4, instance:tests.DocSegments@69c43e48]" started-at="2026-02-04T18:26:24 IST" name="verifyDeleteDogSeg" finished-at="2026-02-04T18:26:25 IST" duration-ms="813" status="PASS">
+        <test-method signature="verifyDeleteDogSeg()[pri:4, instance:tests.DocSegments@1b39fd82]" started-at="2026-03-24T17:27:02 IST" name="verifyDeleteDogSeg" finished-at="2026-03-24T17:27:03 IST" duration-ms="875" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Started : verifyDeleteDogSeg]]>

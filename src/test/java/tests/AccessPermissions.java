@@ -23,9 +23,9 @@ public class AccessPermissions extends BaseClass {
 
 	@BeforeClass
 	public void verifyAccessPermissionsSetup() throws IOException {
-		loginobj = new LoginPage(obj); 
+		loginobj = new LoginPage(driver); 
 		log.info("Access Permissions link Click");
-		accessobj = new AccessPermissionsPage(obj);
+		accessobj = new AccessPermissionsPage(driver);
 	}
 
 	@Test(priority = 1,enabled=true)

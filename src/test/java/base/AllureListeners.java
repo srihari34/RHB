@@ -15,7 +15,7 @@ public class AllureListeners implements ITestListener{
 	
 	private void takeScreenShot(String name)
 	{
-		driver= BaseClass.obj;
+		driver= BaseClass.driver;
 		byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 		Allure.addAttachment(name, new ByteArrayInputStream(screenshot));
 	}

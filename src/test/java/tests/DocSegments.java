@@ -23,7 +23,7 @@ public class DocSegments extends BaseClass{
 	@BeforeClass
 	public void verifyDocSegmentssetup() throws IOException {
 		log.info("Documents Segments link Click");
-		docseg = new DocSegmentsPage(obj);
+		docseg = new DocSegmentsPage(driver);
 	}
 	
 	@Test(priority=1)

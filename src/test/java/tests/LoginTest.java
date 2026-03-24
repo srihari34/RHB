@@ -23,7 +23,7 @@ public class LoginTest extends BaseClass {
 	@Test(priority = 1)
 	public void logoutMainUser() throws IOException {
 		log.info("Logout for the User");
-		loginobj = new LoginPage(obj);
+		loginobj = new LoginPage(driver);
 		boolean logoutmethod = loginobj.logout();
 		try {
 			Assert.assertTrue(logoutmethod, "User was not Logout successfully!");
@@ -39,7 +39,7 @@ public class LoginTest extends BaseClass {
 	public void verifyLoginTest(String username, String password, String errormessage)
 			throws InterruptedException, IOException {
 		log.info("Login Test Started");
-		loginobj = new LoginPage(obj);
+		loginobj = new LoginPage(driver);
 		log.info("Attempting login for user: " + username);
 		boolean loginSuccess = loginobj.loginTests(username, password);
 		
@@ -62,7 +62,7 @@ public class LoginTest extends BaseClass {
 			}
 			log.info("Login Success for User: " + username);
 			log.info("Logout for the User");
-			loginobj = new LoginPage(obj);
+			loginobj = new LoginPage(driver);
 			boolean logoutmethod = loginobj.logout();
 			try {
 				Assert.assertTrue(logoutmethod, "User was not Logout successfully!");
@@ -94,7 +94,7 @@ public class LoginTest extends BaseClass {
 	public void verifyblockUser(String username, String password, String errormessage) throws InterruptedException, IOException 
 	{
 		log.info("BlockLoginCredentials");
-		loginobj = new LoginPage(obj);
+		loginobj = new LoginPage(driver);
 		log.info("Attempting login for user: " + username);
 		boolean loginSuccess = loginobj.loginTests(username, password);
 		if (errormessage != null && !errormessage.isEmpty()) {
@@ -115,7 +115,7 @@ public class LoginTest extends BaseClass {
 			}
 			log.info("Login Success for User: " + username);
 			log.info("Logout for the User");
-			loginobj = new LoginPage(obj);
+			loginobj = new LoginPage(driver);
 			boolean logoutmethod = loginobj.logout();
 			try {
 				Assert.assertTrue(logoutmethod, "User was not Logout successfully!");

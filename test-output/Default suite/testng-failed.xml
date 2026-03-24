@@ -3,14 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_case.Doc_Segments">
+      <class name="tests.AccessPermissions">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="Doc_Segments_setup"/>
-          <include name="add_docseg"/>
-          <include name="Launch_Browser"/>
+          <include name="verifyViewRole"/>
+          <include name="verifyDeleteUser"/>
+          <include name="verifyEditUser"/>
+          <include name="verifyViewGroup"/>
+          <include name="verifyEditGroup"/>
+          <include name="verifyAddUser"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyDeleteRole"/>
+          <include name="verifyViewUser"/>
+          <include name="verifyAddRole"/>
+          <include name="verifyEditRole"/>
+          <include name="verifyAddGroup"/>
+          <include name="verifyDeleteGroup"/>
         </methods>
-      </class> <!-- test_case.Doc_Segments -->
+      </class> <!-- tests.AccessPermissions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

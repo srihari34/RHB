@@ -25,7 +25,7 @@ public class Logout  extends BaseClass{
 	public  void logoutUser() throws IOException {
 	
 		log.info("Logout for the User");
-		loginobj = new LoginPage(obj); 
+		loginobj = new LoginPage(driver); 
     	boolean logoutmethod = loginobj.logout();
     	Assert.assertTrue(logoutmethod, "User was not Logout successfully!");
 	}

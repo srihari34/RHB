@@ -1,10 +1,16 @@
 tests\DocSegments.class
 base\BaseClass.class
-tests\Login.class
 utilities\ExtendReportManager.class
 pages\LoginPage.class
 tests\Logout.class
+utilities\ReadTextFile.class
 base\Listeners.class
+pages\DetailReportPage.class
+tests\BatchReport.class
+tests\Login.class
+pages\BatchReportPage.class
+tests\DetailReport.class
+utilities\ExistingFileDelete.class
 tests\LoginTest.class
 pages\AccessPermissionsPage.class
 tests\AccessPermissions.class

@@ -19,7 +19,7 @@ public class BaseClass {
 	private static Logger log = LogManager.getLogger(BaseClass.class);
 	Properties prop = new Properties();
 
-	public static WebDriver obj;
+	public static WebDriver driver;
 
 	@BeforeSuite
 	public void launchBrowser() throws IOException {
@@ -46,8 +46,8 @@ public class BaseClass {
 //          options.addArguments("--disable-infobars");
 //          options.addArguments("--headless");
 		    WebDriverManager.chromedriver().setup();
-		    obj = new ChromeDriver();
-		    log.info("Chrome Object is Created  " + obj);
+		    driver = new ChromeDriver();
+		    log.info("Chrome Object is Created  " + driver);
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
 		{
@@ -61,29 +61,29 @@ public class BaseClass {
           options.addArguments("--headless");
 		    options.addArguments("--headless");
 			WebDriverManager.firefoxdriver().setup();
-			obj = new FirefoxDriver();
-			log.info("FireFoxDriver Object is Created  " + obj);
+			driver = new FirefoxDriver();
+			log.info("FireFoxDriver driverect is Created  " + driver);
 		}
 		else
 		{
 			throw new IllegalArgumentException("Unsupported browser specified in properties file: " + browser);
 		}
-		obj.manage().window().maximize();
-		obj.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-		obj.manage().timeouts().scriptTimeout(Duration.ofSeconds(30));
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(30));
 		log.info("Browser Got Opened");
 		String url = prop.getProperty("Url").trim();
-		obj.get(url);
+		driver.get(url);
 		log.info("url Called  " + url);
 		log.info("Tear Up is Done");
 	}
-	@AfterSuite(enabled=true) 
+	@AfterSuite(enabled=false) 
 	public void closeBrowser()
 	{
 		log.info("Closing Browser Method");
 		try
 		{
-		obj.quit();
+		driver.quit();
 		log.info("Application Closed");
 		log.info("===================");
 		}

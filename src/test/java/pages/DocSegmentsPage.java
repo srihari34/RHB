@@ -20,12 +20,12 @@ public class DocSegmentsPage extends HelperClass{
 
 	private static Logger log = LogManager.getLogger(DocSegmentsPage.class);
 
-	WebDriver obj;
+	WebDriver driver;
 
 	public DocSegmentsPage(WebDriver driver) {
 		super(driver);
-		this.obj = driver;
-		PageFactory.initElements(obj, this);
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 
 	}
 	
@@ -97,7 +97,7 @@ public class DocSegmentsPage extends HelperClass{
 			String archivedb = red.getCellData(2, 2);
 			String isarchiveid = red.getCellData(2, 3);
 			String isaccnumber = red.getCellData(2, 4);
-			WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(15));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 			wait.until(ExpectedConditions.visibilityOf(DocumentSegment));
 			if(!safeClick(DocumentSegment, "Documents Segment Module")) return false;
 			if(!safeClick(addnewsegment, "Add New Segement")) return false;
@@ -135,7 +135,7 @@ public class DocSegmentsPage extends HelperClass{
 		
 		log.info("View Doc Segment");
 		try {
-			WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			String userpath = System.getProperty("user.dir");
 			ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\utilities\\TestData.xlsx","DocSegment");
 			String docsegname = red.getCellData(2, 0);
@@ -157,7 +157,7 @@ public class DocSegmentsPage extends HelperClass{
 		
 		log.info("Edit Doc Segment");
 		try {
-			WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			String userpath = System.getProperty("user.dir");
 			ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\utilities\\TestData.xlsx","DocSegment");
 			String docsegname = red.getCellData(2, 0);
@@ -178,7 +178,7 @@ public class DocSegmentsPage extends HelperClass{
 		
 		log.info("Delete Doc Segment");
 		try {
-			WebDriverWait wait = new WebDriverWait(obj, Duration.ofSeconds(10));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			String userpath = System.getProperty("user.dir");
 			ReadExcelData red = new ReadExcelData(userpath + "\\src\\test\\resources\\utilities\\TestData.xlsx","DocSegment");
 			String docsegname = red.getCellData(2, 0);

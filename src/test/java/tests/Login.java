@@ -20,13 +20,13 @@ public class Login extends BaseClass {
 
 	LoginPage loginobj;
 	
-	@Test(dataProvider = "LoginCredentials", dataProviderClass = Login.class)
+	@Test(dataProvider = "LoginCredentials")
 	@Description("Verify that User Login successfully")
 	@Severity(SeverityLevel.BLOCKER)
 
 	public void verifyLoginData(String username, String password) throws IOException {
 		log.info("Login User method Started");
-		loginobj = new LoginPage(obj);
+		loginobj = new LoginPage(driver);
 		log.info("Login Page Method call");
 		boolean isLoginSucessful = loginobj.loginData(username, password);
 		Assert.assertTrue(isLoginSucessful, "Login Failed For User : " + username);

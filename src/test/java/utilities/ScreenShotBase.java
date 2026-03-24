@@ -20,7 +20,7 @@ public class ScreenShotBase  extends BaseClass{
 	    if (!screenshotDir.exists()) {
 	        screenshotDir.mkdirs(); 
 	    }
-		File screenshotfile = ((TakesScreenshot) obj).getScreenshotAs(OutputType.FILE);
+		File screenshotfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File destFile = new File(screenshotDir, fileName); // correct!
 		FileUtils.copyFile(screenshotfile, destFile);
 	}

@@ -18,13 +18,13 @@ import utilities.HelperClass;
 public class LoginPage extends HelperClass{
 	private static  Logger log = LogManager.getLogger(LoginPage.class);
 	
-	WebDriver driv;
+	WebDriver driver;
 	
-	public LoginPage(WebDriver obj) throws IOException
+	public LoginPage(WebDriver driver) throws IOException
 	{
-		super(obj);
-		this.driv=obj;
-		PageFactory.initElements(driv, this);
+		super(driver);
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
 		
 	}
 	
@@ -64,7 +64,6 @@ public class LoginPage extends HelperClass{
 		Username.sendKeys(username);
 		log.info("Entered UserName is :" + username);
 		Pass.sendKeys(password);
-		log.info("Password Entered");
 		if(!safeClick(Submitbutton, "Login Submit Button")) return false;
 		log.info("Submit Button Clicked");
 		return isElementVisible(Home_Title, "Home Title", 1);
@@ -84,7 +83,6 @@ public class LoginPage extends HelperClass{
 			Username.sendKeys(username);
 			log.info("Entered UserName is :" + username);
 			Pass.sendKeys(password);
-			log.info("Password Entered");
 			if(!safeClick(Submitbutton, "Login Submit Button")) return false;
 			return isElementVisible(Home_Title, "Home Title", 1);
 			}
@@ -107,12 +105,12 @@ public class LoginPage extends HelperClass{
 			try
 			{
 			log.info("This is logout method");
-			WebDriverWait wait = new WebDriverWait(driv, Duration.ofSeconds(10));
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			wait.until(ExpectedConditions.visibilityOf(ProfileDropdown));
 			log.info("Is ProfileDropdown displayed? " + ProfileDropdown.isDisplayed());
 			log.info("Is ProfileDropdown enabled? " + ProfileDropdown.isEnabled());
 		    log.info(ProfileDropdown.getText() + "Main User");
-			((JavascriptExecutor) driv).executeScript("arguments[0].click();", ProfileDropdown);
+			((JavascriptExecutor) driver).executeScript("arguments[0].click();", ProfileDropdown);
 			if(!safeClick(Sign_Out, "Sign out Button")) return false;
 			if(!safeClick(Yes_Button, "Confirm Yes Button")) return false;
 			log.info("Logout Success");
