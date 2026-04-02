@@ -25,7 +25,10 @@ pipeline {
         
         stage('Build & Run Tests') {
             steps {
+			  // Catch failures so pipeline continues
+        catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE'){
                 bat 'mvn clean test'
+				}
             }
         }
 		stage('Generate Allure Report') {
