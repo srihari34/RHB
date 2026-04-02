@@ -10,13 +10,13 @@
   <test name="Test">
 	  <classes>
 	      <class name="tests.Login"/>
-	      <!-- <class name="tests.LoginTest"/> 
+	       <class name="tests.LoginTest"/> 
 	      <class name="tests.AccessPermissions"/>
 	      <class name="tests.DocSegments"/> 
 	      <class name="tests.DetailReport"/>
-	      <class name="tests.BatchReport"/> -->
-	      <class name="tests.Products"/>
-		<!--   <class name="tests.Logout"/> -->
+	      <class name="tests.BatchReport"/>
+	 <!-- <class name="tests.Products"/>-->
+		  <class name="tests.Logout"/> 
 		   
 	  </classes>
   </test> <!-- Test -->
