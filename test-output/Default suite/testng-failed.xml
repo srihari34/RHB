@@ -3,24 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.AccessPermissions">
+      <class name="tests.Products">
         <methods>
-          <include name="verifyViewRole"/>
-          <include name="verifyDeleteUser"/>
-          <include name="verifyEditUser"/>
-          <include name="verifyViewGroup"/>
-          <include name="verifyEditGroup"/>
-          <include name="verifyAddUser"/>
-          <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="verifyDeleteRole"/>
-          <include name="verifyViewUser"/>
-          <include name="verifyAddRole"/>
-          <include name="verifyEditRole"/>
-          <include name="verifyAddGroup"/>
-          <include name="verifyDeleteGroup"/>
+          <include name="addProducts"/>
         </methods>
-      </class> <!-- tests.AccessPermissions -->
+      </class> <!-- tests.Products -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

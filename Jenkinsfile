@@ -28,6 +28,23 @@ pipeline {
                 bat 'mvn clean test'
             }
         }
+		stage('Generate Allure Report') {
+            steps {
+                // Generate Allure report as static HTML in target/site
+                bat 'mvn allure:report'
+            }
+        }
+        
+        stage('Publish Allure Report') {
+            steps {
+                // Use Jenkins Allure plugin to publish report
+                allure([
+                    includeProperties: false,
+                    jdk: 'JDK17', // Optional: matches your JDK tool
+                    results: [[path: 'target/allure-results']]
+                ])
+            }
+        }
     }
     
     post {

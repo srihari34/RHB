@@ -1,0 +1,36 @@
+2026-03-26 13:29:09 INFO  [main] BaseClass - Application Started
+2026-03-26 13:29:09 INFO  [main] BaseClass - ===================
+2026-03-26 13:29:14 INFO  [main] BaseClass - FireFoxDriver driverect is Created  FirefoxDriver: firefox on windows (ba533850-9aa1-4ad5-95e4-93a489efec18)
+2026-03-26 13:29:14 INFO  [main] BaseClass - Browser Got Opened
+2026-03-26 13:29:15 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2026-03-26 13:29:15 INFO  [main] BaseClass - Tear Up is Done
+2026-03-26 13:29:16 INFO  [main] Listeners - Test Case Started
+2026-03-26 13:29:16 INFO  [main] Login - Login User method Started
+2026-03-26 13:29:16 INFO  [main] Login - Login Page Method call
+2026-03-26 13:29:16 INFO  [main] LoginPage - Login Method Called
+2026-03-26 13:29:16 INFO  [main] LoginPage - Entered UserName is :Approver
+2026-03-26 13:29:17 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-03-26 13:29:17 INFO  [main] LoginPage - Submit Button Clicked
+2026-03-26 13:29:17 INFO  [main] HelperClass - Home Title is visible
+2026-03-26 13:29:17 INFO  [main] Login - Login Test Completed Successfully
+2026-03-26 13:29:17 INFO  [main] Listeners - Test Case Success
+2026-03-26 13:29:18 INFO  [main] Listeners - Test Case Started
+2026-03-26 13:29:18 INFO  [main] Listeners - Test Case Failure
+2026-03-26 14:50:28 INFO  [main] BaseClass - Application Started
+2026-03-26 14:50:28 INFO  [main] BaseClass - ===================
+2026-03-26 14:50:32 INFO  [main] BaseClass - FireFoxDriver driverect is Created  FirefoxDriver: firefox on windows (1ebfb1b1-d588-4cc0-af36-cac35b1f7e27)
+2026-03-26 14:50:32 INFO  [main] BaseClass - Browser Got Opened
+2026-03-26 14:50:32 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2026-03-26 14:50:32 INFO  [main] BaseClass - Tear Up is Done
+2026-03-26 14:50:34 INFO  [main] Listeners - Test Case Started
+2026-03-26 14:50:34 INFO  [main] Login - Login User method Started
+2026-03-26 14:50:34 INFO  [main] Login - Login Page Method call
+2026-03-26 14:50:34 INFO  [main] LoginPage - Login Method Called
+2026-03-26 14:50:34 INFO  [main] LoginPage - Entered UserName is :Approver
+2026-03-26 14:50:35 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-03-26 14:50:35 INFO  [main] LoginPage - Submit Button Clicked
+2026-03-26 14:50:35 INFO  [main] HelperClass - Home Title is visible
+2026-03-26 14:50:35 INFO  [main] Login - Login Test Completed Successfully
+2026-03-26 14:50:35 INFO  [main] Listeners - Test Case Success
+2026-03-26 14:50:35 INFO  [main] Listeners - Test Case Started
+2026-03-26 14:50:35 INFO  [main] Listeners - Test Case Failure

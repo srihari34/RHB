@@ -8,27 +8,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.AccessPermissions">
+      <class name="tests.Products">
         <methods>
-          <include name="verifyAccessPermissionsSetup"/>
-          <include name="verifyViewRole"/>
-          <include name="verifyDeleteRole"/>
-          <include name="verifyDeleteUser"/>
-          <include name="verifyAddRole"/>
-          <include name="verifyAddUser"/>
-          <include name="launchBrowser"/>
-          <include name="verifyEditRole"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- tests.AccessPermissions -->
-      <class name="tests.DocSegments">
-        <methods>
-          <include name="verifyDocSegmentssetup"/>
+          <include name="addProducts"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
-          <include name="verifyDeleteDogSeg"/>
         </methods>
-      </class> <!-- tests.DocSegments -->
+      </class> <!-- tests.Products -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
