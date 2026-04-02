@@ -37,12 +37,7 @@ pipeline {
         
         stage('Publish Allure Report') {
             steps {
-                // Use Jenkins Allure plugin to publish report
-                allure([
-                    includeProperties: false,
-                    jdk: 'JDK17', // Optional: matches your JDK tool
-                    results: [[path: 'target/allure-results']]
-                ])
+                 bat 'mvn allure:serve'
             }
         }
     }
