@@ -1,0 +1,357 @@
+2026-04-24 18:32:26 INFO  [main] BaseClass - Application Started
+2026-04-24 18:32:26 INFO  [main] BaseClass - ===================
+2026-04-24 18:32:28 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:28 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:32:56 INFO  [main] BaseClass - Application Started
+2026-04-24 18:32:56 INFO  [main] BaseClass - ===================
+2026-04-24 18:33:00 INFO  [main] BaseClass - FireFoxDriver driverect is Created  FirefoxDriver: firefox on windows (3d35642e-2668-45bc-9df7-42b7764e6791)
+2026-04-24 18:33:00 INFO  [main] BaseClass - Browser Got Opened
+2026-04-24 18:33:00 INFO  [main] BaseClass - url Called  http://192.168.2.27:9092/
+2026-04-24 18:33:00 INFO  [main] BaseClass - Tear Up is Done
+2026-04-24 18:33:02 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:02 INFO  [main] Login - Login User method Started
+2026-04-24 18:33:02 INFO  [main] Login - Login Page Method call
+2026-04-24 18:33:02 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:02 INFO  [main] LoginPage - Entered UserName is :Approver
+2026-04-24 18:33:04 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:04 INFO  [main] LoginPage - Submit Button Clicked
+2026-04-24 18:33:04 INFO  [main] HelperClass - Home Title is visible
+2026-04-24 18:33:04 INFO  [main] Login - Login Test Completed Successfully
+2026-04-24 18:33:04 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:04 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:04 INFO  [main] LoginTest - Logout for the User
+2026-04-24 18:33:04 INFO  [main] LoginPage - This is logout method
+2026-04-24 18:33:04 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2026-04-24 18:33:04 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2026-04-24 18:33:04 INFO  [main] LoginPage - Approver ApproverMain User
+2026-04-24 18:33:04 INFO  [main] HelperClass - Sign out Button Clicked
+2026-04-24 18:33:04 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2026-04-24 18:33:04 INFO  [main] LoginPage - Logout Success
+2026-04-24 18:33:04 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:05 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:05 INFO  [main] LoginTest - Login Test Started
+2026-04-24 18:33:05 INFO  [main] LoginTest - Attempting login for user: Approver1
+2026-04-24 18:33:05 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:05 INFO  [main] LoginPage - Entered UserName is :Approver1
+2026-04-24 18:33:05 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:06 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:06 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2026-04-24 18:33:06 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:06 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:06 INFO  [main] LoginTest - Login Test Started
+2026-04-24 18:33:06 INFO  [main] LoginTest - Attempting login for user: Approver
+2026-04-24 18:33:06 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:06 INFO  [main] LoginPage - Entered UserName is :Approver
+2026-04-24 18:33:06 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:07 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:07 INFO  [main] LoginPage - Invalid user name or password.
+2026-04-24 18:33:07 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:07 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:07 INFO  [main] LoginTest - Login Test Started
+2026-04-24 18:33:07 INFO  [main] LoginTest - Attempting login for user: Approver1
+2026-04-24 18:33:07 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:08 INFO  [main] LoginPage - Entered UserName is :Approver1
+2026-04-24 18:33:08 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:09 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:09 INFO  [main] LoginPage - Invalid user name or password or Deactivated.
+2026-04-24 18:33:09 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:09 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:09 INFO  [main] LoginTest - Login Test Started
+2026-04-24 18:33:09 INFO  [main] LoginTest - Attempting login for user: Approver
+2026-04-24 18:33:09 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:09 INFO  [main] LoginPage - Entered UserName is :Approver
+2026-04-24 18:33:10 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:10 INFO  [main] HelperClass - Home Title is visible
+2026-04-24 18:33:10 INFO  [main] LoginTest - Login Success for User: Approver
+2026-04-24 18:33:10 INFO  [main] LoginTest - Logout for the User
+2026-04-24 18:33:10 INFO  [main] LoginPage - This is logout method
+2026-04-24 18:33:10 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2026-04-24 18:33:10 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2026-04-24 18:33:10 INFO  [main] LoginPage - Main User
+2026-04-24 18:33:10 INFO  [main] HelperClass - Sign out Button Clicked
+2026-04-24 18:33:11 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2026-04-24 18:33:11 INFO  [main] LoginPage - Logout Success
+2026-04-24 18:33:11 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:11 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:11 INFO  [main] LoginTest - BlockLoginCredentials
+2026-04-24 18:33:11 INFO  [main] LoginTest - Attempting login for user: Check
+2026-04-24 18:33:11 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:11 INFO  [main] LoginPage - Entered UserName is :Check
+2026-04-24 18:33:11 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:12 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:12 INFO  [main] LoginPage - Invalid user name or password.
+2026-04-24 18:33:12 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:12 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:12 INFO  [main] LoginTest - BlockLoginCredentials
+2026-04-24 18:33:12 INFO  [main] LoginTest - Attempting login for user: Check
+2026-04-24 18:33:12 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:12 INFO  [main] LoginPage - Entered UserName is :Check
+2026-04-24 18:33:13 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:14 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:14 INFO  [main] LoginPage - Invalid user name or password.
+2026-04-24 18:33:14 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:14 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:14 INFO  [main] LoginTest - BlockLoginCredentials
+2026-04-24 18:33:14 INFO  [main] LoginTest - Attempting login for user: Check
+2026-04-24 18:33:14 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:14 INFO  [main] LoginPage - Entered UserName is :Check
+2026-04-24 18:33:15 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:15 INFO  [main] HelperClass - Home Title is visible
+2026-04-24 18:33:15 INFO  [main] LoginTest - Login Success for User: Check
+2026-04-24 18:33:15 INFO  [main] LoginTest - Logout for the User
+2026-04-24 18:33:15 INFO  [main] LoginPage - This is logout method
+2026-04-24 18:33:15 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2026-04-24 18:33:15 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2026-04-24 18:33:15 INFO  [main] LoginPage - Main User
+2026-04-24 18:33:15 INFO  [main] HelperClass - Sign out Button Clicked
+2026-04-24 18:33:15 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2026-04-24 18:33:15 INFO  [main] LoginPage - Logout Success
+2026-04-24 18:33:15 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:15 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:15 INFO  [main] LoginTest - BlockLoginCredentials
+2026-04-24 18:33:15 INFO  [main] LoginTest - Attempting login for user: Check
+2026-04-24 18:33:15 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:15 INFO  [main] LoginPage - Entered UserName is :Check
+2026-04-24 18:33:15 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:17 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:17 INFO  [main] LoginPage - Invalid user name or password.
+2026-04-24 18:33:17 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:17 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:17 INFO  [main] LoginTest - BlockLoginCredentials
+2026-04-24 18:33:17 INFO  [main] LoginTest - Attempting login for user: Check
+2026-04-24 18:33:17 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:17 INFO  [main] LoginPage - Entered UserName is :Check
+2026-04-24 18:33:17 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:18 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:18 INFO  [main] LoginPage - Invalid user name or password.
+2026-04-24 18:33:18 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:18 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:18 INFO  [main] LoginTest - BlockLoginCredentials
+2026-04-24 18:33:18 INFO  [main] LoginTest - Attempting login for user: Check
+2026-04-24 18:33:18 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:18 INFO  [main] LoginPage - Entered UserName is :Check
+2026-04-24 18:33:18 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:19 INFO  [main] LoginPage - This is failed test text
+2026-04-24 18:33:19 INFO  [main] LoginPage - Your account has been disabled due to maximum failed login attempts. Please contact System Administrator.
+2026-04-24 18:33:19 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:20 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:20 INFO  [main] LoginTest - Main Users Login
+2026-04-24 18:33:20 INFO  [main] Login - Login User method Started
+2026-04-24 18:33:20 INFO  [main] Login - Login Page Method call
+2026-04-24 18:33:20 INFO  [main] LoginPage - Login Method Called
+2026-04-24 18:33:20 INFO  [main] LoginPage - Entered UserName is :Approver
+2026-04-24 18:33:20 INFO  [main] HelperClass - Login Submit Button Clicked
+2026-04-24 18:33:20 INFO  [main] LoginPage - Submit Button Clicked
+2026-04-24 18:33:20 INFO  [main] HelperClass - Home Title is visible
+2026-04-24 18:33:20 INFO  [main] Login - Login Test Completed Successfully
+2026-04-24 18:33:20 INFO  [main] LoginTest - User Logged In
+2026-04-24 18:33:20 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:21 INFO  [main] AccessPermissions - Access Permissions link Click
+2026-04-24 18:33:21 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:21 INFO  [main] AccessPermissions - This is Add Group Method
+2026-04-24 18:33:21 INFO  [main] HelperClass - Access Permissions Module Clicked
+2026-04-24 18:33:21 INFO  [main] HelperClass - Sub Module Group is clicked Clicked
+2026-04-24 18:33:22 INFO  [main] HelperClass - New Group Button is clicked Clicked
+2026-04-24 18:33:22 INFO  [main] HelperClass - All Modules is clicked Clicked
+2026-04-24 18:33:22 INFO  [main] AccessPermissionsPage - Group Created Successfully
+2026-04-24 18:33:22 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:22 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:22 INFO  [main] AccessPermissions - This is View Group Method
+2026-04-24 18:33:22 INFO  [main] AccessPermissionsPage - View Group method entered
+2026-04-24 18:33:23 INFO  [main] HelperClass - View Group Clicked
+2026-04-24 18:33:23 INFO  [main] HelperClass - Close Group Clicked
+2026-04-24 18:33:23 INFO  [main] AccessPermissionsPage - View Group Successfull
+2026-04-24 18:33:23 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:24 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:24 INFO  [main] AccessPermissions - This is Edit Group Method
+2026-04-24 18:33:24 INFO  [main] AccessPermissionsPage - Edit Group method entered
+2026-04-24 18:33:24 INFO  [main] HelperClass - Edit Group Clicked
+2026-04-24 18:33:24 INFO  [main] HelperClass - Save Group Clicked
+2026-04-24 18:33:24 INFO  [main] AccessPermissionsPage - Edit Group Successfull
+2026-04-24 18:33:24 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:24 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:24 INFO  [main] AccessPermissions - This is Delete Group Method
+2026-04-24 18:33:24 INFO  [main] AccessPermissionsPage - Delete Group method entered
+2026-04-24 18:33:25 INFO  [main] HelperClass - Delete Group Clicked
+2026-04-24 18:33:25 INFO  [main] HelperClass - Delete Yes Clicked
+2026-04-24 18:33:25 INFO  [main] AccessPermissionsPage - Delete Group Successfull
+2026-04-24 18:33:25 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:25 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:25 INFO  [main] AccessPermissions - This is Add Role Method
+2026-04-24 18:33:26 INFO  [main] HelperClass - Roles Module Clicked
+2026-04-24 18:33:26 INFO  [main] HelperClass - Add New Role Clicked
+2026-04-24 18:33:27 INFO  [main] HelperClass - Group Down Selected  Clicked
+2026-04-24 18:33:27 INFO  [main] HelperClass - Select Group Name Clicked
+2026-04-24 18:33:28 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2026-04-24 18:33:28 INFO  [main] HelperClass - Group Add Permissions in Access Permissions for Role Clicked
+2026-04-24 18:33:28 INFO  [main] HelperClass - Select Permissions Access Permissions Clicked
+2026-04-24 18:33:28 INFO  [main] HelperClass - Role Saved JS Clicked
+2026-04-24 18:33:28 INFO  [main] AccessPermissionsPage - Roles Created Successfully
+2026-04-24 18:33:28 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:28 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:28 INFO  [main] AccessPermissions - This is View Role Method
+2026-04-24 18:33:28 INFO  [main] AccessPermissionsPage - View Role method entered
+2026-04-24 18:33:29 INFO  [main] HelperClass - View Role Clicked
+2026-04-24 18:33:29 INFO  [main] HelperClass - Close Role Clicked
+2026-04-24 18:33:29 INFO  [main] AccessPermissionsPage - View Role Successfull
+2026-04-24 18:33:29 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:29 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:29 INFO  [main] AccessPermissions - This is Edit Role Method
+2026-04-24 18:33:29 INFO  [main] AccessPermissionsPage - Edit Role method entered
+2026-04-24 18:33:30 INFO  [main] HelperClass - Edit Role Clicked
+2026-04-24 18:33:30 INFO  [main] HelperClass - Save Role Clicked
+2026-04-24 18:33:30 INFO  [main] AccessPermissionsPage - Edit Role Successfull
+2026-04-24 18:33:30 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:30 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:30 INFO  [main] AccessPermissions - This is Delete Role Method
+2026-04-24 18:33:30 INFO  [main] AccessPermissionsPage - Delete Role method entered
+2026-04-24 18:33:31 INFO  [main] HelperClass - Delete Role Icon  Clicked
+2026-04-24 18:33:31 INFO  [main] HelperClass - Delete Yes Clicked
+2026-04-24 18:33:31 INFO  [main] AccessPermissionsPage - Delete Role Successfull
+2026-04-24 18:33:31 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:31 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:31 INFO  [main] AccessPermissions - This is an Add User Method
+2026-04-24 18:33:32 INFO  [main] HelperClass - Select Role User  Radio Button  Clicked
+2026-04-24 18:33:32 INFO  [main] HelperClass - Selected Role User  Radio Button  Clicked
+2026-04-24 18:33:32 INFO  [main] HelperClass - Active User Radio Button JS Clicked
+2026-04-24 18:33:33 INFO  [main] HelperClass - Submit Button Clicked
+2026-04-24 18:33:33 INFO  [main] AccessPermissionsPage - User Created Successfully
+2026-04-24 18:33:33 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:33 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:33 INFO  [main] AccessPermissions - This is User View  Method
+2026-04-24 18:33:33 INFO  [main] AccessPermissionsPage - View User method entered
+2026-04-24 18:33:33 INFO  [main] HelperClass - View User Clicked
+2026-04-24 18:33:33 INFO  [main] HelperClass - Close User Clicked
+2026-04-24 18:33:33 INFO  [main] AccessPermissionsPage - View User Successfull
+2026-04-24 18:33:33 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:34 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:34 INFO  [main] AccessPermissions - This is User edit  Method
+2026-04-24 18:33:34 INFO  [main] AccessPermissionsPage - Edit User method entered
+2026-04-24 18:33:34 INFO  [main] HelperClass - Edit User Clicked
+2026-04-24 18:33:34 INFO  [main] HelperClass - Save User Clicked
+2026-04-24 18:33:34 INFO  [main] AccessPermissionsPage - Edit User Successfull
+2026-04-24 18:33:34 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:34 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:34 INFO  [main] AccessPermissions - This is User Delete  Method
+2026-04-24 18:33:34 INFO  [main] AccessPermissionsPage - Delete User method entered
+2026-04-24 18:33:35 INFO  [main] HelperClass - Delete User Clicked
+2026-04-24 18:33:35 INFO  [main] HelperClass - Delete Yes Clicked
+2026-04-24 18:33:35 INFO  [main] AccessPermissionsPage - Delete User Successfull
+2026-04-24 18:33:35 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:35 INFO  [main] DocSegments - Documents Segments link Click
+2026-04-24 18:33:35 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:35 INFO  [main] DocSegments - The Document segment add started 
+2026-04-24 18:33:35 INFO  [main] DocSegmentsPage - Add New Document Segement
+2026-04-24 18:33:35 INFO  [main] HelperClass - Documents Segment Module Clicked
+2026-04-24 18:33:35 INFO  [main] HelperClass - Add New Segement Clicked
+2026-04-24 18:33:36 INFO  [main] HelperClass - Custom Query Drop Down Clicked
+2026-04-24 18:33:36 INFO  [main] HelperClass - Custom Query Select Clicked
+2026-04-24 18:33:37 INFO  [main] HelperClass - Vault Drop Down Clicked
+2026-04-24 18:33:37 INFO  [main] HelperClass - Vault Server Clicked
+2026-04-24 18:33:37 INFO  [main] HelperClass - Groups Checkbox JS Clicked
+2026-04-24 18:33:37 INFO  [main] HelperClass - Configue Link Tab Clicked
+2026-04-24 18:33:38 INFO  [main] HelperClass - Archive Id Clicked
+2026-04-24 18:33:38 INFO  [main] HelperClass - Account Number Clicked
+2026-04-24 18:33:38 INFO  [main] HelperClass - Save Button Clicked
+2026-04-24 18:33:38 INFO  [main] DocSegmentsPage - New Document Segement Added Sucessfully
+2026-04-24 18:33:40 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:40 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:40 INFO  [main] DocSegments - View Segement Method Called
+2026-04-24 18:33:40 INFO  [main] DocSegmentsPage - View Doc Segment
+2026-04-24 18:33:40 INFO  [main] HelperClass - View Icon Clicked
+2026-04-24 18:33:41 INFO  [main] HelperClass - Close View Icon Clicked
+2026-04-24 18:33:41 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:41 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:41 INFO  [main] DocSegments - Edit Segement Method Called
+2026-04-24 18:33:41 INFO  [main] DocSegmentsPage - Edit Doc Segment
+2026-04-24 18:33:41 INFO  [main] HelperClass - Edit Icon Clicked
+2026-04-24 18:33:42 INFO  [main] HelperClass - Save Icon Clicked
+2026-04-24 18:33:42 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:42 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:42 INFO  [main] DocSegments - Delete Segement Method Called
+2026-04-24 18:33:42 INFO  [main] DocSegmentsPage - Delete Doc Segment
+2026-04-24 18:33:43 INFO  [main] HelperClass - Delete Icon Clicked
+2026-04-24 18:33:43 INFO  [main] HelperClass - Delete Icon Clicked
+2026-04-24 18:33:43 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:43 INFO  [main] DetailReport - Navigation to report module
+2026-04-24 18:33:44 INFO  [main] HelperClass - module Clicked
+2026-04-24 18:33:45 INFO  [main] HelperClass - submodule Clicked
+2026-04-24 18:33:45 INFO  [main] DetailReport - Navigated to report module
+2026-04-24 18:33:45 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:45 INFO  [main] HelperClass - Select ProductType Clicked
+2026-04-24 18:33:45 INFO  [main] HelperClass - Product Type Clicked
+2026-04-24 18:33:45 INFO  [main] HelperClass - From date Clicked
+2026-04-24 18:33:46 INFO  [main] HelperClass - Year Drop Down Clicked
+2026-04-24 18:33:46 INFO  [main] HelperClass - Year selected Clicked
+2026-04-24 18:33:46 INFO  [main] HelperClass - Month selected Clicked
+2026-04-24 18:33:46 INFO  [main] HelperClass - Date selected Clicked
+2026-04-24 18:33:46 INFO  [main] HelperClass - To Date Clicked
+2026-04-24 18:33:47 INFO  [main] HelperClass - Year Drop Down Clicked
+2026-04-24 18:33:47 INFO  [main] HelperClass - Year selected Clicked
+2026-04-24 18:33:47 INFO  [main] HelperClass - Month selected Clicked
+2026-04-24 18:33:47 INFO  [main] HelperClass - Date selected Clicked
+2026-04-24 18:33:48 INFO  [main] HelperClass - Submit Button Clicked
+2026-04-24 18:33:48 INFO  [main] HelperClass - Csvdownload Clicked
+2026-04-24 18:33:48 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:33:49 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:33:49 INFO  [main] HelperClass - module Clicked
+2026-04-24 18:33:49 INFO  [main] HelperClass - submodule Clicked
+2026-04-24 18:33:49 INFO  [main] HelperClass - Application Type Clicked
+2026-04-24 18:33:50 INFO  [main] HelperClass - Application Value Clicked
+2026-04-24 18:33:50 INFO  [main] HelperClass - Product Name Clicked
+2026-04-24 18:33:50 INFO  [main] HelperClass - Product Name Value Clicked
+2026-04-24 18:33:50 INFO  [main] HelperClass - Select ProductType Clicked
+2026-04-24 18:33:50 INFO  [main] HelperClass - Product Type Clicked
+2026-04-24 18:33:52 INFO  [main] HelperClass - From date Clicked
+2026-04-24 18:33:55 INFO  [main] HelperClass - Year Drop Down Clicked
+2026-04-24 18:33:57 INFO  [main] HelperClass - Year selected Clicked
+2026-04-24 18:33:57 INFO  [main] HelperClass - Month selected Clicked
+2026-04-24 18:33:57 INFO  [main] HelperClass - Date selected Clicked
+2026-04-24 18:33:57 INFO  [main] HelperClass - To Date Clicked
+2026-04-24 18:33:58 INFO  [main] HelperClass - Year Drop Down Clicked
+2026-04-24 18:33:58 INFO  [main] HelperClass - Year selected Clicked
+2026-04-24 18:33:58 INFO  [main] HelperClass - Month selected Clicked
+2026-04-24 18:33:58 INFO  [main] HelperClass - Date selected Clicked
+2026-04-24 18:33:59 INFO  [main] HelperClass - Submit Button Clicked
+2026-04-24 18:34:00 INFO  [main] HelperClass - Csvdownload Clicked
+2026-04-24 18:34:00 INFO  [main] Listeners - Test Case Success
+2026-04-24 18:34:00 INFO  [main] Listeners - Test Case Started
+2026-04-24 18:34:00 INFO  [main] Login - Logout for the User
+2026-04-24 18:34:00 INFO  [main] LoginPage - This is logout method
+2026-04-24 18:34:00 INFO  [main] LoginPage - Is ProfileDropdown displayed? true
+2026-04-24 18:34:00 INFO  [main] LoginPage - Is ProfileDropdown enabled? true
+2026-04-24 18:34:00 INFO  [main] LoginPage - Approver ApproverMain User
+2026-04-24 18:34:00 INFO  [main] HelperClass - Sign out Button Clicked
+2026-04-24 18:34:01 INFO  [main] HelperClass - Confirm Yes Button Clicked
+2026-04-24 18:34:01 INFO  [main] LoginPage - Logout Success
+2026-04-24 18:34:01 INFO  [main] Listeners - Test Case Success

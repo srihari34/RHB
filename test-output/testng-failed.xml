@@ -8,13 +8,75 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.Products">
+      <class name="tests.DocSegments">
         <methods>
-          <include name="addProducts"/>
+          <include name="verifyViewDogSeg"/>
+          <include name="verifyDocSegmentssetup"/>
+          <include name="launchBrowser"/>
+          <include name="verifyEditDogSeg"/>
+          <include name="closeBrowser"/>
+          <include name="verifyDeleteDogSeg"/>
+          <include name="verifyAddDocSeg"/>
+        </methods>
+      </class> <!-- tests.DocSegments -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="logoutMainUser"/>
+          <include name="mainUserLogin"/>
+          <include name="verifyLoginTest"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyblockUser"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.BatchReport">
+        <methods>
+          <include name="readDataExtraction"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.Products -->
+      </class> <!-- tests.BatchReport -->
+      <class name="tests.DetailReport">
+        <methods>
+          <include name="reportsModule"/>
+          <include name="detailReportGenerate"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.DetailReport -->
+      <class name="tests.Login">
+        <methods>
+          <include name="verifyLoginData"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.Login -->
+      <class name="tests.AccessPermissions">
+        <methods>
+          <include name="verifyViewRole"/>
+          <include name="verifyEditUser"/>
+          <include name="verifyDeleteUser"/>
+          <include name="verifyViewGroup"/>
+          <include name="verifyEditGroup"/>
+          <include name="verifyAddUser"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAccessPermissionsSetup"/>
+          <include name="verifyDeleteRole"/>
+          <include name="verifyViewUser"/>
+          <include name="verifyAddRole"/>
+          <include name="verifyEditRole"/>
+          <include name="verifyAddGroup"/>
+          <include name="verifyDeleteGroup"/>
+        </methods>
+      </class> <!-- tests.AccessPermissions -->
+      <class name="tests.Logout">
+        <methods>
+          <include name="logoutUser"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.Logout -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

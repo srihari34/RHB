@@ -19,3 +19,4 @@ utilities\ReadExcelData.class
 base\AllureListeners.class
 pages\DocSegmentsPage.class
 utilities\ScreenShotBase.class
+tests\Products.class

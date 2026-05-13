@@ -29,7 +29,7 @@ public class LoginPage extends HelperClass{
 	}
 	
 	@FindBy(id="LoginId")
-	WebElement Username;
+	private WebElement Username;
 	
 	@FindBy(name="Password")
 	WebElement Pass;

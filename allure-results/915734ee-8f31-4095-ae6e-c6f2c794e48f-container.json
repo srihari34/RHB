@@ -1,0 +1,1 @@
+{"uuid":"915734ee-8f31-4095-ae6e-c6f2c794e48f","name":"tests.DetailReport","children":["51bfb8f6-a644-4860-8c90-6e4c357da171"],"befores":[{"name":"reportsModule","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1778667684757,"stop":1778667686271}],"afters":[],"start":1778667644215,"stop":1778667701123}
